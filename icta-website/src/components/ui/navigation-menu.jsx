@@ -11,7 +11,7 @@ function NavigationMenu({ className, children, viewport = true, ...props }) {
       data-slot="navigation-menu"
       data-viewport={viewport}
       className={cn(
-        "group/navigation-menu relative flex max-w-max flex-1 items-center justify-center",
+        "group/navigation-menu relative flex max-w-max flex-1 items-center bg-white justify-center rounded-4xl py-4 px-8 text-[rgb(12,18,37)]",
         className
       )}
       {...props}>
@@ -35,14 +35,14 @@ function NavigationMenuItem({ className, ...props }) {
   return (
     <NavigationMenuPrimitive.Item
       data-slot="navigation-menu-item"
-      className={cn("relative", className)}
+      className={cn("relative text-accent-foreground", className)}
       {...props}
     />
   );
 }
 
 const navigationMenuTriggerStyle = cva(
-  "group inline-flex h-9 w-max items-center justify-center rounded-md bg-background px-4 py-2 text-sm font-medium hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground disabled:pointer-events-none disabled:opacity-50 data-[state=open]:hover:bg-accent data-[state=open]:text-accent-foreground data-[state=open]:focus:bg-accent data-[state=open]:bg-accent/50 focus-visible:ring-ring/50 outline-none transition-[color,box-shadow] focus-visible:ring-[3px] focus-visible:outline-1"
+  "group inline-flex h-9 w-max items-center justify-center px-4 py-2 text-sm font-medium hover:text-accent-foreground hover:bg-blue/50 focus:bg-blue-500 focus:text-accent-foreground disabled:pointer-events-none disabled:opacity-50 data-[state=open]:hover:bg-blue-500 data-[state=open]:text-accent-foreground data-[state=open]:focus:bg-blue-500 data-[state=open]:hover:text-white data-[state=open]:bg-blue/50 focus-visible:ring-ring/50 outline-none transition-[color,box-shadow] focus-visible:ring-[3px] focus-visible:outline-1 cursor-pointer"
 );
 
 function NavigationMenuTrigger({ className, children, ...props }) {

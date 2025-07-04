@@ -106,13 +106,11 @@ export const data = [
               },
               {
                 id: 3,
-                title:
-                  "Poçt rabitəsi xidmətləri üzrə verilmiş lisenziyaların siyahısı",
+                title: "Poçt rabitəsi xidmətləri üzrə verilmiş lisenziyaların siyahısı",
               },
               {
                 id: 4,
-                title:
-                  "Sürətli poçt xidmətinə lisenziya verilməsi üçün tələb olunan sənədlər",
+                title: "Sürətli poçt xidmətinə lisenziya verilməsi üçün tələb olunan sənədlər",
               },
               {
                 id: 5,
@@ -166,7 +164,7 @@ export const data = [
       },
       {
         id: 7,
-        title: "İKTA strategiya",
+        title: "İllik hesabatlar",
       },
     ],
   },
@@ -200,8 +198,7 @@ export const data = [
       },
       {
         id: 7,
-        title:
-          "Azərbaycan Respublikasının Rəqəmsal İnkişaf və Nəqliyyat Nazirliyinin qərarlar",
+        title: "Azərbaycan Respublikasının Rəqəmsal İnkişaf və Nəqliyyat Nazirliyinin qərarlar",
       },
     ],
   },
@@ -371,6 +368,11 @@ export const data = [
   },
   {
     id: 6,
+    section: "Karyera",
+  },
+
+  {
+    id: 7,
     section: "Media",
     subsection: [
       {
@@ -413,10 +415,7 @@ export const data = [
       },
     ],
   },
-  {
-    id: 7,
-    section: "Karyera",
-  },
+
   {
     id: 8,
     section: "Əlaqə",
