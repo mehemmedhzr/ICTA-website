@@ -19,7 +19,7 @@ export const data = [
       {
         id: 4,
         title: "Fəaliyyət",
-        activity_inside: [
+        subsection_inside: [
           {
             id: 1,
             title: "Telekommunikasiya",
@@ -143,7 +143,7 @@ export const data = [
       {
         id: 5,
         title: "Beynalxalq fəaliyyət",
-        intern_inside: [
+        subsection_inside: [
           {
             id: 1,
             title: "Ümumi məlumat",
@@ -209,7 +209,7 @@ export const data = [
       {
         id: 1,
         title: "Əhali",
-        people_inside: [
+        subsection_inside: [
           {
             id: 1,
             title: "Mobil operatorlar",
@@ -235,7 +235,7 @@ export const data = [
       {
         id: 4,
         title: "Müqavilə forması",
-        contract_inside: [
+        subsection_inside: [
           {
             id: 1,
             title: "Xidmətlər üzrə formatlar",
@@ -259,7 +259,7 @@ export const data = [
       {
         id: 2,
         title: "Bazar iştirakçıları",
-        participants_inside: [
+        subsection_inside: [
           {
             id: 1,
             title: "Mobil operatorlar",
@@ -285,7 +285,7 @@ export const data = [
       {
         id: 4,
         title: "Xidmət keyfiyyəti",
-        quality_inside: [
+        subsection_inside: [
           {
             id: 1,
             title: "Kommunikasiya",
@@ -321,7 +321,7 @@ export const data = [
       {
         id: 2,
         title: "Bazar sorğuları",
-        research_inside: [
+        subsection_inside: [
           {
             id: 1,
             title: "Mobil",
@@ -394,7 +394,7 @@ export const data = [
       {
         id: 5,
         title: "Tez-tez verilən suallar",
-        faq_inside: [
+        subsection_inside: [
           {
             id: 1,
             title: "Telekommunikasiya",
