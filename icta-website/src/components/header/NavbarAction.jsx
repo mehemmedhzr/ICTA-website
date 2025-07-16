@@ -6,9 +6,7 @@ const NavbarActions = ({ isMobile = false }) => {
 
   return (
     <>
-      {/* Əsas Actions div */}
       <div className={`flex ${isMobile ? "flex-col gap-3" : "items-center gap-4 relative"}`}>
-        {/* Search Button */}
         <button
           onClick={() => setIsSearchOpen((prev) => !prev)}
           className="text-[#2D8CFF] text-lg border border-[#2D8CFF] rounded-full h-8 w-8 flex items-center justify-center relative z-20 cursor-pointer"

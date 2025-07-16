@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Menu, X, ChevronRight } from "lucide-react";
-import logo from "../../../public/logo.svg";
+import logo from "../../../public/svg/ICTAlogo.svg";
 import NavbarActions from "./NavbarAction";
 
 import {
@@ -13,7 +13,7 @@ import {
   NavigationMenuTrigger,
 } from "@/components/ui/navigation-menu";
 
-import data from "../../data/index.json";
+import data from "../../../public/data/index.json";
 
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -48,7 +48,7 @@ const Navbar = () => {
         {/* Desktop menu */}
         <NavigationMenu viewport={false} className="hidden 2xl:flex px-4">
           <NavigationMenuList className="items-center">
-            {data.map((menuItem) => (
+            {data.data.map((menuItem) => (
               <NavigationMenuItem key={menuItem.id} className="relative group">
                 {menuItem.subsection?.length > 0 ? (
                   <>
