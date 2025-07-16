@@ -1,10 +1,10 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
 import Header from "./components/header";
-import Footer from "./components/footer";
+// import Footer from "./components/footer";
 import { BrowserRouter } from "react-router-dom";
 
-const App = () => {
+const RootContainer = () => {
   return (
     <BrowserRouter>
       <div>
@@ -14,10 +14,10 @@ const App = () => {
           <Outlet />
         </main>
 
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </BrowserRouter>
   );
 };
 
-export default App;
+export default RootContainer;
