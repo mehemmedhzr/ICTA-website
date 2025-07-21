@@ -4,6 +4,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { DataContext } from "../../../context/DataContext";
 import { MdKeyboardArrowUp } from "react-icons/md";
+import Up_Button from "@/components/button-up";
 
 const UseFul = () => {
   const { useful } = useContext(DataContext);
@@ -36,16 +37,7 @@ const UseFul = () => {
       },
     ],
   };
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
 
-  const handleScrollTop = () => {
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth",
-    });
-  };
 
   return (
     <div className="useful py-5 bg-[#f3f6fa]">
@@ -68,14 +60,7 @@ const UseFul = () => {
           ))}
         </Slider>
       </div>
-      <div className="flex items-center justify-end mx-3 pb-5">
-        <button
-          onClick={handleScrollTop}
-          className="bg-[#2D8CFF] w-[48px] h-[48px] cursor-pointer"
-        >
-          <MdKeyboardArrowUp className="text-white text-2xl mx-3" />
-        </button>
-      </div>
+    
     </div>
   );
 };

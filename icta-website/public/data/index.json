@@ -1,26 +1,74 @@
-
 {
   "navigation": {
     "sections": [
       {
         "id": 1,
         "title": "Haqqımızda",
-        "path": "/haqqimizda",
+        "path": "/haqqimizda/ikta-haqqinda",
         "subsections": [
           {
             "id": 1,
             "title": "İKTA haqqında",
-            "path": "/haqqimizda/ikta-haqqinda"
+            "path": "/haqqimizda/ikta-haqqinda",
+            "img": "/svg/agimg.svg",
+            "aboutText": [
+              "İnformasiya Kommunikasiya Texnologiyaları Agentliyi (İKTA) Azərbaycanda telekommunikasiya və poçt sahəsində tənzimləyici qurumdur.İKTA Azərbaycan Respublikası Prezidentinin 2021-ci il 11 oktyabr tarixli 1464 nömrəli Fərmanı ilə publik hüquqi şəxs statusu ilə Azərbaycan Respublikası Rəqəmsal İnkişaf və Nəqliyyat Nazirliyinin tabeliyində yaradılıb. Qurumun nizamnaməsi Azərbaycan Respublikası Prezidentinin 21 oktyabr 2022-ci il tarixli 1861 nömrəli Fərmanı ilə təsdiqlənib.",
+              "Agentlik 2022-ci ilin dekabr ayından funksional fəaliyyətə başlayıb"
+            ],
+            "activities": ["Tənzimləmə", "Nəzarət", "Spektr idarəçiliyi"],
+            "fields": ["Telekommunikasiya", "Poçt"],
+            "agencyMiss": [
+              {
+                "id": 1,
+                "icon": "/svg/agabout.svg",
+                "name": "Missiyamız",
+                "desc": "Hər kəs üçün yüksək keyfiyyətli və əlçatan xidmətlərdən ibarət rəqəmsal mühit yaratmaq, şəffaf, etibarlı, məsuliyyətli və bütün tərəflərlə əməkdaşlıq edən istehlakçı yonümlü telekommunikasiya və poçt xidmətləri tənzimləyicisi olmaqdır."
+              },
+              {
+                "id": 2,
+                "icon": "/svg/agabout2.svg",
+                "name": "Vizyonumuz",
+                "desc": "Hər kəs üçün yüksək keyfiyyətli və əlçatan xidmətlərdən ibarət rəqəmsal mühit yaratmaq, şəffaf, etibarlı, məsuliyyətli və bütün tərəflərlə əməkdaşlıq edən istehlakçı yonümlü telekommunikasiya və poçt xidmətləri tənzimləyicisi olmaqdır."
+              },
+              {
+                "id": 3,
+                "icon": "/svg/agabout.svg",
+                "name": "Dəyərlərimiz",
+                "desc": "Hər kəs üçün yüksək keyfiyyətli və əlçatan xidmətlərdən ibarət rəqəmsal mühit yaratmaq, şəffaf, etibarlı, məsuliyyətli və bütün tərəflərlə əməkdaşlıq edən istehlakçı yonümlü telekommunikasiya və poçt xidmətləri tənzimləyicisi olmaqdır."
+              }
+            ],
+            "accountability": [
+              "İKTA-nın fəaliyyətinə dair illik hesabat RİNN-ə təqdim edilir.",
+              "İKTA maliyyə hesabatlarını qanunvericilikdə müəyyən edilmiş qaydada tərtib, təqdim və dərc edir.",
+              "İKTA öz hesabatlarını rəsmi saytında dərc edir.",
+              "İKTA öz fəaliyyətinin müstəqil surətdə yoxlanılması üçün kənar auditor cəlb edir."
+            ]
           },
           {
             "id": 2,
             "title": "Nizamnamə",
-            "path": "/haqqimizda/nizamname"
+            "path": "/haqqimizda/nizamname",
+            "img": "/svg/ilham.svg",
+            "name": "İnformasiya Kommunikasiya Texnologiyaları Agentliyinin fəaliyyətinin təmin edilməsi haqqında",
+            "chartername": "Azərbaycan Respublikası Prezidentinin 2022-ci il 21 oktyabr tarixli 1861 nömrəli Fərmanı ilə təsdiq edilmişdir",
+            "charterAbout": [
+              "Azərbaycan Respublikası Konstitusiyasının 109-cu maddəsinin 32-ci bəndini rəhbər tutaraq, “Azərbaycan Respublikasında rəqəmsallaşma, innovasiya, yüksək texnologiyalar və rabitə sahəsində idarəetmənin təkmilləşdirilməsi ilə bağlı bəzi tədbirlər haqqında” Azərbaycan Respublikası Prezidentinin 2021-ci il 11 oktyabr tarixli 1464 nömrəli Fərmanının icrası ilə əlaqədar qərara alıram:",
+              "1. “İnformasiya Kommunikasiya Texnologiyaları Agentliyinin Nizamnaməsi” təsdiq edilsin (əlavə olunur).",
+              "2. Müəyyən edilsin ki, İnformasiya Kommunikasiya Texnologiyaları Agentliyinin (bundan sonra – Agentlik) nizamnamə fondu 100 000 (bir yüz min) manatdır və dövlət büdcəsinin vəsaiti hesabına formalaşır.",
+              "3. Azərbaycan Respublikasının Nazirlər Kabineti bu Fərmandan irəli gələn məsələləri həll etsin.",
+              "4. Azərbaycan Respublikasının Rəqəmsal İnkişaf və Nəqliyyat Nazirliyi:",
+              "4.1. Agentlik dövlət qeydiyyatına alındıqdan sonra Agentliyin strukturunu, əməyin ödənişi fondunu, işçilərinin say həddini və əməkhaqlarının (vəzifə maaşının, vəzifə maaşına əlavələrin, mükafatların və digər ödənişlərin) məbləğini bir ay müddətində təsdiq etsin;",
+              "4.2. bu Fərmandan irəli gələn digər məsələlərin həlli üçün zəruri tədbirlər görsün.",
+              "5. Azərbaycan Respublikasının Maliyyə Nazirliyi bu Fərmanın 2-ci hissəsində nəzərdə tutulan məbləğdə maliyyələşməni təmin etsin."
+            ],
+            "legcharter": "İnformasiya Kommunikasiya Texnologiyaları Agentliyinin",
+            "charterlog": "Informasiya Kommunikasiya Texnologiyaları Agentliyində işə qəbul prosesi hansı qaydada aparılır?"
           },
           {
             "id": 3,
             "title": "Struktur",
-            "path": "/haqqimizda/struktur"
+            "path": "/haqqimizda/struktur",
+            "img": "/images/strucimg.png"
           },
           {
             "id": 4,
@@ -32,8 +80,7 @@
                 "title": "Telekommunikasiya",
                 "path": "/haqqimizda/fealiyyet/telekommunikasiya",
                 "subsections": [
-
-                   {
+                  {
                     "id": 1,
                     "title": "Operator və provayderin uçotu",
                     "path": "/haqqimizda/fealiyyet/telekommunikasiya/operator-ve-provayderin-ucotu"
@@ -43,7 +90,7 @@
                     "title": "Uçota alınmış operator və provayderlər",
                     "path": "/haqqimizda/fealiyyet/telekommunikasiya/ucota-alinmis-operator-ve-provayderler"
                   },
-                 
+
                   {
                     "id": 3,
                     "title": "Arabağlantı",
@@ -482,8 +529,182 @@
       },
       {
         "id": 7,
-        "title": "İKTA ilə əlaqə",
-        "path": "/ikta-ile-elaqe"
+        "title": "Karyera",
+        "path": "/karyera",
+        "image": "/images/bg.png",
+        "career_section": [
+          {
+            "id": 1,
+            "title": "Komandamıza qoşulmağın üstünlükləri",
+            "careersection_inside": [
+              {
+                "id": 1,
+                "icon": "/svg/career1.svg",
+                "title": "Karyera yüksəlişi",
+                "desc": "Şirkət daxilində öyrənmə və təcrübə qazanma imkanları, daxili dəyərləndirmə əsasında karyera yüksəlişi, əməkdaşların bacarıqlarını inkişaf etdirməsinə şərait yaradılması"
+              },
+              {
+                "id": 2,
+                "icon": "/svg/career2.svg",
+                "title": "Inkişafa uyğun mühit",
+                "desc": "Şirkət daxilində öyrənmə və təcrübə qazanma imkanları, daxili dəyərləndirmə əsasında karyera yüksəlişi, əməkdaşların bacarıqlarını inkişaf etdirməsinə şərait yaradılması"
+              },
+              {
+                "id": 3,
+                "icon": "/svg/career3.svg",
+                "title": "Komanda ruhu",
+                "desc": "Şirkət daxilində öyrənmə və təcrübə qazanma imkanları, daxili dəyərləndirmə əsasında karyera yüksəlişi, əməkdaşların bacarıqlarını inkişaf etdirməsinə şərait yaradılması"
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "title": "İşə qəbul prosesi"
+          },
+          {
+            "id": 3,
+            "title": "Mövcud vakansiyalar",
+            "vacancy_inside": [
+              {
+                "id": 1,
+                "title": "Maliyyə hesabatları və büdcə üzrə aparıcı mütəxəssis",
+                "date": "19.03.2025",
+                "place": "Bakı, Azərbaycan",
+                "job_type": "Tam ştat",
+                "experience": "1-2 il",
+                "education": "Ali təhsil",
+                "languages": ["Azərbaycan", "İngilis"],
+                "skills": ["MS Office"],
+                "salary": "Müsahibə əsasında təyin ediləcək",
+                "deadline": "19.03.2025",
+                "requirements": [
+                  "Mühasibat, iqtisadiyyat və ya maliyyə sahəsində bakalavr və ya magistr dərəcəsi, yüksək maliyyə hesabatı/mühasibatlıq üzrə iş təcrübəsi",
+                  "Mükəmməl yazılı və şifahi ünsiyyət bacarıqları",
+                  "MHBS üzrə biliklər. Sertifikat: ACCA F2; F3 arzuolunandır",
+                  "Mükəmməl təşkilatçılıq bacarığı və detallara diqqət etmə bacarığı",
+                  "Güclü analitik bacarıqlar; problemləri müstəqil həll etmək bacarığı ilə yanaşı tənqidi düşünmə bacarığı",
+                  "Təzqiqlə altında işləmək bacarığı"
+                ],
+                "responsibilities": [
+                  "MHBS-(IFRS)ə uyğun olaraq aralıq və illik maliyyə hesabatlarını hazırlanması",
+                  "Ay bağlanışı: Maliyyə hesabatları hazırlandıqdan sonra, hesabatların analizi, növbəti aylar üzrə proqnozun hazırlanması",
+                  "Hər ayın əvvəl bitmiş aya bağlı əsaasında P&L hazırlanması və büdcə ilə müqayisə edilməsi",
+                  "MHBS hesabatı üçün əlavə müqayisələrin, hesabatların, məlumat bazalarının hazırlanması",
+                  "Şirkətin xərclərinin və gəlirlərinin nəzərdən keçirilməsi, faktura qeydlərinin yazmalı, təhlil etməli və nəzarət etməlidir"
+                ],
+                "conditions": [
+                  "5 günlük iş həftəsi (Bazar ertəsi–Cümə)",
+                  "Bazar rəqabətli əmək haqqı",
+                  "İş yeri: Bakı şəhəri, Üzeyir Hacıbəyli 48"
+                ]
+              },
+              {
+                "id": 2,
+                "title": "IOS developer",
+                "date": "25.04.2025",
+                "place": "Bakı, Azərbaycan",
+                "job_type": "Tam ştat",
+                "experience": "1-2 il",
+                "education": "Ali təhsil",
+                "languages": ["Azərbaycan", "İngilis"],
+                "skills": ["MS Office"],
+                "salary": "Müsahibə əsasında təyin ediləcək",
+                "deadline": "19.03.2025",
+                "requirements": [
+                  "Mühasibat, iqtisadiyyat və ya maliyyə sahəsində bakalavr və ya magistr dərəcəsi, yüksək maliyyə hesabatı/mühasibatlıq üzrə iş təcrübəsi",
+                  "Mükəmməl yazılı və şifahi ünsiyyət bacarıqları",
+                  "MHBS üzrə biliklər. Sertifikat: ACCA F2; F3 arzuolunandır",
+                  "Mükəmməl təşkilatçılıq bacarığı və detallara diqqət etmə bacarığı",
+                  "Güclü analitik bacarıqlar; problemləri müstəqil həll etmək bacarığı ilə yanaşı tənqidi düşünmə bacarığı",
+                  "Təzqiqlə altında işləmək bacarığı"
+                ],
+                "responsibilities": [
+                  "MHBS-(IFRS)ə uyğun olaraq aralıq və illik maliyyə hesabatlarını hazırlanması",
+                  "Ay bağlanışı: Maliyyə hesabatları hazırlandıqdan sonra, hesabatların analizi, növbəti aylar üzrə proqnozun hazırlanması",
+                  "Hər ayın əvvəl bitmiş aya bağlı əsaasında P&L hazırlanması və büdcə ilə müqayisə edilməsi",
+                  "MHBS hesabatı üçün əlavə müqayisələrin, hesabatların, məlumat bazalarının hazırlanması",
+                  "Şirkətin xərclərinin və gəlirlərinin nəzərdən keçirilməsi, faktura qeydlərinin yazmalı, təhlil etməli və nəzarət etməlidir"
+                ],
+                "conditions": [
+                  "5 günlük iş həftəsi (Bazar ertəsi–Cümə)",
+                  "Bazar rəqabətli əmək haqqı",
+                  "İş yeri: Bakı şəhəri, Üzeyir Hacıbəyli 48"
+                ]
+              },
+              {
+                "id": 3,
+                "title": "Senior Data analitik",
+                "date": "25.04.2025",
+                "place": "Bakı, Azərbaycan",
+                "job_type": "Tam ştat",
+                "experience": "1-2 il",
+                "education": "Ali təhsil",
+                "languages": ["Azərbaycan", "İngilis"],
+                "skills": ["MS Office"],
+                "salary": "Müsahibə əsasında təyin ediləcək",
+                "deadline": "19.03.2025",
+                "requirements": [
+                  "Mühasibat, iqtisadiyyat və ya maliyyə sahəsində bakalavr və ya magistr dərəcəsi, yüksək maliyyə hesabatı/mühasibatlıq üzrə iş təcrübəsi",
+                  "Mükəmməl yazılı və şifahi ünsiyyət bacarıqları",
+                  "MHBS üzrə biliklər. Sertifikat: ACCA F2; F3 arzuolunandır",
+                  "Mükəmməl təşkilatçılıq bacarığı və detallara diqqət etmə bacarığı",
+                  "Güclü analitik bacarıqlar; problemləri müstəqil həll etmək bacarığı ilə yanaşı tənqidi düşünmə bacarığı",
+                  "Təzqiqlə altında işləmək bacarığı"
+                ],
+                "responsibilities": [
+                  "MHBS-(IFRS)ə uyğun olaraq aralıq və illik maliyyə hesabatlarını hazırlanması",
+                  "Ay bağlanışı: Maliyyə hesabatları hazırlandıqdan sonra, hesabatların analizi, növbəti aylar üzrə proqnozun hazırlanması",
+                  "Hər ayın əvvəl bitmiş aya bağlı əsaasında P&L hazırlanması və büdcə ilə müqayisə edilməsi",
+                  "MHBS hesabatı üçün əlavə müqayisələrin, hesabatların, məlumat bazalarının hazırlanması",
+                  "Şirkətin xərclərinin və gəlirlərinin nəzərdən keçirilməsi, faktura qeydlərinin yazmalı, təhlil etməli və nəzarət etməlidir"
+                ],
+                "conditions": [
+                  "5 günlük iş həftəsi (Bazar ertəsi–Cümə)",
+                  "Bazar rəqabətli əmək haqqı",
+                  "İş yeri: Bakı şəhəri, Üzeyir Hacıbəyli 48"
+                ]
+              },
+              {
+                "id": 4,
+                "title": "Layihə koordinatoru",
+                "date": "30.04.2025",
+                "place": "Bakı, Azərbaycan",
+                "job_type": "Tam ştat",
+                "experience": "1-2 il",
+                "education": "Ali təhsil",
+                "languages": ["Azərbaycan", "İngilis"],
+                "skills": ["MS Office"],
+                "salary": "Müsahibə əsasında təyin ediləcək",
+                "deadline": "19.03.2025",
+                "requirements": [
+                  "Mühasibat, iqtisadiyyat və ya maliyyə sahəsində bakalavr və ya magistr dərəcəsi, yüksək maliyyə hesabatı/mühasibatlıq üzrə iş təcrübəsi",
+                  "Mükəmməl yazılı və şifahi ünsiyyət bacarıqları",
+                  "MHBS üzrə biliklər. Sertifikat: ACCA F2; F3 arzuolunandır",
+                  "Mükəmməl təşkilatçılıq bacarığı və detallara diqqət etmə bacarığı",
+                  "Güclü analitik bacarıqlar; problemləri müstəqil həll etmək bacarığı ilə yanaşı tənqidi düşünmə bacarığı",
+                  "Təzqiqlə altında işləmək bacarığı"
+                ],
+                "responsibilities": [
+                  "MHBS-(IFRS)ə uyğun olaraq aralıq və illik maliyyə hesabatlarını hazırlanması",
+                  "Ay bağlanışı: Maliyyə hesabatları hazırlandıqdan sonra, hesabatların analizi, növbəti aylar üzrə proqnozun hazırlanması",
+                  "Hər ayın əvvəl bitmiş aya bağlı əsaasında P&L hazırlanması və büdcə ilə müqayisə edilməsi",
+                  "MHBS hesabatı üçün əlavə müqayisələrin, hesabatların, məlumat bazalarının hazırlanması",
+                  "Şirkətin xərclərinin və gəlirlərinin nəzərdən keçirilməsi, faktura qeydlərinin yazmalı, təhlil etməli və nəzarət etməlidir"
+                ],
+                "conditions": [
+                  "5 günlük iş həftəsi (Bazar ertəsi–Cümə)",
+                  "Bazar rəqabətli əmək haqqı",
+                  "İş yeri: Bakı şəhəri, Üzeyir Hacıbəyli 48"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "title": "Əlaqə",
+        "path": "/elaqe"
       }
     ]
   },
@@ -499,52 +720,51 @@
         "id": 2,
         "name": "Poçt rabitəsi",
         "desc": "Poçt xidmətlərinin təşkili, universal poçt rabitəsi xidmətlərinin təmin olunması, poçt operatorlarının fəaliyyətinə nəzarət, poçt xidmətlərinin keyfiyyətinə nəzarət İKT-nin fəaliyyət istiqamətlərindəndir.",
-        "img": "https://media.istockphoto.com/id/1150636681/photo/email-marketing-concept.jpg?s=612x612&w=0&k=20&c=J6kJuXtHhhzqL4YPWTb0-DBBTZxV9TFGVQndq4OtLPY="
-      },
-      {
-        "id": 3,
-        "name": "Rəqəmsal inkişaf və tənzimləmə",
-        "desc": "İnformasiya və rabitə texnologiyalarının inkişafı, rəqəmsal xidmətlərin tənzimlənməsi, innovasiyaların tətbiqi və digər fəaliyyətlər İKT-nin əsas istiqamətlərindəndir.",
-        "img": "https://media.istockphoto.com/id/1232823342/photo/digital-technology-concept.jpg?s=612x612&w=0&k=20&c=CBQRaHlT7u7yxgt7LYeE6H-lHc_vzCeFcxZn8sXq0rI="
+        "img": "https://media.istockphoto.com/id/1401460590/photo/businessman-working-on-laptop-with-document-management-icon.jpg?s=612x612&w=0&k=20&c=o8Ci6F_YCWFlKE2Yr6A2wbDvrZRwSB3YssLakLkrFBo="
       }
     ],
     "services": [
-      {
-        "id": 1,
-        "name": "Uçoto alma",
-        "icon": "/svg/acc.svg"
-      },
-      {
-        "id": 2,
-        "name": "Telekommunikasiya lisenziyası",
-        "icon": "/svg/license.svg"
-      },
-      {
-        "id": 3,
-        "name": "Poçt operatorlarına lisenziya",
-        "icon": "/svg/license-post.svg"
-      },
-      {
-        "id": 4,
-        "name": "Təlimlər",
-        "icon": "/svg/training.svg"
-      }
+      { "id": 1, "name": "Uçuto alma", "icon": "/svg/acc.svg" },
+        { "id": 2, "name": "Məlumat toplama sistemi", "icon": "/svg/info.svg" },
+        { "id": 3, "name": "E-şikayət", "icon": "/svg/e-complaint.svg" },
+        {
+          "id": 4,
+          "name": "Radioelektron vasitələrə verilən icazələr",
+          "icon": "/svg/radioelectro.svg"
+        },
+        {
+          "id": 5,
+          "name": "Radiotezliklərin ayrılması",
+          "icon": "/svg/radiofr.svg"
+        },
+        {
+          "id": 6,
+          "name": "Yeni internet qoşuntusu",
+          "icon": "/svg/internet.svg"
+        }
     ],
     "news": [
       {
-        "id": 1,
-        "img": "/images/img1.png",
-        "name": "İKTA-da İctimai Şura üzvləri ilə görüş keçirilib",
-        "desc": "Azərbaycanın telekommunikasiya və poçt rabitəsi üzrə tənzimləyici qurumu olan İnformasiya Kommunikasiya Texnologiyaları Agentliyində (İKTA) İctimai Şura üzvləri ilə görüş keçirilib.",
-        "date": "2024-05-31"
-      },
-      {
-        "id": 2,
-        "img": "/images/img2.png",
-        "name": "İKT sektoru üzrə yeni tənzimləmələr",
-        "desc": "Yeni qanun və qaydalar ilə bağlı ictimaiyyətin məlumatlandırılması məqsədilə İKTA tərəfindən seminarlar təşkil olunub.",
-        "date": "2024-06-10"
-      }
+          "id": 1,
+          "img": "/images/img1.png",
+          "name": "İKTA-da İctimai Şura üzvləri ilə görüş keçirilib",
+          "desc": "Azərbaycanın telekommunikasiya və poçt rabitəsi üzrə tənzimləyici qurumu olan İnformasiya Kommunikasiya Texnologiyaları Agentliyində (İKTA)..",
+          "date": "2024-05-31"
+        },
+        {
+          "id": 2,
+          "img": "/images/img2.png",
+          "name": "İKTA-da İctimai Şura üzvləri ilə görüş keçirilib",
+          "desc": "Azərbaycanın telekommunikasiya və poçt rabitəsi üzrə tənzimləyici qurumu olan İnformasiya Kommunikasiya Texnologiyaları Agentliyində (İKTA)..",
+          "date": "2024-05-31"
+        },
+        {
+          "id": 3,
+          "img": "/images/img3.png",
+          "name": "İKTA-da İctimai Şura üzvləri ilə görüş keçirilib",
+          "desc": "Azərbaycanın telekommunikasiya və poçt rabitəsi üzrə tənzimləyici qurumu olan İnformasiya Kommunikasiya Texnologiyaları Agentliyində (İKTA)..",
+          "date": "2024-05-31"
+        }
     ]
   },
   "usefulLinks": [
@@ -556,20 +776,22 @@
     {
       "id": 2,
       "img": "/images/teskilat2.png",
-      "name": "Azərbaycan Respublikasının Nazirlər Kabineti"
+      "name": "İnformasiya-Kommunikasiya Texnologiyaları Mərkəzi"
     },
     {
       "id": 3,
-      "img": "/images/teskilat3.png",
-      "name": "Rəqəmsal İnkişaf və Nəqliyyat Nazirliyi"
+      "img": "/svg/hh.svg",
+      "name": "Heydər Əliyev Fondu"
     },
     {
       "id": 4,
       "img": "/images/teskilat4.png",
-      "name": "İnformasiya və Kommunikasiya Texnologiyaları Nazirliyi"
+      "name": "Biznes mühiti və beynəlxalq reytinqlər üzrə Komissiya"
+    },
+    {
+      "id": 5,
+      "img": "/images/teskilat5.png",
+      "name": "Azərbaycan Respublikası Rəqəmsal İnkişaf və Nəqliyyat Nazirliyi"
     }
   ]
 }
-
-
-

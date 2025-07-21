@@ -33,23 +33,21 @@ const Navbar = () => {
   }, [isMobileMenuOpen]);
 
   return (
-    <header className="border-b bg-white rounded-4xl sticky top-0 z-50 max-w-[1320px] mx-auto w-full px-4">
-      <div className="flex justify-between items-center py-4 gap-x-10">
-        {/* Logo */}
+    <header className="border-b bg-white rounded-4xl sticky top-0 z-50 max-w-[1320px] mx-auto w-full">
+      <div className="flex justify-between items-center  gap-x-10">
         <Link to="/" className="block w-full">
-          <img src={logo} alt="logo" className="h-[56px] 2xl:w-[800px]" />
+          <img src={logo} alt="logo" className="h-[50px] 2xl:w-[800px] px-6" />
         </Link>
 
-        {/* Desktop menu */}
-        <NavigationMenu viewport={false} className="hidden 2xl:flex px-4">
-          <NavigationMenuList className="items-center">
+        <NavigationMenu viewport={false} className="hidden 2xl:flex ">
+          <NavigationMenuList className="items-center flex">
             {data.navigation.sections.map((menuItem) => (
               <NavigationMenuItem key={menuItem.id}>
                 <NavigationMenuLink asChild>
                   <NavLink
                     to={menuItem.path}
                     className={({ isActive }) =>
-                      `text-sm font-medium cursor-pointer whitespace-nowrap ${
+                      `!text-xs font-medium cursor-pointer whitespace-nowrap ${
                         isActive ? "bg-blue-600 text-white" : "text-gray-900"
                       }`
                     }>
@@ -61,9 +59,7 @@ const Navbar = () => {
           </NavigationMenuList>
         </NavigationMenu>
 
-        {/* Sağ tərəf: Hamburger və Desktop Actions */}
         <div className="flex items-center gap-4">
-          {/* Hamburger: 1200px-dən yuxarı gizlənir */}
           <button
             onClick={() => setIsMobileMenuOpen((prev) => !prev)}
             className="flex text-[#2D8CFF] text-2xl 2xl:hidden"
@@ -71,14 +67,12 @@ const Navbar = () => {
             {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
 
-          {/* Desktop actions: 1200px-dən aşağı gizlidir */}
           <div className="hidden 2xl:flex">
             <NavbarActions />
           </div>
         </div>
       </div>
 
-      {/* Mobile menu açılması */}
       {isMobileMenuOpen && (
         <nav className="bg-white border-t w-full flex xl:block" aria-label="Mobile menu">
           <ul className="flex flex-col px-4 py-6 gap-4 w-full">
@@ -103,7 +97,6 @@ const Navbar = () => {
               </li>
             ))}
 
-            {/* Mobile actions */}
             <li className="mt-6">
               <NavbarActions isMobile />
             </li>

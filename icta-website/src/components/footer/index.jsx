@@ -9,10 +9,14 @@ import {
   FaInstagram,
 } from "react-icons/fa";
 import { BsTwitterX } from "react-icons/bs";
+import Up_Button from "../button-up";
 
 const Footer = () => {
   return (
-    <footer className="bg-muted text-muted-foreground">
+    <footer className="text-muted-foreground bg-white">
+       <div>
+       <Up_Button />
+      </div>
       <div className="max-w-7xl mx-auto px-6">
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 text-sm border-b py-5">
           <div>

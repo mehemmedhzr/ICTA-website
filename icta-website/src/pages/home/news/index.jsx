@@ -46,7 +46,7 @@ const News = () => {
           ))
         )}
       </div>
-      <div className="flex items-center justify-start mx-6 pb-5 font-medium">
+      <div className="flex items-center justify-start mx-8 pb-5 font-medium">
               <Link className="cursor-pointer flex items-center gap-2">
                 Bütün xəbərlərə bax <span className="pt-1"><HiOutlineArrowNarrowRight /></span>
               </Link>

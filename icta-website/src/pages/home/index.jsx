@@ -5,7 +5,7 @@ import UseFul from "./useful";
 
 const Home = () => {
   return (
-    <div className="bg-[#f3f6fa]">
+    <div>
       <Activity />
       <Service />
       <News />

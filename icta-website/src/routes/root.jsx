@@ -38,6 +38,8 @@ import SuretliPoctXidmetiLisenziyalari from "../pages/haqqimizda/fealiyyet/poct-
 import UmumiMelumat from "../pages/haqqimizda/fealiyyet/poct-xidmetleri/umumi-melumat";
 import UniversalPoctXidmetiTarifleri from "../pages/haqqimizda/fealiyyet/poct-xidmetleri/universal-poct-xidmeti-tarifleri";
 import MubahiselerinHelli from "../pages/haqqimizda/fealiyyet/mubahiselerin-helli";
+import CareerComponent from "../pages/career/CareerComponent";
+import VacancyDetails from "../pages/career/VacancyDetails";
 
 // Lazy-loaded pages
 const Home = lazy(() => import("@/pages/home"));
@@ -249,60 +251,60 @@ export const rootRoutes = [
                 path: "telekommunikasiya",
                 element: <Telekomunikasiya />,
                 children: [
-                   {
-                path: "telekommunikasiya",
-                element: <Telekomunikasiya />,
-                children: [
                   {
-                    path: "operator-ve-provayderin-ucotu",
-                    element: <OperatorVeProviderlerinUcotu />,
+                    path: "telekommunikasiya",
+                    element: <Telekomunikasiya />,
+                    children: [
+                      {
+                        path: "operator-ve-provayderin-ucotu",
+                        element: <OperatorVeProviderlerinUcotu />,
+                      },
+                      {
+                        path: "ucota-alinmis-operator-ve-provayderler",
+                        element: <UcotaAlinmisOperatorProviderler />,
+                      },
+                      {
+                        path: "ara-baglantı",
+                        element: <Arabaglanti />,
+                      },
+                      {
+                        path: "nomre-resusu",
+                        element: <NomreResusu />,
+                      },
+                      {
+                        path: "internet",
+                        element: <Internet />,
+                      },
+                      {
+                        path: "lisenziya",
+                        element: <Lisenziya />,
+                      },
+                      {
+                        path: "mobil",
+                        element: <Mobil />,
+                      },
+                      {
+                        path: "telefon-meftilli",
+                        element: <Telefon />,
+                      },
+                      {
+                        path: "sertifikatlastirma",
+                        element: <Sertifikatlasdirma />,
+                      },
+                      {
+                        path: "sorgu",
+                        element: <Sorgu />,
+                      },
+                      {
+                        path: "tarifler",
+                        element: <Tarifler />,
+                      },
+                      {
+                        path: "universal-telecom-xidmetleri",
+                        element: <UniversalTelecomXidmetleri />,
+                      },
+                    ],
                   },
-                  {
-                    path: "ucota-alinmis-operator-ve-provayderler",
-                    element: <UcotaAlinmisOperatorProviderler />,
-                  },
-                  {
-                    path: "ara-baglantı",
-                    element: <Arabaglanti />,
-                  },
-                  {
-                    path: "nomre-resusu",
-                    element: <NomreResusu />,
-                  },
-                  {
-                    path: "internet",
-                    element: <Internet />,
-                  },
-                  {
-                    path: "lisenziya",
-                    element: <Lisenziya />,
-                  },
-                  {
-                    path: "mobil",
-                    element: <Mobil />,
-                  },
-                  {
-                    path: "telefon-meftilli",
-                    element: <Telefon />,
-                  },
-                  {
-                    path: "sertifikatlastirma",
-                    element: <Sertifikatlasdirma />,
-                  },
-                  {
-                    path: "sorgu",
-                    element: <Sorgu />,
-                  },
-                  {
-                    path: "tarifler",
-                    element: <Tarifler />,
-                  },
-                  {
-                    path: "universal-telecom-xidmetleri",
-                    element: <UniversalTelecomXidmetleri />,
-                  },
-                ],
-              },
                 ],
               },
 
@@ -310,7 +312,7 @@ export const rootRoutes = [
                 path: "spektr-idareciliyi",
                 element: <SpekterIdareciliyi />,
                 children: [
-                   {
+                  {
                     path: "radiospektr-resuslari",
                     element: <RadioSpektrResuslari />,
                   },
@@ -357,6 +359,14 @@ export const rootRoutes = [
             ],
           },
         ],
+      },
+      {
+        path: "/karyera",
+        element: <CareerComponent />,  // Career əsas səhifə
+      },
+      {
+        path: "/karyera/vakansiyalar/:id",
+        element: <VacancyDetails />,  // Vakansiya detalları ayrıca səhifə kimi
       },
     ],
   },

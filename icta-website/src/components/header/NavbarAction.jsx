@@ -31,7 +31,6 @@ const NavbarActions = ({ isMobile = false }) => {
        
       </div>
 
-      {/* Search Input overlay */}
       {isSearchOpen && !isMobile && (
         <div
           className="fixed top-8  left-30 z-30 w-[65%]  rounded-lg  bg-white  flex items-center justify-center px-4 shadow-md"
@@ -46,7 +45,6 @@ const NavbarActions = ({ isMobile = false }) => {
         </div>
       )}
 
-      {/* Mobil üçün input normal açılır */}
       {isSearchOpen && isMobile && (
         <input
           autoFocus

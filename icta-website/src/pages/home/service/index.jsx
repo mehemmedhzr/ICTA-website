@@ -4,7 +4,7 @@ import { DataContext } from "../../../context/DataContext";
 const Service = () => {
   const { services } = useContext(DataContext);
   return (
-    <div className="services">
+    <div className="services bg-[rgb(243,246,250)]">
       <div className="text-center">
         <h1 className="font-medium text-[22px]">ELEKTRON XİDMƏTLƏRİMİZ</h1>
       </div>
