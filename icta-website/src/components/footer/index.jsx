@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { data } from "../../../public/data/index";
+import data from "../../../public/data/index.json"; 
 import {
   FaFacebookF,
   FaLinkedinIn,
@@ -16,7 +16,7 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-6">
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 text-sm border-b py-5">
           <div>
-            {data.slice(0, 4).map((item) => (
+            {data.navigation.sections.slice(0, 4).map((item) => (
               <div key={item.id}>
                 <Link
                   to="#"
@@ -24,7 +24,7 @@ const Footer = () => {
                 >
                   <span className="hover:border-b-2 hover:border-blue-500 pb-1">
 
-                  {item.section}
+                  {item.title}
                   </span>
                 </Link>
               </div>
@@ -32,7 +32,7 @@ const Footer = () => {
           </div>
 
           <div>
-            {data.slice(4, 8).map((item) => (
+            {data.navigation.sections.slice(4, 8).map((item) => (
               <div key={item.id}>
                 <Link
                   to="#"
@@ -40,7 +40,7 @@ const Footer = () => {
                 >
                    <span className="hover:border-b-2 hover:border-blue-500 pb-1">
 
-                  {item.section}
+                  {item.title}
                   </span>
                 </Link>
               </div>

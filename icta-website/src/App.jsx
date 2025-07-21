@@ -1,26 +1,19 @@
 import React from "react";
-import { Route, Routes } from "react-router-dom";
+import { Outlet } from "react-router-dom";
 import Header from "./components/header";
 import Footer from "./components/footer";
-import UseFul from "./components/home/useful";
-import Home from "./components/home";
-import Career from "./components/career/Career";
-
 
 const App = () => {
   return (
-      <div>
-        <Header />
+    <div className="flex flex-col min-h-screen bg-[rgb(243,246,250)]">
+      <Header />
+      
+      <main className="flex min-h-[50vh]  justify-center mt-12">
+        <Outlet />
+      </main>
 
-        <main>
-          <Routes>
-            <Route path="/" element = {<Home />} />
-            <Route path="/career" element = {<Career />} />
-          </Routes>
-        </main>
-        <UseFul />
-        <Footer />
-      </div>
+      <Footer />
+    </div>
   );
 };
 

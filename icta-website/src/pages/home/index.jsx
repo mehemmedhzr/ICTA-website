@@ -1,7 +1,7 @@
-import React, { useEffect } from "react";
 import Activity from "./activity";
 import News from "./news";
 import Service from "./service";
+import UseFul from "./useful";
 
 const Home = () => {
   return (
@@ -9,6 +9,7 @@ const Home = () => {
       <Activity />
       <Service />
       <News />
+      <UseFul />
     </div>
   );
 };

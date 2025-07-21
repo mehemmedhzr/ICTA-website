@@ -12,19 +12,19 @@ export const DataProvider = ({ children }) => {
     fetch("/data/index.json")
       .then((res) => res.json())
       .then((data) => {
-        const home = data.home || [];
+        const homePage  = data.homePage || [];
         
         setActivity(
-          home.find((item) => item.type === "activity")?.data || []
+          homePage .find((item) => item.type === "activity")?.data || []
         );
         setServices(
-          home.find((item) => item.type === "services")?.data || []
+          homePage .find((item) => item.type === "services")?.data || []
         );
         setNews(
-          home.find((item) => item.type === "news")?.data || []
+          homePage .find((item) => item.type === "news")?.data || []
         );
         
-        setUseful(data.useful || []);
+        setUseful(data.usefulLinks  || []);
       })
       .catch((error) => {
         console.error("error", error);
