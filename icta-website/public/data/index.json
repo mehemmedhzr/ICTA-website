@@ -227,22 +227,22 @@
           {
             "id": 5,
             "title": "Beynəlxalq fəaliyyət",
-            "path": "/haqqimizda/beynelxalq-faliyyet",
+            "path": "/haqqimizda/beynelxalq-fealiyyetler",
             "subsections": [
               {
                 "id": 1,
                 "title": "Ümumi məlumat",
-                "path": "/haqqimizda/beynelxalq-faliyyet/umumi-melumat"
+                "path": "/haqqimizda/beynelxalq-fealiyyetler/umumi-melumat"
               },
               {
                 "id": 2,
                 "title": "Beynəlxalq hesabatlar",
-                "path": "/haqqimizda/beynelxalq-faliyyet/beynelxalq-hesabatlar"
+                "path": "/haqqimizda/beynelxalq-fealiyyetler/beynelxalq-hesabatlar"
               },
               {
                 "id": 3,
                 "title": "Terminologiya",
-                "path": "/haqqimizda/beynelxalq-faliyyet/terminologiya"
+                "path": "/haqqimizda/beynelxalq-fealiyyetler/terminologiya"
               }
             ]
           },

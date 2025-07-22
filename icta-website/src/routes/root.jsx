@@ -40,6 +40,13 @@ import UniversalPoctXidmetiTarifleri from "../pages/haqqimizda/fealiyyet/poct-xi
 import MubahiselerinHelli from "../pages/haqqimizda/fealiyyet/mubahiselerin-helli";
 import CareerComponent from "../pages/career/CareerComponent";
 import VacancyDetails from "../pages/career/VacancyDetails";
+import SaglamReqabet from "../pages/haqqimizda/fealiyyet/saglam-reqabet";
+import XidmetKeyfiyyeti from "../pages/haqqimizda/fealiyyet/xidmet-keyfiyyeti";
+import InternetTenzimleyicileri from "../pages/haqqimizda/fealiyyet/internet-tenzimleyici";
+import BeynelxalqLayout from "../pages/haqqimizda/beynelxalq-fealiyyet";
+import BeynelxalqHesabatlar from "../pages/haqqimizda/beynelxalq-fealiyyet/beynelxalq-hesabatlar";
+import Terminologiya from "../pages/haqqimizda/beynelxalq-fealiyyet/terminologiya";
+import IllikHesabatlar from "../pages/haqqimizda/illik-hesabatlar";
 
 // Lazy-loaded pages
 const Home = lazy(() => import("@/pages/home"));
@@ -65,305 +72,322 @@ export const rootRoutes = [
   //     // </Suspense>
   //     <App/>
   //   ),
-  //   children: [
-  //     { index: true, element: <Home /> }, // 💡 Ana səhifə
-  //    {
-  //       path: "/haqqimizda",
-  //       element: <HaqqimizdaLayout />,
-  //       children: [
-  //          { path:"ikta-haqqinda", element:<IktaHaqqimizda />},
-  //         { path: "nizamname", element: <Nizamname /> },
-  //         { path: "struktur", element: <Struktur /> },
+ 
 
-  //       ],
-  //       {
-  //     path: "fealiyyet",
-  //     element: <Fealiyyet />,
-  //     children: [
-  //       { path: "layiheler", element: <Layiheler /> },
-  //       { path: "tedbirler", element: <Tadbirler /> },
-  //       // və s.
-  //     ],
-  //   },
-
-  //     // { path: "haqqimizda/nizamname", element: <Nizamname /> },
-  //     // { path: "haqqimizda/struktur", element: <Struktur /> },
-  //     // { path: "haqqimizda/fealiyyet", element: <Fealiyyet /> },
-  //     // { path: "haqqimizda/beynelxalq-fealiyyet", element: <BeynelxalqFealiyyet /> },
-  //     // { path: "haqqimizda/strategiya", element: <Strategiya /> },
-  //     // { path: "haqqimizda/illik-hesabatlar", element: <IllikHesabat /> },
-  //     // { path: "huquqi-aktlar/konstitusiya", element: <Konstitusiya /> },
-  //     // { path: "huquqi-aktlar/qanunlar", element: <Qanunlar /> },
-  //     // { path: "karyera", element: <Karyera /> },
-  //     // { path: "elaqe", element: <Elaqe /> },
-  //   ],
-  // },
 
   {
     element: <App />,
     children: [
       { index: true, element: <Home /> }, // Ana səhifə
 
+      // {
+      //   path: "/haqqimizda",
+      //   element: <HaqqimizdaLayout />,
+      //   children: [
+      //     { path: "ikta-haqqinda", element: <IktaHaqqimizda /> },
+      //     { path: "nizamname", element: <Nizamname /> },
+      //     { path: "struktur", element: <Struktur /> },
+
+      //     {
+      //       path: "fealiyyet",
+      //       element: <FealiyyetLayout />,
+
+      //       children: [
+      //         {
+      //           path: "telekommunikasiya",
+      //           element: <Telekomunikasiya />,
+      //           children: [
+      //             {
+      //               path: "operator-ve-provayderin-ucotu",
+      //               element: <OperatorVeProviderlerinUcotu />,
+      //             },
+      //             {
+      //               path: "ucota-alinmis-operator-ve-provayderler",
+      //               element: <UcotaAlinmisOperatorProviderler />,
+      //             },
+      //             {
+      //               path: "ara-baglantı",
+      //               element: <Arabaglanti />,
+      //             },
+      //             {
+      //               path: "nomre-resusu",
+      //               element: <NomreResusu />,
+      //             },
+      //             {
+      //               path: "internet",
+      //               element: <Internet />,
+      //             },
+      //             {
+      //               path: "lisenziya",
+      //               element: <Lisenziya />,
+      //             },
+      //             {
+      //               path: "mobil",
+      //               element: <Mobil />,
+      //             },
+      //             {
+      //               path: "telefon-meftilli",
+      //               element: <Telefon />,
+      //             },
+      //             {
+      //               path: "sertifikatlastirma",
+      //               element: <Sertifikatlasdirma />,
+      //             },
+      //             {
+      //               path: "sorgu",
+      //               element: <Sorgu />,
+      //             },
+      //             {
+      //               path: "tarifler",
+      //               element: <Tarifler />,
+      //             },
+      //             {
+      //               path: "universal-telecom-xidmetleri",
+      //               element: <UniversalTelecomXidmetleri />,
+      //             },
+      //           ],
+      //         },
+      //       ],
+
+
+
+      //     },
+
+      //     {
+      //       path: "fealiyyet",
+      //       element: <FealiyyetLayout />,
+      //       children: [
+      //         {
+      //           path: "mubahiselerin-helli",
+      //           element: <MubahiselerinHelli />,
+      //         },
+      //         {
+      //           path: "saglam-reqabet",
+      //           element: <SaglamReqabet />,
+      //         },
+      //         {
+      //           path: "xidmet-keyfiyyeti",
+      //           element: <XidmetKeyfiyyeti />,
+      //         },
+      //         {
+      //           path: "internet-uzre-tenzimleyici-cercevenin-helli",
+      //           element: <InternetTenzimleyicileri />,
+      //         },
+
+
+      //         {
+      //           path: "telekommunikasiya",
+      //           element: <Telekomunikasiya />,
+      //           children: [
+      //             {
+      //               path: "telekommunikasiya",
+      //               element: <Telekomunikasiya />,
+      //               children: [
+      //                 {
+      //                   path: "operator-ve-provayderin-ucotu",
+      //                   element: <OperatorVeProviderlerinUcotu />,
+      //                 },
+      //                 {
+      //                   path: "ucota-alinmis-operator-ve-provayderler",
+      //                   element: <UcotaAlinmisOperatorProviderler />,
+      //                 },
+      //                 {
+      //                   path: "ara-baglantı",
+      //                   element: <Arabaglanti />,
+      //                 },
+      //                 {
+      //                   path: "nomre-resusu",
+      //                   element: <NomreResusu />,
+      //                 },
+      //                 {
+      //                   path: "internet",
+      //                   element: <Internet />,
+      //                 },
+      //                 {
+      //                   path: "lisenziya",
+      //                   element: <Lisenziya />,
+      //                 },
+      //                 {
+      //                   path: "mobil",
+      //                   element: <Mobil />,
+      //                 },
+      //                 {
+      //                   path: "telefon-meftilli",
+      //                   element: <Telefon />,
+      //                 },
+      //                 {
+      //                   path: "sertifikatlastirma",
+      //                   element: <Sertifikatlasdirma />,
+      //                 },
+      //                 {
+      //                   path: "sorgu",
+      //                   element: <Sorgu />,
+      //                 },
+      //                 {
+      //                   path: "tarifler",
+      //                   element: <Tarifler />,
+      //                 },
+      //                 {
+      //                   path: "universal-telecom-xidmetleri",
+      //                   element: <UniversalTelecomXidmetleri />,
+      //                 },
+      //               ],
+      //             },
+      //           ],
+      //         },
+
+      //         {
+      //           path: "spektr-idareciliyi",
+      //           element: <SpekterIdareciliyi />,
+      //           children: [
+      //             {
+      //               path: "radiospektr-resuslari",
+      //               element: <RadioSpektrResuslari />,
+      //             },
+      //             {
+      //               path: "radiospektr-resuslarinin-tenzimlenmesi",
+      //               element: <RadioSpektrResuslarininTenzimlenmesi />,
+      //             },
+      //             {
+      //               path: "radiotezlik-ehtiyatlarinin-muhafizesi",
+      //               element: <RadioTezlikEhtiyyatlarininMuhafizesi />,
+      //             },
+      //           ],
+      //         },
+
+
+      //         {
+      //           path: "poct-xidmetleri",
+      //           element: <PoctXidmetleri />,
+      //           children: [
+      //             {
+      //               path: "poct-fealiyyeti-haqqinda-hesabatlar",
+      //               element: <PoctFealiyyetiHaqqindaHesabatlar />,
+      //             },
+      //             {
+      //               path: "poct-operatorlarina-qarsi-qoyulan-telebler",
+      //               element: <PoctOperatorlarinaQarsiQoyulanTelebler />,
+      //             },
+      //             {
+      //               path: "universal-poct-xidmeti-tarifleri",
+      //               element: <UniversalPoctXidmetiTarifleri />,
+      //             },
+      //             {
+      //               path: "poct-rabite-lisenziyalari",
+      //               element: <PoctRabiteLisenziyalari />,
+      //             },
+      //             {
+      //               path: "suretli-poct-xidmeti-lisenziyalari",
+      //               element: <SuretliPoctXidmetiLisenziyalari />,
+      //             },
+      //             {
+      //               path: "umumi-melumat",
+      //               element: <UmumiMelumat />,
+      //             },
+      //           ],
+      //         },
+      //       ],
+      //     },
+      //   ],
+      // },
+
+
       {
-        path: "/haqqimizda",
-        element: <HaqqimizdaLayout />,
-        children: [
-          { path: "ikta-haqqinda", element: <IktaHaqqimizda /> },
-          { path: "nizamname", element: <Nizamname /> },
-          { path: "struktur", element: <Struktur /> },
+  path: "/haqqimizda",
+  element: <HaqqimizdaLayout />,
+  children: [
+    { path: "ikta-haqqinda", element: <IktaHaqqimizda /> },
+    { path: "nizamname", element: <Nizamname /> },
+    { path: "struktur", element: <Struktur /> },
+    { path: "strategiya", element: <IktaStartegiya /> },
+    { path: "illik-hesabatlar", element: <IllikHesabatlar /> },
 
-          {
-            path: "fealiyyet",
-            element: <FealiyyetLayout />,
+    {
+      path: "fealiyyet",
+      element: <FealiyyetLayout />,
+      children: [
+        {
+          path: "telekommunikasiya",
+          element: <Telekomunikasiya />,
+          children: [
+            { path: "operator-ve-provayderin-ucotu", element: <OperatorVeProviderlerinUcotu /> },
+            { path: "ucota-alinmis-operator-ve-provayderler", element: <UcotaAlinmisOperatorProviderler /> },
+            { path: "ara-baglantı", element: <Arabaglanti /> },
+            { path: "nomre-resusu", element: <NomreResusu /> },
+            { path: "internet", element: <Internet /> },
+            { path: "lisenziya", element: <Lisenziya /> },
+            { path: "mobil", element: <Mobil /> },
+            { path: "telefon-meftilli", element: <Telefon /> },
+            { path: "sertifikatlastirma", element: <Sertifikatlasdirma /> },
+            { path: "sorgu", element: <Sorgu /> },
+            { path: "tarifler", element: <Tarifler /> },
+            { path: "universal-telecom-xidmetleri", element: <UniversalTelecomXidmetleri /> },
+          ],
+        },
+        { path: "mubahiselerin-helli", element: <MubahiselerinHelli /> },
+        { path: "saglam-reqabet", element: <SaglamReqabet /> },
+        { path: "xidmet-keyfiyyeti", element: <XidmetKeyfiyyeti /> },
+        { path: "internet-uzre-tenzimleyici-cercevenin-helli", element: <InternetTenzimleyicileri /> },
 
-            children: [
-              {
-                path: "telekommunikasiya",
-                element: <Telekomunikasiya />,
-                children: [
-                  {
-                    path: "operator-ve-provayderin-ucotu",
-                    element: <OperatorVeProviderlerinUcotu />,
-                  },
-                  {
-                    path: "ucota-alinmis-operator-ve-provayderler",
-                    element: <UcotaAlinmisOperatorProviderler />,
-                  },
-                  {
-                    path: "ara-baglantı",
-                    element: <Arabaglanti />,
-                  },
-                  {
-                    path: "nomre-resusu",
-                    element: <NomreResusu />,
-                  },
-                  {
-                    path: "internet",
-                    element: <Internet />,
-                  },
-                  {
-                    path: "lisenziya",
-                    element: <Lisenziya />,
-                  },
-                  {
-                    path: "mobil",
-                    element: <Mobil />,
-                  },
-                  {
-                    path: "telefon-meftilli",
-                    element: <Telefon />,
-                  },
-                  {
-                    path: "sertifikatlastirma",
-                    element: <Sertifikatlasdirma />,
-                  },
-                  {
-                    path: "sorgu",
-                    element: <Sorgu />,
-                  },
-                  {
-                    path: "tarifler",
-                    element: <Tarifler />,
-                  },
-                  {
-                    path: "universal-telecom-xidmetleri",
-                    element: <UniversalTelecomXidmetleri />,
-                  },
-                ],
-              },
-            ],
-          },
+        {
+          path: "spektr-idareciliyi",
+          element: <SpekterIdareciliyi />,
+          children: [
+            { path: "radiospektr-resuslari", element: <RadioSpektrResuslari /> },
+            { path: "radiospektr-resuslarinin-tenzimlenmesi", element: <RadioSpektrResuslarininTenzimlenmesi /> },
+            { path: "radiotezlik-ehtiyatlarinin-muhafizesi", element: <RadioTezlikEhtiyyatlarininMuhafizesi /> },
+          ],
+        },
 
-          // {
-          //   path: "fealiyyet",
-          //   element: <FealiyyetLayout />,
-          //   children: [
-          //     {
-          //       path: "spektr-idareciliyi",
-          //       element: <SpekterIdareciliyi />,
+        {
+          path: "poct-xidmetleri",
+          element: <PoctXidmetleri />,
+          children: [
+            { path: "poct-fealiyyeti-haqqinda-hesabatlar", element: <PoctFealiyyetiHaqqindaHesabatlar /> },
+            { path: "poct-operatorlarina-qarsi-qoyulan-telebler", element: <PoctOperatorlarinaQarsiQoyulanTelebler /> },
+            { path: "universal-poct-xidmeti-tarifleri", element: <UniversalPoctXidmetiTarifleri /> },
+            { path: "poct-rabite-lisenziyalari", element: <PoctRabiteLisenziyalari /> },
+            { path: "suretli-poct-xidmeti-lisenziyalari", element: <SuretliPoctXidmetiLisenziyalari /> },
+            { path: "umumi-melumat", element: <UmumiMelumat /> },
+          ],
+        },
+      ],
+    },
 
-          //       children: [
-          //         {
-          //           path: "radiospektr-resuslari",
-          //           element: <RadioSpektrResuslari />,
-          //         },
-          //         {
-          //           path: "radiospektr-resuslarinin-tenzimlenmesi",
-          //           element: <RadioSpektrResuslarininTenzimlenmesi />,
-          //         },
-          //         {
-          //           path: "radiotezlik-ehtiyatlarinin-muhafizesi",
-          //           element: <RadioTezlikEhtiyyatlarininMuhafizesi />,
-          //         },
-          //       ],
-          //     },
-          //     // digər fealiyyet alt səhifələri
-          //   ],
-          // },
 
-          // {
-          //   path: "fealiyyet",
-          //   element: <FealiyyetLayout />,
-          //   children: [
-          //     {
-          //       path: "poct-xidmetleri",
-          //       element: <PoctXidmetleri />,
-          //       children: [
-          //         {
-          //           path: "poct-fealiyyeti-haqqinda-hesabatlar",
-          //           element: <PoctFealiyyetiHaqqindaHesabatlar />,
-          //         },
-          //         {
-          //           path: "poct-operatorlarina-qarsi-qoyulan-telebler",
-          //           element: <PoctOperatorlarinaQarsiQoyulanTelebler />,
-          //         },
-          //         {
-          //           path: "universal-poct-xidmeti-tarifleri",
-          //           element: <UniversalPoctXidmetiTarifleri />,
-          //         },
-          //         {
-          //           path: "poct-rabite-lisenziyalari",
-          //           element: <PoctRabiteLisenziyalari />,
-          //         },
-          //         {
-          //           path: "suretli-poct-xidmeti-lisenziyalari",
-          //           element: <SuretliPoctXidmetiLisenziyalari />,
-          //         },
-          //         {
-          //           path: "umumi-melumat",
-          //           element: <UmumiMelumat />,
-          //         },
-          //       ],
-          //     },
-          //     // digər fealiyyet alt səhifələri
-          //   ],
-          // },
+    {
+      path:"beynelxalq-fealiyyetler",
+      element:<BeynelxalqLayout/>,
+      children:[
+        {path:"beynelxalq-hesabatlar",element:<BeynelxalqHesabatlar/>},
+        {path:"terminologiya",element:<Terminologiya/>},
+        {path:"umumi-melumat",element:<UmumiMelumat/>},
+      ]
+    }
 
-          {
-            path: "fealiyyet",
-            element: <FealiyyetLayout />,
-            children: [
-              {
-                path: "mubahiselerin-helli",
-                element: <MubahiselerinHelli />,
-              },
-              {
-                path: "telekommunikasiya",
-                element: <Telekomunikasiya />,
-                children: [
-                  {
-                    path: "telekommunikasiya",
-                    element: <Telekomunikasiya />,
-                    children: [
-                      {
-                        path: "operator-ve-provayderin-ucotu",
-                        element: <OperatorVeProviderlerinUcotu />,
-                      },
-                      {
-                        path: "ucota-alinmis-operator-ve-provayderler",
-                        element: <UcotaAlinmisOperatorProviderler />,
-                      },
-                      {
-                        path: "ara-baglantı",
-                        element: <Arabaglanti />,
-                      },
-                      {
-                        path: "nomre-resusu",
-                        element: <NomreResusu />,
-                      },
-                      {
-                        path: "internet",
-                        element: <Internet />,
-                      },
-                      {
-                        path: "lisenziya",
-                        element: <Lisenziya />,
-                      },
-                      {
-                        path: "mobil",
-                        element: <Mobil />,
-                      },
-                      {
-                        path: "telefon-meftilli",
-                        element: <Telefon />,
-                      },
-                      {
-                        path: "sertifikatlastirma",
-                        element: <Sertifikatlasdirma />,
-                      },
-                      {
-                        path: "sorgu",
-                        element: <Sorgu />,
-                      },
-                      {
-                        path: "tarifler",
-                        element: <Tarifler />,
-                      },
-                      {
-                        path: "universal-telecom-xidmetleri",
-                        element: <UniversalTelecomXidmetleri />,
-                      },
-                    ],
-                  },
-                ],
-              },
 
-              {
-                path: "spektr-idareciliyi",
-                element: <SpekterIdareciliyi />,
-                children: [
-                  {
-                    path: "radiospektr-resuslari",
-                    element: <RadioSpektrResuslari />,
-                  },
-                  {
-                    path: "radiospektr-resuslarinin-tenzimlenmesi",
-                    element: <RadioSpektrResuslarininTenzimlenmesi />,
-                  },
-                  {
-                    path: "radiotezlik-ehtiyatlarinin-muhafizesi",
-                    element: <RadioTezlikEhtiyyatlarininMuhafizesi />,
-                  },
-                ],
-              },
-              {
-                path: "poct-xidmetleri",
-                element: <PoctXidmetleri />,
-                children: [
-                  {
-                    path: "poct-fealiyyeti-haqqinda-hesabatlar",
-                    element: <PoctFealiyyetiHaqqindaHesabatlar />,
-                  },
-                  {
-                    path: "poct-operatorlarina-qarsi-qoyulan-telebler",
-                    element: <PoctOperatorlarinaQarsiQoyulanTelebler />,
-                  },
-                  {
-                    path: "universal-poct-xidmeti-tarifleri",
-                    element: <UniversalPoctXidmetiTarifleri />,
-                  },
-                  {
-                    path: "poct-rabite-lisenziyalari",
-                    element: <PoctRabiteLisenziyalari />,
-                  },
-                  {
-                    path: "suretli-poct-xidmeti-lisenziyalari",
-                    element: <SuretliPoctXidmetiLisenziyalari />,
-                  },
-                  {
-                    path: "umumi-melumat",
-                    element: <UmumiMelumat />,
-                  },
-                ],
-              },
-            ],
-          },
-        ],
-      },
+    
+
+
+
+
+
+  ],
+},
+
+
+
+
+
+
       {
         path: "/karyera",
         element: <CareerComponent />,  // Career əsas səhifə
       },
+
+
+
+
       {
         path: "/karyera/vakansiyalar/:id",
         element: <VacancyDetails />,  // Vakansiya detalları ayrıca səhifə kimi

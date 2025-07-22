@@ -8,8 +8,7 @@ const Sidebar = ({ menu }) => {
   const [openThirdItem, setOpenThirdItem] = useState(null);
 
   const toggleSubItem = (id) => setOpenSubItem(openSubItem === id ? null : id);
-  const toggleThirdItem = (id) =>
-    setOpenThirdItem(openThirdItem === id ? null : id);
+  const toggleThirdItem = (id) => setOpenThirdItem(openThirdItem === id ? null : id);
 
   return (
     <div className="w-80 px-1 min-h-screen overflow-auto">
@@ -24,36 +23,25 @@ const Sidebar = ({ menu }) => {
                       onClick={() => sub.subsections && toggleSubItem(sub.id)}
                       className={`flex justify-between items-center cursor-pointer px-4 py-3 w-[280px] h-[44px]
                         ${
-                          location.pathname === sub.path
-                            ? "bg-[#2D8CFF]"
-                            : "bg-[rgb(243,246,250)]"
-                        }`}
-                    >
+                          location.pathname === sub.path ? "bg-[#2D8CFF]" : "bg-[rgb(243,246,250)]"
+                        }`}>
                       <Link
                         to={sub.path}
                         className={`block text-sm ${
-                          location.pathname === sub.path
-                            ? "text-white"
-                            : "text-[rgb(152,162,179)]"
+                          location.pathname === sub.path ? "text-white" : "text-[rgb(152,162,179)]"
                         }`}
-                        onClick={(e) => sub.subsections && e.preventDefault()}
-                      >
+                        onClick={(e) => sub.subsections && e.preventDefault()}>
                         {sub.title}
                       </Link>
 
                       <ChevronRight
-                        className={`transform transition-transform w-4 ml-2 ${
+                        className={`transform transition-transform w-4 ml-2
+                        ${
                           sub.subsections
                             ? openSubItem === sub.id
-                              ? location.pathname === sub.path
-                                ? "rotate-90 text-white"
-                                : "rotate-90 text-[rgb(152,162,179)]"
-                              : location.pathname === sub.path
-                              ? "text-white"
-                              : "text-[rgb(152,162,179)]"
-                            : location.pathname === sub.path
-                            ? "text-white"
-                            : "text-[rgb(152,162,179)]"
+                              ? "rotate-90 text-[rgb(152,162,179)]" // Açılıbsa döndür
+                              : "text-[rgb(152,162,179)] opacity-80" // Alt menyu var amma açılmayıb – default görünüş
+                            : "hidden" // Alt menyu yoxdursa ümumiyyətlə göstərməyək
                         }`}
                       />
                     </div>
@@ -63,23 +51,17 @@ const Sidebar = ({ menu }) => {
                         {sub.subsections.map((subsub) => (
                           <li key={subsub.id} className="mb-2">
                             <div
-                              onClick={() =>
-                                subsub.subsections && toggleThirdItem(subsub.id)
-                              }
+                              onClick={() => subsub.subsections && toggleThirdItem(subsub.id)}
                               className={`flex justify-between items-center cursor-pointer px-4 py-2 mt-2 
-            ${
-              location.pathname === subsub.path
-                ? "bg-[#2D8CFF] text-white"
-                : "bg-[rgb(243,246,250)] text-[rgb(152,162,179)]"
-            }`}
-                            >
+                                ${
+                                  location.pathname === subsub.path
+                                    ? "bg-[#2D8CFF] text-white"
+                                    : "bg-[rgb(243,246,250)] text-[rgb(152,162,179)]"
+                                }`}>
                               <Link
                                 to={subsub.path}
                                 className="block text-sm w-full"
-                                onClick={(e) =>
-                                  subsub.subsections && e.preventDefault()
-                                }
-                              >
+                                onClick={(e) => subsub.subsections && e.preventDefault()}>
                                 {subsub.title}
                               </Link>
 
@@ -94,25 +76,23 @@ const Sidebar = ({ menu }) => {
                               )}
                             </div>
 
-                            {subsub.subsections &&
-                              openThirdItem === subsub.id && (
-                                <ul className="mt-1">
-                                  {subsub.subsections.map((subsubsub) => (
-                                    <li key={subsubsub.id} className="mb-1">
-                                      <Link
-                                        to={subsubsub.path}
-                                        className={`block text-sm px-4 py-2 mt-2 ${
-                                          location.pathname === subsubsub.path
-                                            ? "bg-[#2D8CFF] text-white"
-                                            : "bg-[rgb(243,246,250)] text-[rgb(152,162,179)]"
-                                        }`}
-                                      >
-                                        {subsubsub.title}
-                                      </Link>
-                                    </li>
-                                  ))}
-                                </ul>
-                              )}
+                            {subsub.subsections && openThirdItem === subsub.id && (
+                              <ul className="mt-1">
+                                {subsub.subsections.map((subsubsub) => (
+                                  <li key={subsubsub.id} className="mb-1">
+                                    <Link
+                                      to={subsubsub.path}
+                                      className={`block text-sm px-4 py-2 mt-2 ${
+                                        location.pathname === subsubsub.path
+                                          ? "bg-[#2D8CFF] text-white"
+                                          : "bg-[rgb(243,246,250)] text-[rgb(152,162,179)]"
+                                      }`}>
+                                      {subsubsub.title}
+                                    </Link>
+                                  </li>
+                                ))}
+                              </ul>
+                            )}
                           </li>
                         ))}
                       </ul>
@@ -129,3 +109,6 @@ const Sidebar = ({ menu }) => {
 };
 
 export default Sidebar;
+
+
+
