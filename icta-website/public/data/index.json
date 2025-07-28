@@ -286,12 +286,12 @@
           {
             "id": 5,
             "title": "Nazirlər Kabinetinin qərarları",
-            "path": "/huquqi-aktlar/nazirler-kabinetinin-qerarlari"
+            "path": "/huquqi-aktlar/nazirler-kabinetinin-qearlari"
           },
           {
             "id": 6,
             "title": "Rəqəmsal İnkişaf və Nəqliyyat Nazirliyinin qərarları",
-            "path": "/huquqi-aktlar/reqemsal-inkisaf-ve-neqliyyat-nazirliyinin-qerarlari"
+            "path": "/huquqi-aktlar/rin-qerarlari"
           }
         ]
       },
@@ -313,12 +313,12 @@
               {
                 "id": 2,
                 "title": "Poçt xidmətləri",
-                "path": "/istehlakci/ehali/pocot-xidmetleri"
+                "path": "/istehlakci/ehali/poct-xidmetleri"
               },
               {
                 "id": 3,
                 "title": "Xidmət provayderinə müraciət et",
-                "path": "/istehlakci/ehali/xidmet-provayderine-muraciet-et"
+                "path": "/istehlakci/ehali/xidmet-provayderlerine-muraciet"
               }
             ]
           },
@@ -374,24 +374,24 @@
               {
                 "id": 2,
                 "title": "İnternet provayderlər",
-                "path": "/xidmet-bazarları/bazar-istirakcilari/internet-provayderler"
+                "path": "/xidmet-bazarları/bazar-istirakcilari/internet-provayderleri"
               },
               {
                 "id": 3,
                 "title": "Backbone operatorlar",
-                "path": "/xidmet-bazarları/bazar-istirakcilari/backbone-operatorlar"
+                "path": "/xidmet-bazarları/bazar-istirakcilari/backbone-operatorlari"
               },
               {
                 "id": 4,
                 "title": "Poçt xidmətləri",
-                "path": "/xidmet-bazarları/bazar-istirakcilari/pocot-xidmetleri"
+                "path": "/xidmet-bazarları/bazar-istirakcilari/poct-xidmetleri"
               }
             ]
           },
           {
             "id": 3,
             "title": "Bazar araşdırması",
-            "path": "/xidmet-bazarları/bazar-aradirmasi"
+            "path": "/xidmet-bazarları/bazar-arasdirmasi"
           },
           {
             "id": 4,
@@ -406,7 +406,7 @@
               {
                 "id": 2,
                 "title": "Poçt xidmətləri",
-                "path": "/xidmet-bazarları/xidmet-keyfiyyeti/pocot-xidmetleri"
+                "path": "/xidmet-bazarları/xidmet-keyfiyyeti/poct-xidmetleri"
               },
               {
                 "id": 3,
@@ -723,6 +723,7 @@
         "img": "https://media.istockphoto.com/id/1401460590/photo/businessman-working-on-laptop-with-document-management-icon.jpg?s=612x612&w=0&k=20&c=o8Ci6F_YCWFlKE2Yr6A2wbDvrZRwSB3YssLakLkrFBo="
       }
     ],
+    
     "services": [
       { "id": 1, "name": "Uçuto alma", "icon": "/svg/acc.svg" },
         { "id": 2, "name": "Məlumat toplama sistemi", "icon": "/svg/info.svg" },
