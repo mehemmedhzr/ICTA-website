@@ -1,37 +1,27 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import { useDataContext } from "../../../context/DataContext";
 
 const Struktur = () => {
   const [data, setData] = useState(null);
+  const { getSectionData } = useDataContext();
 
   useEffect(() => {
-    fetch("/data/index.json")
-      .then((res) => res.json())
-      .then((data) => {
-        const haqqimizda = data.navigation?.sections.find(
-          (item) => item.title === "Haqqımızda"
-        );
-
-        const struktur = haqqimizda?.subsections?.find(
-          (sub) => sub.title === "Struktur"
-        );
-
-        setData(
-          struktur ? { ...struktur, sectionTitle: haqqimizda?.title, section: haqqimizda?.title } : null
-        );
-      })
-      .catch((error) => {
-        console.error("Error fetching data:", error);
+    const result = getSectionData("Haqqımızda", "Struktur");
+    setData(result);
+    if (result) {
+      setData({
+        ...result,
+        section: "Haqqımızda",
       });
-  }, []);
+    }
+  }, [getSectionData]);
 
-  if (!data) {
-    return <div className="text-center py-10">Yüklənir...</div>;
-  }
+  if (!data) return <div>Loading...</div>;
 
   return (
-    <div className="px-4 md:px-10">
-      <h1 className="text-[32px] font-medium pt-8">{data.title}</h1>
+    <div className="px-2">
+      <h1 className="text-[32px] font-medium pt-2">STRUKTUR</h1>
 
       <div className="pb-8">
         <div className="text-sm py-2">

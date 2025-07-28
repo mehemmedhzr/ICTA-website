@@ -3,7 +3,7 @@ import { createRoot } from "react-dom/client";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { rootRoutes } from "./routes/root";
-import DataProvider from "./context/DataContext";
+import {DataProvider} from "./context/DataContext";
 
 const router = createBrowserRouter(rootRoutes);
 

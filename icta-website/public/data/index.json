@@ -77,64 +77,262 @@
             "subsections": [
               {
                 "id": 1,
-                "title": "Telekommunikasiya",
                 "path": "/haqqimizda/fealiyyet/telekommunikasiya",
+                "title": "Telekommunikasiya",
                 "subsections": [
                   {
                     "id": 1,
                     "title": "Operator və provayderin uçotu",
-                    "path": "/haqqimizda/fealiyyet/telekommunikasiya/operator-ve-provayderin-ucotu"
+                    "path": "/haqqimizda/fealiyyet/telekommunikasiya/operator-ve-provayderin-ucotu",
+                    "ucotname": "İnternet telekommunikasiya xidməti göstərən operatorların və provayderlərin uçotu",
+                    "ucotdesc": "İnternet telekommunikasiya xidməti göstərən operatorlar və provayderlər xidmət göstərməyə başladıqları vaxtdan 15 gün müddətində uçota durmalıdırlar, habelə uçot məlumatlarında baş vermiş dəyişiklik barədə dəyişikliyin baş verdiyi vaxtdan 10 gün müddətində məlumat verməlidirlər. Uçotun aparılması proseduru Azərbaycan Respublikası Nazirlər Kabinetinin 2017-ci il 12 oktyabr tarixli 427 nömrəli qərarı ilə təsdiq edilmiş “İnternet telekommunikasiya xidməti göstərən operatorların və provayderlərin uçotunun aparılması Qaydası” əsasında həyata keçirilir.",
+                    "ucotname2": "Operator və provayderlərin uçota alınmasının məqsədi",
+                    "ucotdesc2": [
+                      "Məqsəd internet xidməti sahəsində məlumatların toplanması, ümumiləşdirilməsi, həmçinin tənzimlənən sahədə vəziyyətin öyrənilməsi və istehlakçı hüquqlarının müdafiəsinin gücləndirilməsidir.",
+                      "Uçota alınmış şirkətlərin siyahısı ilə həmçinin Rəqəmsal İnkişaf və Nəqliyyat Nazirliyinin rəsmi saytında da tanış olmaq olar."
+                    ],
+                    "ucotinter": "Internet telekommunikasiya xidməti göstərən operatorların və provayderlərin uçotunun aparılması"
                   },
                   {
                     "id": 2,
                     "title": "Uçota alınmış operator və provayderlər",
-                    "path": "/haqqimizda/fealiyyet/telekommunikasiya/ucota-alinmis-operator-ve-provayderler"
+                    "path": "/haqqimizda/fealiyyet/telekommunikasiya/ucota-alinmis-operator-ve-provayderler",
+                    "tablehead": [
+                      "Uçot nömrəsi",
+                      "Müraciət edən Operator və ya Provayderin adı",
+                      "Fəaliyyət növü",
+                      "Göstərdiyi internet telekommunikasiya xidmətlərinin növü",
+                      "Uçota alınma tarixi",
+                      "Telefon <br/> nömrəsi",
+                      "Vebsayt",
+                      "E-poçt"
+                    ],
+                    "tabledata1": [
+                      "1",
+                      "“INTRA NETWORK SYSTEMS” MMC",
+                      "Host provayder",
+                      "Hostinq xidmətləri",
+                      "27.02.2018",
+                      "+994 12 480 49 86",
+                      "-",
+                      "xuraman.huseynova@turktelecom.az"
+                    ],
+                    "tabledata2": [
+                      "2",
+                      "“AZƏRBAYCAN RESPUBLİKASININ KOSMİK AGENTLİYİ (AZƏRKOSMOS)” PUBLİK HÜQUQİ ŞƏXSİ",
+                      "Operator, internet provayder, host provayder",
+                      "GPON, peyk üzərindən yüksək sürətli internet, portların icarəsi, internetin topdan satışı, mobil şəbəkələrdə nəqletmə - “Mobile Backhauling”, beynəlxalq tranzit, optik kabel üzərindən infrastruktur, hostinq, digər internet xidmətləri",
+                      "27.02.2018",
+                      "+994 12 480 49 86",
+                      "-",
+                      "office@intrans.baku.az"
+                    ],
+                    "tabledata3": [
+                      "3",
+                      "“INTRA NETWORK SYSTEMS” MMC",
+                      "Host provayder",
+                      "Hostinq xidmətləri",
+                      "27.02.2018",
+                      "+994 12 480 49 86",
+                      "-",
+                      "office@intrans.baku.az"
+                    ]
                   },
 
                   {
                     "id": 3,
-                    "title": "Arabağlantı",
-                    "path": "/haqqimizda/fealiyyet/telekommunikasiya/ara-baglantı"
+                    "title": "Ara bağlantı",
+                    "path": "/haqqimizda/fealiyyet/telekommunikasiya/ara-baglantı",
+                    "name1": "Azərbaycanda operatorlar arasında arabağlantı münasibətləri necə tənzimlənir?",
+                    "name2": "İKTA-nın arabağlantı münasibətlərinin tənzimlənməsində rolu",
+                    "name3": "Arabağlantı müqaviləsi",
+                    "desc1": [
+                      "Arabağlantı effektiv telekommunikasiyanın inkişafı üçün olduqca önəmlidir.",
+                      "<strong>Arabağlantı</strong> bir şəbəkəyə qoşulmuş istehlakçıların digər şəbəkənin xidmət göstərdiyi istehlakçıları ilə əlaqə saxlamasına imkan verən şəbəkə operatorları arasında texniki və əməliyyat təlimatları, hüquqi qaydalar toplusudur.  <strong>(Mənbə: Beynəlxalq Telekommunikasiya İttifaqı (BTİ))</strong>"
+                    ],
+                    "desc2": "Azərbaycanda telekommunikasiya fəaliyyətinin tənzimlənməsi <strong>dövlətin</strong> səlahiyyətindədir. Telekommunikasiya fəaliyyətinin istiqamətlərindən biri də  ölkədə fəaliyyət göstərən operatorlar arasında <strong>arabağlantı</strong> münasibətlərinin tənzimlənməsidir.",
+                    "desc3": "İKTA-nın əsas fəaliyyət istiqamətlərindən biri də telekommunikasiya operatorları arasında arabağlantı şərtlərinin müəyyən edilməsi, bu sahədə fəaliyyətin tənzimlənməsi, qarşılıqlı mübahisələrin həlli ilə bağlı tədbirlər görməkdir.",
+                    "desc4": [
+                      "Azərbaycanda operatorlar öz şəbəkələri arasında qarşılıqlı <strong>arabağlantını</strong> müqavilə əsasında həyata keçirirlər.",
+                      "<strong>Arabağlantı müqaviləsində</strong> texniki, iqtisadi (şəbəkələrarası qoşulma haqları, qarşılıqlı arabağlantıda trafikin ötürülməsi zamanı pay bölgüsü, ixtisaslaşdırılmış təcili yardım xidmətlərinə edilən zənglərə görə ödənişlər və s. nəzərə alınmaqla) və müqaviləni bağlayan tərəflərin müəyyən etdiyi digər məsələlər nəzərə alınmalıdır.",
+                      "Operator hər bümumistifadəli telekommunikasiya şəbəkəsi operatoru ilə <strong>2 ay müddətindən gec olmayaraq</strong> arabağlantı müqaviləsi bağlamalıdır.",
+                      "<strong>Ümumistifadəli telekommunikasiya şəbəkəsi</strong> operatorlar arasında bağlanan arabağlantı müqavilələr əsasında istifadəçilərə vahid prinsiplərlə <strong>telekommunikasiya xidmətləri</strong> göstərmək üçün təşkil edilir."
+                    ]
                   },
                   {
                     "id": 4,
                     "title": "Nömrə resursu",
-                    "path": "/haqqimizda/fealiyyet/telekommunikasiya/nomre-resusu"
+                    "path": "/haqqimizda/fealiyyet/telekommunikasiya/nomre-resursu",
+                    "name1": "Nömrə resursu",
+                    "name2": "Nömrə resursundan istifadənin təşkili",
+                    "name3": "Məxsusiləşdirmə kodu",
+                    "name4": "Nömrə daşınması",
+                    "name5": "Nömrə resursu: İKTA-nın rolu",
+                    "desc1": "Nömrə resursu rəqəmli, hərfi işarələmə və ya həmin işarələrin kombinasiyası, o cümlədən telekommunikasiya şəbəkəsinin və (və ya) onun qovşaq və ya son nöqtələrinin birmənalı şəkildə müəyyənləşdirilməsi üçün nəzərdə tutulan və telekommunikasiya şəbəkəsində istifadəsi mümkün olan kodların (nömrələnmə variantlarının) məcmusu və ya onların bir hissəsidir.",
+                    "desc2": "Ölkə ərazisində nömrə resursunun tənzimlənməsi dövlətin müstəsna hüququdur. İstehlakçıların telekommunikasiya xidmətlərinə olan tələbatını ödəmək üçün nömrə resursu qaydalarda operatora, provayderə ayrılır. Nömrə resursu müqavilə bağlanmaqla ödənişli əsaslarla müddətli və ya daimi istifadəyə verilir. Nömrə resurslarının ayrılması və istifadəsi qaydalarını, nömrələmə sistemi və planı, həmçinin Azərbaycan Respublikasının üzv olduğu beynəlxalq təşkilatların tövsiyələrini nəzərə almaqla RİNN müəyyən edilir.",
+                    "desc3": "Məxsusiləşdirmə kodu operatorun, provayderin və abunəçinin müəyyənləşdirilməsi üçün tətbiq edilən rəqəmlər və (və ya) işarələrdir. Operator və provayderlər onlara ayrılmış nömrə resursundan abunəçilərinə məxsusiləşdirmə kodları verirlər.",
+                    "desc4": "Nömrə daşınması ümumistifadəli telekommunikasiya şəbəkəsi daxilində abunəçinin istifadə etdiyi sellülar (mobil) nömrənin (nömrəni saxlamaq şərti ilə) həmin abunəçiyə sellülar (mobil) xidməti göstərən mobil operatorun telekommunikasiya şəbəkəsindən çıxarılaraq, digər mobil operatorun telekommunikasiya şəbəkəsinə daşınmasıdır (keçirilməsidir).",
+                    "desc5": "İKTA tənzimləyici qurum kimi nömrə resursunun planlaşdırılmasında və ayrılmasının təşkilində, eləcə də operatorlar arasında nömrə daşınmasının həyata keçirilməsi ilə bağlı tədbirlər görülməsində iştirak edir."
                   },
                   {
                     "id": 5,
                     "title": "Universal telekom xidmətləri",
-                    "path": "/haqqimizda/fealiyyet/telekommunikasiya/universal-telecom-xidmetleri"
+                    "path": "/haqqimizda/fealiyyet/telekommunikasiya/universal-telekom-xidmetleri",
+                    "desc1": [
+                      "<strong>Universal telekommunikasiya xidməti</strong> bütün istifadəçilərə müyəssər olan telekommunikasiya xidmətlərinin məcmusudur.",
+                      "Universal telekommunikasiya xidməti Azərbaycanın bütün ərazisində müəyyən müddət ərzində və keyfiyyətlə, əlverişli qiymətlə hər hansı telekommunikasiya xidməti istifadəçisinə göstərilməsi operatorlar, provayderlər üçün icbari olan telekommunikasiya xidmətidir.",
+                      "Dövlət universal telekommunikasiya xidmətinin göstərilməsinə təminat verir.",
+                      "İKTA Azərbaycanda universal telekommunikasiya xidmətlərinin təsnifatının, təşkilinin, keyfiyyətinin, müddətinin və digər tələblərin müəyyən edilməsində, xidmətlərə nəzarətlə bağlı zəruri tədbirlər görülməsində iştirak edir."
+                    ]
                   },
                   {
                     "id": 6,
                     "title": "Lisenziya",
-                    "path": "/haqqimizda/fealiyyet/telekommunikasiya/lisenziya"
+                    "path": "/haqqimizda/fealiyyet/telekommunikasiya/lisenziya",
+                    "name1": "Lisenziya nədir?",
+                    "name2": "Telekommunikasiya fəaliyyəti sahəsində lisenziyalaşdırma",
+                    "name3": "Lisenziyalaşdırma: İKTA-nın rolu",
+                    "name4": "Azərbaycanda telekommunikasiya sahəsində lisenziya və icazələrin verildiyi fəaliyyət növləri",
+                    "desc1": "Lisenziya – müvafiq sahibkarlıq fəaliyyəti növünün həyata keçirilməsi üçün ərizəçiyə lisenziya verən orqan tərəfindən verilən rəsmi sənəddir.",
+                    "desc2": "Telekommunikasiya fəaliyyəti sahəsində lisenziyalaşdırma “Lisenziyalar və icazələr haqqında” Azərbaycan Respublikasının Qanuna əsasən tənzimlənir.",
+                    "desc3": "İKTA tənzimləyici qurum olaraq, tənzimləmə sahəsinə aid fəaliyyət növləri üzrə lisenziyaya malik olan lisenziya sahibinin lisenziyada göstərilən fəaliyyəti yerinə yetirərkən lisenziya şərtlərinə riayət etməsinə nəzarətin həyata keçirilməsində iştirak edir, lisenziya sahibinin lisenziya şərtlərinə riayət etməməsi hallarını aşkar etdikdə, lisenziyanın dayandırılması və ləğvi barədə Nazirlik qarşısında məsələ qaldırır.",
+                    "tabledesc": "“Lisenziyalar və icazələr haqqında” Azərbaycan Respublikasının 2016-cı il 15 mart tarixli 176-VQ nömrəli Qanununa 1 nömrəli əlavə",
+                    "tablename": "Fəaliyyətin adı",
+                    "desc4Left": [
+                      "telefon (məftilli)",
+                      "radiotrank və simsiz telefon",
+                      "IP-telefoniya (internet telefoniya)",
+                      "ölkədaxili telekommunikasiya kanallarının təşkili",
+                      "beynəlxalq telekommunikasiya kanallarının təşkili",
+                      "məlumatların ötürülməsi (data)",
+                      "sürətli poçt xidməti – Lisenziyalı poçt operatorları ilə <a href='https://example.com' class='text-blue-600 underline'>buradan</a> tanış ola bilərsiniz"
+                    ],
+                    "desc4Right": [
+                      "sellülər (mobil) telekommunikasiya xidmətləri (texnoloji standartın adı göstərilməklə)"
+                    ]
                   },
                   {
                     "id": 7,
                     "title": "Sertifikatlaşdırma",
-                    "path": "/haqqimizda/fealiyyet/telekommunikasiya/sertifikatlastirma"
+                    "path": "/haqqimizda/fealiyyet/telekommunikasiya/sertifikatlastirma",
+                    "name1": "Telekommunikasiya sahəsində sertifikatlaşdırma",
+                    "desc1": [
+                      "İKTA telekommunikasiya sahəsində sertifikatlaşdırmanın təşkilini həyata keçirir;",
+                      "Ümumistifadəli telekommunikasiya şəbəkələrində istifadə edilən telekommunikasiya vasitələri və qurğuları qanunvericilikdə müəyyən olunmuş qaydada sertifikatlaşdırılmalıdır;",
+                      "Qanunvericiliklə müəyyən edilmiş uyğunluq sertifikatı olmayan telekommunikasiya vasitələrinin və qurğularının ümum istifadəli telekommunikasiya şəbəkələrində istismarına yol verilmir;",
+                      "Telekommunikasiya vasitələri və qurğularının sertifikatlaşdırılması akkreditasiya edilmiş uyğunluğu qiymətləndirən qurumlar tərəfindən həyata keçirilir;",
+                      "Ümum istifadəli telekommunikasiya xidmətlərinin sertifikatlaşdırılması könüllü qaydada aparılır;",
+                      "Telekommunikasiya fəaliyyəti sahəsində sertifikatlaşdırma Azərbaycan Respublikası Nazirlər Kabinetinin 1998-ci il 21 avqust tarixli 175 nömrəli qərarı ilə təsdiq edilmiş “Azərbaycan Respublikasında telekommunikasiya vasitələri və qurğularının sertifikatlaşdırılması” Qaydaları ilə müəyyən edilir."
+                    ]
                   },
                   {
                     "id": 8,
                     "title": "Tariflər",
-                    "path": "/haqqimizda/fealiyyet/telekommunikasiya/tarifler"
+                    "path": "/haqqimizda/fealiyyet/telekommunikasiya/tarifler",
+                    "name1": "Telekommunikasiya və poçt xidmətləri sahəsində tariflər",
+                    "name2": "Telekommunikasiya və poçt xidmətləri sahəsində dövlət tərəfindən tənzimlənən tariflər",
+                    "name3": "Azərbaycanda telekommunikasiya və poçt xidmətlərinin tariflərinin müəyyən edilməsində aşağıdakı dövlət qurumları iştirak edir:",
+                    "name4": "İnternet telekommunikasiya xidməti göstərən operatorların və provayderlərin uçotunun aparılması",
+                    "name5": "Dövlət tərəfindən tənzimlənən xidmətlərin tarifləri",
+                    "desc1": "Telekommunikasiya və poçt xidmətləri göstərən şirkətlər qanunvericiliklə başqa qayda nəzərdə tutulmayıbsa, göstərdikləri telekommunikasiya xidmətlərinin tariflərini və ödəmə qaydasını müstəqil müəyyən edirlər.",
+                    "desc2": [
+                      "Tarif Şurası",
+                      "Rəqəmsal İnkişaf və Nəqliyyat Nazirliyi",
+                      "İqtisadiyyat Nazirliyi",
+                      "Maliyyə Nazirliyi"
+                    ],
+                    "desc3": "İKTA, tənzimləyici qurum olaraq, Azərbaycan Respublikası Prezidentinin müəyyən etdiyi hallar istisna olmaqla, telekommunikasiya və poçt xidmətləri sahələrinə aid olan məsələlərə dair tarif siyasətinin formalaşdırılması ilə bağlı, habelə bu sahədə dövlət tərəfindən tənzimlənən tariflər barədə Rəqəmsal İnkişaf və Nəqliyyat Nazirliyin təkliflər verir, müvafiq sahədə razılaşdırılmış beynəlxalq tarif siyasətinin həyata keçirilməsində iştirak edir.",
+                    "desc4": [
+                      "Mülki dövriyyənin müəyyən iştirakçılarına mənsub ola bilən və dövriyyədə olmasına xüsusi icazə əsasında yol verilən (mülki dövriyyəsi məhdudlaşdırılmış) əşyaların siyahısı haqqında Azərbaycan Respublikası Qanununun 14-cü maddəsində nəzərdə tutulmuş güc meyarı həddinin müəyyən edilməsi barədə",
+                      "Mülki dövriyyənin müəyyən iştirakçılarına mənsub ola bilən və dövriyyədə olmasına xüsusi icazə əsasında yol verilən (mülki dövriyyəsi məhdudlaşdırılmış) əşyaların siyahısı haqqında Azərbaycan Respublikası Qanununun 14-cü maddəsində nəzərdə tutulmuş güc meyarı həddinin müəyyən edilməsi barədə",
+                      "Mülki dövriyyənin müəyyən iştirakçılarına mənsub ola bilən və dövriyyədə olmasına xüsusi icazə əsasında yol verilən (mülki dövriyyəsi məhdudlaşdırılmış) əşyaların siyahısı haqqında Azərbaycan Respublikası Qanununun 14-cü maddəsində nəzərdə tutulmuş güc meyarı həddinin müəyyən edilməsi barədə",
+                      "Mülki dövriyyənin müəyyən iştirakçılarına mənsub ola bilən və dövriyyədə olmasına xüsusi icazə əsasında yol verilən (mülki dövriyyəsi məhdudlaşdırılmış) əşyaların siyahısı haqqında Azərbaycan Respublikası Qanununun 14-cü maddəsində nəzərdə tutulmuş güc meyarı həddinin müəyyən edilməsi barədə"
+                    ],
+                    "desc6": [
+                      "№ 997-VIQ",
+                      "№ 997-VIQ",
+                      "№ 997-VIQ",
+                      "№ 997-VIQ"
+                    ],
+                    "desc7": [
+                      "02.10.2023",
+                      "02.10.2023",
+                      "02.10.2023",
+                      "02.10.2023"
+                    ]
                   },
                   {
                     "id": 9,
                     "title": "Telefon (məftilli)",
-                    "path": "/haqqimizda/fealiyyet/telekommunikasiya/telefon-meftilli"
+                    "path": "/haqqimizda/fealiyyet/telekommunikasiya/telefon-meftilli",
+                    "name1": "“Bakı Telefon Rabitəsi” MMC (Baktelekom)",
+                    "name2": "“Aztelekom” MMC",
+                    "desc1": [
+                      "2001-ci il may ayının 10-da “Bakı Telefon Rabitəsi” MMC-nin internet provayderi olan “Bakİnternet”in əsası qoyulub və şirkət genişzolaqlı internet xidmətləri təqdim etməyə başlayıb. BTR MMC 1, 2, 3, 4, 5 və 6 saylı Rabitə Xidmətləri Mərkəzləri, o cümlədən Şəbəkə xidmət mərkəzləri vasitəsilə əhaliyə xidmət göstərir.",
+                      "Rabitə qurğularının layihələndirilməsi sahəsində ixtisaslaşmış təşkilat olan “Azərrabitəlayihə” MMC, eləcə də telekommunikasiya operatoru “Azeurotel” MMC Bakı Telefon Rabitəsi MMC-nin tabeliyində fəaliyyət göstərir.",
+                      "2017-ci ilin 19 iyul tarixində “Bakı Telefon Rabitəsi” İstehsalat Birliyi (BTRİB) yenidən təşkil olunub və adını dəyişərək “Bakı Telefon Rabitəsi” MMC-yə çevrildiyini elan edib.",
+                      "“Baktelekom” Bakı şəhəri ərazisində dövlət və idarəetmə orqanlarına, idarə, müəssisə və təşkilatlara, xarici hüquqi şəxslərə, onların nümayəndəliklərinə, ən əsası əhaliyə ən müasir simli və simsiz texnologiyalar vasitəsilə stasionar telefon, genişzolaqlı internet, rəqəmsal TV və bir sıra digər telekommunikasiya və multimedia xidmətləri göstərir. “Baktelecom” şəbəkəsinin stansiyalararası bağlantıları 100% optik səviyyədə təşkil olunub, böyük tutumlu stansiyalararası rabitənin alternativliyi 100 faizə, digər stansiyalar üzrə isə 90 faizə çatdırılıb.",
+                      "Baktelekom şəbəkəsi telefonlarının 40,6 faizinin xətləri üzərindən genişzolaqlı sürətli internet xidmətləri göstərilir. “Baktelecom” şəbəkəsi ATS-lərində quraşdırılmış telefon nömrə tutumu 728588 ədəd nömrə təşkil edir və bütün ATS-lər elektron tiplidir. Şəbəkədə quraşdırılmış tutumların 624919 nömrəsi və ya 85,8 % abunəçilərin istifadəsinə verilib."
+                    ],
+                    "desc2": "1992-ci ilin avqust ayında Telefon Rabitəsi İstehsalat Birliyinin əsasında təşkil edilmiş Aztelekom İstehsalat Birliyi, Azərbaycanın bütün bölgələrində bir sıra telekommunikasiya xidmətlərinin göstərilməsi məqsədi ilə yaradılıb. 2004-cü ildə “Aztelekom”un internet provayderi yaradılıb. Bu gün Aztelekom MMC ən ucqar kəndlər də daxil olmaqla, respublikanın regionlarında genişzolaqlı internet xidmətlərinin göstərilməsi istiqamətində müxtəlif layihələr və tədbirlər həyata keçirir. Aztelekom MMC tərəfindən 2005-ci ildə portativ daşınan telefon CDMA simsiz rabitə xidməti istismara verilib. “Aztelekom” MMC ölkənin bütün regionlarında (Bakı şəhəri və Naxçıvan MR istisna) əhalini stasionar telefon xidməti ilə təmin edir.",
+                    "name3": "Azərbaycanda telefon rabitəsi sahəsində lisenziyalı fəaliyyət göstərən digər şirkətlər aşağıdakılardır:",
+                    "desc3": [
+                      "Azertelecom MMC",
+                      "“Aselsan-Bakü”",
+                      "Azevrotel MMC",
+                      "Delta Telekom MMM",
+                      "Smart Systems NET MMC",
+                      "Telecom Invest (simsiz telefon və radiotrank rabitə)",
+                      "Transeurocom",
+                      "Ultel MMC"
+                    ]
                   },
                   {
                     "id": 10,
                     "title": "Mobil",
-                    "path": "/haqqimizda/fealiyyet/telekommunikasiya/mobil"
+                    "path": "/haqqimizda/fealiyyet/telekommunikasiya/mobil",
+                    "name1": "Azərbaycanın mobil operatorları haqqında ümumi məlumat",
+                    "name2": "Azərbaycan ərazisində mobil rabitə xidmətləri göstərən 4 əsas şirkət var:",
+                    "name3": "Azercell",
+                    "name4": "Bakcell",
+                    "name5": "Nar Mobile",
+                    "name6": "Naxtel MMC",
+                    "name7": "2023-cü ilin yanvar ayına olan məlumata görə, Azərbaycan ərazisinin genişzolaqlı şəbəkə ilə əhatəsi",
+                    "desc1": ["Azercell", "Bakcell", "NarMobile", "Naxtel"],
+                    "desc2": [
+                      "99,8%-i 3G mobil genişzolaqlı şəbəkəsi",
+                      "94%-i isə 4G mobil genişzolaqlı şəbəkəsi"
+                    ],
+                    "desc3": "Azercell Telekom MMC ən çox bazar payı və 4.5 milyondan çox abunəçi sayı ilə Azərbaycanın lider mobil operatorudur. Şirkətin ilk təsisçiləri Türkiyənin Türkcell İletişim Hizmetleri A. Ş. şirkəti və Azərbaycan Respublikasının Rabitə Nazirliyi olub. Azercell Telekom BM 1996-cı ilin yanvarında təsis edilib və həmin ilin dekabrın 15-də Azərbaycanda ilk GSM operatoru kimi öz kommersiya fəaliyyətinə başlayıb. 1998-ci ildə Azercell dünya telekommunikasiya sektorunda öncədən ödəmə sistemini (SimSim) tətbiq edən ilk şirkətlərdən biri olub.1 aprel 2008-ci ildən etibarən Azercell Telekom MMC adlanmağa başlayıb. Azercell beynəlxalq Telia Company şirkətlər qrupunun tərkibində olub. Telia Company-nın Avrasiyada mobil rabitə sahəsində telekommunikasiya holdinqlərindən biri olub. 2008-ci ildən Azercell şirkətinin sərmayədarı Türkiyənin Azertel Telekomünikasyon ve Yatırım Dış Ticaret A. Ş, şirkəti olub. Payları tam olaraq Azərbaycan dövlətinə məxsus olan Azerbaijan International Telecom (AzInTelecom) Məhdud Məsuliyyətli Cəmiyyəti və Niderland qanunvericiliyinə əsasən yaradılmış Fintur Holdings B. V. şirkəti arasında 5 mart 2018-ci il tarixində Türkiyədə təsis edilmiş və Azercell Telecom Məhdud Məsuliyyətli Cəmiyyətin yeganə təsisçisi olan Azertel Telekomünikasyon Yatırım Dış Ticaret A. Ş. (Azertel) şirkətinin 51,3% səhmlərinin alınması barədə müqavilə imzalanıb.Şirkət GSM, UMTS və LTE texnologiyaları üzrə xidmət göstərir.",
+                    "desc4": "Bakcell - GSM standartlı mobil rabitə operatoru, Azərbaycanda ilk mobil rabitə xidmətləri göstərən şirkətdir. Bakcell şəbəkəsi 9 minə yaxın baza stansiya sayəsində Azərbaycan əhalisinin 99,9%-ni, ölkə ərazisinin isə 92,6%-ni əhatə edir. Azərbaycan iqtisadiyyatının qeyri-neft sektorunun investorlarından biri olan Bakcell 3 milyondan artıq abunəçini telekommunikasiya xidmətləri (zəng və mobil internet) ilə təmin edir. 4G şəbəkəsi sayəsində, bu gün Azərbaycanın əksər şəhər və rayonlarında (Naxçıvan Muxtar Respublikası istisna olmaqla) yaşayan Bakcell abunəçiləri şirkətin təqdim etdiyi mobil internet xidmətlərindən yararlanmaq imkanına malikdirlər. Bakı metrosunda 4G internet xidmətlərini göstərən ilk mobil operatordur.Şirkət müxtəlif sahələrdə və ölkələrdə fəaliyyət göstərən şaxələnmiş şirkətlər qrupu olan NEQSOL Holding-ə daxildir.",
+                    "desc5": "Nar - Azerfon MMC-nin Azərbaycanda fəaliyyət göstərən GSM standartlı mobil rabitə operatoruna məxsus olan əmtəə nişanıdır.Azerfon MMC şirkəti 2005-ci ildə rəsmi qeydiyyatdan keçib. 2007-ci il mart 21-də “Nar Mobil” əmtəə nişanı ilə fəaliyyətə başlayıb. Azərbaycan telekommunikasiya bazarına üçüncü daxil olan mobil operator bazarda ən sərfəli qiymətləri təklif etdi. 2008-ci ildə “Nar” Azərbaycanda 3G texnologiyası əsasında xidmət təklif edən mobil operator olub. “Nar” ölkədə ilk dəfə olaraq 3G texnologiyasını təqdim edib və geniş 4G şəbəkəsini abunəçilərinin istifadəsinə verib. “Nar” şəbəkəsi hazırda ölkə ərazisinin 91%-ni əhatə edir və 2,24 milyondan çox abunəçiyə yüksəkkeyfiyyətli xidmət göstərir.“Nar” şəbəkə keyfiyyətinin davamlı təkmilləşdirilməsi strategiyası çərçivəsində səs keyfiyyətinin nəzərəçarpacaq dərəcədə artımını və səsin təmiz ötürülməsini təmin edən “HD-Voice” (High Definition Voice) xidmətini təqdim edib.",
+                    "desc6": "NAXTEL Məhdud Məsuliyyətli Cəmiyyəti 2015-ci ilin iyul ayında Naxçıvan şəhərində təsis olunub. ”NAXTEL” 4-cü nəsil GSM + LTE operatorudur.Öz nizamnaməsi və Naxçıvan Muxtar Respublikası Rabitə və Yeni Texnologiyalar Nazirliyi tərəfindən verilmiş 7 sentyabr 2015-ci il tarixli 0001503 nömrəli lisenziya əsasında fəaliyyət göstərir. Hazırda 130 baza stansiyası vasitəsi ilə Naxçıvan Muxtar Respublikasının bütün yaşayış məntəqələrini əhatə edir. Hər bir baza stansiyası ilə Mərkəzi İdarəetmə Sistemi arasında fiber optik kabel xətləri çəkilmiş və saniyədə 1GB informasiya daşıya bilən avadanlıqlar qurulmuşdır. NAXTEL 4G mobil şəbəkəsində 800 Mhz, 900 Mhz və 1800 Mhz tezlik diapozonlarının hər üçündən istifadə olunur. Milli və beynəlxalq rominq əlaqələri NAXTEL 4G-nin dünyanın 10-dan artıq ölkəsində fəaliyyətini təmin edir. Buraya səs, data və SMS xidmətləri daxildir. NAXTEL MMC−NİN məqsədi müasir texnologiyalardan istifadə etməklə vətndaşlarımıza yüksək keyfiyyətli mobil xidmətlər təqdim etməkdir.NAXTEL MMC−nin məqsədi müasir texnologiyalardan istifadə etməklə vətndaşlarımıza yüksək keyfiyyətli mobil xidmətlər təqdim etməkdir."
                   },
                   {
                     "id": 11,
                     "title": "İnternet",
-                    "path": "/haqqimizda/fealiyyet/telekommunikasiya/internet"
+                    "path": "/haqqimizda/fealiyyet/telekommunikasiya/internet",
+                    "name1": "Azərbaycanda internet istifadəçiləri",
+                    "name2": "İnternetin sürəti",
+                    "name3": "Fiber-optik şəbəkənin qurulması",
+                    "img": "/images/internet.png",
+                    "desc1": [
+                      "Azərbaycanda İnternet 1993-cü ildən inkişaf etməyə başlayıb. İlk sayt 1994-cü ildə Azərbaycan Elmlər Akademiyasında yaradılıb, ilk dövlət orqanının saytı isə Azərbaycan Respublikası Prezidentinin saytı olub və 1997-ci ildə yaradılıb. 1993-cü ildən yüksək səviyyəli milli AZ domeninin inzibatçılığı həyata keçirilir.",
+                      "2023-cü ilin əvvəlinə olan məlumata əsasən, ölkənin 88%-i internet istifadəcisidir. Yəni əhalinin hər 100 nəfərindən 88-i internetdən istifadə edir."
+                    ],
+                    "desc2": "Ookla şirkətinin dünyada geniş tanınan Speedtest Global İndex metodologiyasına əsasən apardığı hesablamalara görə, Azərbaycanda",
+                    "desc3": [
+                      "sabit genişzolaqlı internetin orta sürəti 27,57 MB/S",
+                      "mobil internetin sürəti 32,06 MB/S-dir."
+                    ],
+                    "desc4": "Azərbaycanda sabit genişzolaqlı internet istifadəçilərinin təxminən 70 %-i şəbəkəyə ADSL texnologiyası ilə qoşulur. Fiber-optik kabel üzərindən qoşulma göstəricisi isə 19 %-dir. ADSL texnologiyasının isə saniyədə 10 MB yuxarı həddi var.",
+                    "desc5": "Azərbaycanda fiber-optik şəbəkənin qurulmasına 2017-ci ildən başlanılıb. 2021-ci ilə qədər 225 min ev təsərrüfatı fiber-optik şəbəkə ilə əhatə olunub.",
+
+                    "desc6": "2021-ci ildən dövlət-özəl tərəfdaşlığı əsasında fiber-optik kabelin yenilənməsi mqəsədilə bir neçə telekommunikasiya operatoru, o cümlədən “Aztelekom”, “Baktelekom” və “Azeronline” MMC-lər səylərini birləşdirərək “Onlayn Azərbaycan” layihəsinə başlayıblar. Layihənin əsas operatoru isə “Aztelekom” şirkətidir. Layihə çərçivəsində GPON texnologiyası əsasında sürətli və kəsintisiz fiber-optik şəbəkənin qurulması işləri görülür. Layihə çərçivəsində 3 il ərzində genişzolaqlı internetə çıxış imkanı yaradılan ev təsərrüfatlarının sayı 1 milyona çatdırılıb. 2021-ci ilin sonuna qədər Azərbaycanda 3 şirkət üzrə 436 min ev təsərrüfatının müasir GPON (Gigabit tutumlu Passiv Optik Şəbəkə) texnologiyası istifadə edilməklə internet şəbəkəsinə qoşulmasına imkan yaradılıb",
+                    "desc7": [
+                      "2023-cü ilin sonunadək Azərbaycanda mövcud ev təsərrüfatlarının 55%-i müasir GPON (Gigabit tutumlu Passiv Optik Şəbəkə) texnologiyası əhatə olunacaq;",
+                      "2024-ci ilin sonuna qədər ölkə ərazisindəki bütün ev təsərrüfatlarının internetlə təmin edilməsi və internetin minimum sürətinin 25 mbps-ə çatdırılması gözlənilir."
+                    ]
                   },
                   {
                     "id": 12,
@@ -151,17 +349,79 @@
                   {
                     "id": 1,
                     "title": "Radiospektr resurslarından səmərəli istifadə",
-                    "path": "/haqqimizda/fealiyyet/spektr-idareciliyi/radiospektr-resuslari"
+                    "path": "/haqqimizda/fealiyyet/spektr-idareciliyi/radiospektr-resuslari",
+                    "name1": "Radiospektrdən səmərəli istifadə",
+                    "name2": "Radiotezliklərdən səmərəli istifadəyə dair “Telekommunikasiya haqqında” Qanuna dəyişiklik",
+                    "name3": "Radioelektron vasitələrin istifadəsi",
+                    "name4": "Milli Tezlik cədvəli",
+                    "name5": "Radiospektrin perspektiv istifadə planı",
+                    "name6": "Radiotezlik spektrindən istifadəyə görə ödənişlər",
+                    "desc1": "Azərbaycan Respublikasında radiospektrdən səmərəli istifadənin təşkili Azərbaycan Respublikası Nazirlər Kabinetinin 2007-ci il 1 fevral tarixli 22 nömrəli qərarı ilə təsdiqlənmiş Radiotezliklərin ayrılması, qeydiyyatı, istifadəsi və ödənişlərin təyin olunması qaydaları ilə tənzimlənir.  ",
+                    "desc2": [
+                      "2023-cü ilin 4 fevralında Azərbaycan Respublikasının Prezidentinin fərmanı ilə radiospektr idarəçiliyi sahəsində münasibətlərin effektiv formada tənzimlənməsi, təkmilləşdirilməsi, eyni zamanda radiotezlik spektrinin ayrılması və istifadəsində şəffaflıq, ədalətlilik prinsiplərinə riayət olunması, hüquqi bazanın möhkəmləndirilməsi məqsədilə “Telekommunikasiya haqqında” Azərbaycan Respublikasının Qanununda əlavə və dəyişikliklər edilib.",
+                      "Yeni dəyişikliyə əsasən, ölkə ərazisində radiotezlik resursları 10 il müddətinə ayrılacaq.",
+                      "Həmçinin radiotezliklərdən istifadəyə dair bağlanacaq müqavilədə tərəflərin öhdəlikləri yeni qaydalara əsasən müəyyənləşdiriləcək. Müqavilə bağlandıqdan sonra istifadəçi tərəfindən öhdəliklər yerinə yetirilmədikdə, o cümlədən tezlik nominalları üçün mövcud tariflərə uyğun 2 il müddətində ödənişlər tam aparılmadıqda, eləcə də ayrılmış radiotezliklər 3 ay müddətində istifadə edilmədikdə radiotezliklərin ayrılması haqqında qərar ləğv ediləcək.",
+                      "Azərbaycan Respublikasının İnzibati Xətalar Məcəlləsinə “Maddə 362-3. Müvafiq icazə olmadan radioelektron vasitələrin layihələndirilməsi, quraşdırılması və istismar edilməsi” barədə yeni maddə əlavə edilib. Həmçinin mövcud 363-cü maddənin adı dəyişdirilərək “Telekommunikasiya vasitələrindən və qurğularından qanunsuz istifadə edilməsi və onların qanunsuz dövriyyəsi” adlandırılıb, maddənin tərkib hissəsinə müvafiq əlavələr olunub."
+                    ],
+                    "desc3": "İnzibati Xətalar Məcəlləsinə edilmiş əlavə və dəyişikliklər radiotezliklərdən və həmin radiotezliklərə köklənmiş radoelektron vasitələrindən müvafiq qərar və radioelektron vasitələrinin istifadəsinə icazə vərəqəsi olmadan istifadə edilməsinin qarşısının alınmasına, dövlət qeydiyyatından keçməmiş elektromaqnit şüalanma mənbəyi sayılan radiorabitə vasitələrinin qurulmasına və istismarına, müvafiq icazə olmadan rabitə şəbəkələrinə qoşulmağa, radioelektron vasitələrinin və yüksəktezlikli qurğuların istehsalına, əldə edilməsinə, idxalına, istifadəsi və qeydiyyatı qaydalarının pozulması hallarının qarşısının alınmasına, radiorabitə vasitələrinin və yüksəktezlikli qurğuların mövcud qayda və qanunlara uyğun istismar olunmasına, efir məkanının təhlükəsiziyinin təmin edilməsinə, qeyri-qanuni fəaliyyət göstərən subyektlərin inzibati qaydada cəzalandırılmasına və onların belə əməllərdən çəkinməsinə şərait yaradacaq.",
+                    "desc4": "“Azərbaycan Respublikasının radioxidmətləri arasında radiotezlik zolaqlarının ayrılması cədvəli” Beynəlxalq Telekommunikasiya İttifaqının Tezliklərin Bölgüsü Cədvəlinə uyğun olaraq hazırlanan, Azərbaycan Respublikası ərazisində bütün hüquqi və fiziki şəxslər üçün radioelektron vasitələrinin layihələndirilməsi, istehsalı, təkmilləşdirilməsi, idxalı və istismarı məqsədilə Azərbaycan Respublikasının radiorabitə xidmətləri arasında radiotezlik zolaqlarının bölgüsünü, o cümlədən mülki və ya xüsusi istifadə təyinatlı olmasını özündə əks etdirən sənəddir.",
+                    "desc5": "Azərbaycan Respublikası Radiotezliklər üzrə Dövlət Komissiyasının 17 yanvar 2022-ci il tarixli iclasının  1 nömrəli protokol qərarı ilə təsdiq olunmuş “Azərbaycan Respublikasının radiotezliklər spektrinin perspektiv istifadə planı” Beynəlxalq Telekommunikasiya İttifaqının tövsiyyələrinə əsaslanmaqla yeni radioəsaslı texnologiyaların inkişafının təmin edilməsi və radiospektrin səmərəli istifadəsi məqsədi ilə radiotezlik zolaqlarının perspektiv bölgüsünü əks etdirən sənəddir. ",
+                    "desc6": "Azərbaycan Respublikasının Rəqəmsal İnkişaf və Nəqliyyat Nazirliyinin Kollegiyasının 19 sentyabr 2022-ci il tarixli KQ-10/22 nömrəli qərarı ilə Azərbaycan Respublikasında radiotezlik spektrindən istifadəyə görə birdəfəlik və müddətli (aylıq və ya illik) ödənişlərin hesablanması metodikaı təsdiq edilib. Azərbaycan Respublikasının Prezidentininin 15 aprel 2022-ci il tarixində imzaladığı Qanuna əsasən  Beynəlxalq Telekommunikasiya İttifaqının Radiorabitə Reqlamenti və 2019-cu il noyabrın 22-də Şarm-əl-Şeyx şəhərində imzalanmış Ümumdünya Radiorabitə Konfransının Yekun Aktları Azərbaycan Respublikasının ona dair bəyanatları ilə təsdiq edilib. "
                   },
                   {
                     "id": 2,
                     "title": "Radiospektr resurslarından istifadənin tənzimlənməsi",
-                    "path": "/haqqimizda/fealiyyet/spektr-idareciliyi/radiospektr-resuslarinin-tenzimlenmesi"
+                    "path": "/haqqimizda/fealiyyet/spektr-idareciliyi/radiospektr-resuslarinin-tenzimlenmesi",
+                    "name1": "Radiospektr idarəçiliyi nədir?",
+                    "name2": "Radiospektr idarəçiliyi niyə lazımdır?",
+                    "name3": "Ölkədə bu sahəyə nəzarət edən qurumlar",
+                    "name4": "Radiotezliklər üzrə Dövlət Komissiyası",
+                    "name5": "Audiovizual Şura",
+                    "name6": "Dövlət Radiotezliklər İdarəsi",
+                    "name7": "“Azərkosmos” ASC",
+                    "name8": "Mobil məlumatlara gələcək tələbatın ödənilməsi",
+                    "name9": "Azərbaycanın vahid 5G Strategiyası",
+                    "desc1": [
+                      "Telekommunikasiya və informasiya-kommunikasiya texnologiyaları (İKT) sektorlarında dayanıqlı tənzimləmə çərçivəsinin və idarəetmənin olması effektiv tənzimləmə üçün ən böyük zəmin sayılır. Radiospektr idarəçiliyi tənzimləyicilərin yerinə yetirdiyi bir çox funksiyalardan biridir və yeni radioəsaslı texnologiyalar ortaya çıxdıqca, bu sahə yeni çağırışlarla üzləşir.",
+                      "Radiospektr idarəçiliyi Beynəlxalq Telekommunikasiya İttifaqının (BTİ) Radio Reqlamentində müəyyən edilmiş bütün radiokommunikasiya xidmətlərinin radiotezlik spektrindən səmərəli istifadəsini və radioelektron vasitələrin(REV)  istismarını zərərli radiomaneə yaratmadan təmin etmək üçün zəruri olan hüquqi, inzibati və texniki prosedurların məcmusudur."
+                    ],
+                    "desc2": [
+                      "Getdikcə rəqəmsallaşan mühitdə, radiospektrə adekvat giriş telekommunikasiya şəbəkələrinin yerləşdirilməsi, əhatə dairəsinin genişləndirilməsi və məlumat xidmətlərinə daim artan tələbatın ödənilməsi üçün açardır.",
+                      "Bu şəbəkələr müxtəlif onlayn proqramları dəstəkləyir, insanların səhiyyə, nəqliyyat, təhsil, kənd təsərrüfatı, məşğulluq, hökumət və maliyyə xidmətləri üçün resurslara çıxış üsulunu dəyişdirərək radiospektr idarəçiliyinin iqtisadiyyatın bir neçə sektoruna təsirini genişləndirir. Məhdud resurs kimi radiospektr müxtəlif istifadəçilər və xidmətlər arasında ədalətli çıxışı və maneəsiz mühiti təmin etmək, həmçinin yeni texnologiyaların tətbiqi üçün tənzimləyicilərdən düzgün idarəetmə tələb edir. Müvafiq olaraq, müəyyənliyi təmin edən və istehlakçıları qoruyan tənzimləmə tələbləri ilə yeni simsiz texnologiyaların inkişafı üçün çevikliyin təmin edilməsi zərurəti arasında düzgün tarazlığın yaradılmasına ehtiyac var.",
+                      "Tənzimləyici qurum olaraq, İKTA-nın fəaliyyət istiqamətlərindən biri də Azərbaycanda radiospektr idarəçiliyinin tənzimlənməsi və hər kəsin maraqlarına uyğun istifadə olunmasını təmin etməkdir.",
+                      "“Telekommunikasiya haqqında” Qanunun 3-cü maddəsində qeyd olunur ki, telekommunikasiya fəaliyyəti radiotezliklərin, nömrə resurslarının və qısa kodların səmərəli istifadəsi prinsipləri əsasında həyata keçirilir."
+                    ],
+                    "desc3": "Azərbaycanda radiospektr idarəçiliyi sahəsindəvahid siyasəti Rəqəmsal İnkişaf və Nəqliyyat Nazirliyi və Radiotezliklər üzrə Dövlət Komissiyası müəyyən edir. Tənzimləyici qurum olaraq İKTA  radiospektr idarəçiliyini həyata keçirir, o cümlədən radiotezliklərdən səmərəli istifadənin təşkili, eləcə də Azərbaycan Respublikasının radiotezlik ehtiyatlarından istifadənin tənzimlənməsi və mühafizəsinin həyata keçirilməsilə bağlı tədbrilər görür.",
+                    "desc4": "Radiotezliklər üzrə Dövlət Komissiyası Azərbaycan Respublikası Prezidentinin 15 avqust 1996-cı il tarixli 484 nömrəli Fərmanı ilə Azərbaycan Respublikası Baş Nazirinin müavininin sədrliyi ilə yaradılıb və 2018-ci ilin yanvar ayınadək fəaliyyət göstərib. Azərbaycan Respublikası Prezidentinin 04 may 2021-ci il tarixli 2622 nömrəli Sərəncamına əsasən, Radiotezliklər üzrə Dövlət Komissiyası (Dövlət Komissiyası) yeni tərkibdə fəaliyyətə başlayıb.",
+                    "desc5": "Media haqqında Azərbaycan Respublikasının 30 dekabr 2021-ci il tarixli 471-VIQ nömrəli Qanununda audiovizual media sahəsini tənzimləyən orqan kimi Azərbaycan Respublikası Audiovizual Şurası müəyyən edilib. Şura Azərbaycan Respublikasında yerüstü yayımın ehtiyacları üçün nəzərdə tutulmuş radiotezliklərin planlaşdırılması işlərində iştirak edir və həmin radiotezlikləri istifadəçilərə ayrılmasını həyata keçirir.",
+                    "desc6": "Rəqəmsal İnkişaf və Nəqliyyat Nazirliyinin tabeliyindəki Dövlət Radiotezliklər İdarəsi Azərbaycan Respublikası ərazisində, o cümlədən sərhədyanı ərazilərdə təmiz radio efirin təmin olunması məqsədilə mütəmadi radiomonitorinqlər aparır, zərərli radiomaneələri aşkar edir və aradan qaldırıması üçün zəruri tədbrilər görür. Qurumun fəaliyyətinə həmçinin ayrılmış radiotezliklərin və REV-in qeydiyyatının aparılması, onların verilmiş icazələr əsasında istifadəsinə dövri olaraq nəzarət edilməsi, REV-in, eləcə də yüksəktezlikli qurğuların elektomaqnit uzlaşmasının təmini, radiotezlik spektrinin mühavizəsi və s. işlər üzrə təşkilati və texniki tədbirlərin həyata keçirilməsi daxildir.",
+                    "desc7": "Azərbaycan Respublikasının Kosmik Agentliyi kosmik fəaliyyət sahəsində tənzimləməni və nəzarəti həyata keçirir, orbital mövqelərin və əlaqədar radiotezliklərin koordinasiyasında iştirak edir. ",
+                    "desc8": [
+                      "Mobil internetə çıxış insanlar və bizneslər üçün vacib xidmətə çevrilib.",
+                      "Mobil məlumatlara gələcək tələbatın ödənilməsi şəbəkə infrastrukturu, radiospektrin bölüşdürülməsi, texnoloji yeniliklər və strateji planlaşdırmada irəliləyişləri əhatə edən çoxşaxəli yanaşmaya ehtiyac yaranır. Bunun üçün mobil şəbəkə operatorları, hökumətlər, tənzimləyici qurumlar, texnologiya təminatçıları və digər maraqlı tərəflər arasında hərtərəfli və birgə əməkdaşlıq tələb olunur. İnfrastruktur, radiospektr resursları və texnoloji irəliləyişlərə davamlı sərmayə qoyuluşu mobil şəbəkələrin verilənlərə əsaslanan xidmətlər və tətbiqlərə artan tələbatı dəstəkləməsi üçün çox vacibdir."
+                    ],
+                    "desc9": [
+                      "Müasir və yeni yaranan texnologiyaların yayılması rəqəmsal cəmiyyətin davamlı inkişafını təmin etmək məsələsini, eləcə də Azərbaycanda mövcud radiotezliklərin bölgüsündə və səmərəli istifadəsində islahatları aktual edir. Ölkədə 5G infrastrukturunun qurulması və planlı şəkildə geniş tətbiqi üçün yol xəritəsinin - strategiyanın hazırlanması vacibdir.",
+                      "Bu məqsədlə İKTA-nın rəhbərliyi ilə 2023-cü ilin iyun ayında vahid 5G Strategiyasının hazırlanması üzrə İşçı Qrupu yaradılıb. İşçi Qrupunda ölkədə 5G şəbəkəsinin tətbiqində maraqlı olan bazar iştirakçıları, o cümlədən ölkədə fəaliyyət göstərən mobil operatorların, telekommunikasiya sahəsində fəaliyyət göstərən bir sıra şirkətlərin nümayəndələri təmsil olunur.",
+                      "Strategiya ölkədə 5G infrastrukturunun tətbiqi üçün vahid strateji yanaşmanı formalaşdıracaq ki, bu da İKTA-nın 2023-cü ildə qarşısında duran növbəti prioritet məsələdir."
+                    ]
                   },
                   {
                     "id": 3,
                     "title": "Radiotezlik ehtiyatlarının mühafizəsi",
-                    "path": "/haqqimizda/fealiyyet/spektr-idareciliyi/radiotezlik-ehtiyatlarinin-muhafizesi"
+                    "path": "/haqqimizda/fealiyyet/spektr-idareciliyi/radiotezlik-ehtiyatlarinin-muhafizesi",
+                    "name1": "Radiotezlik ehtiyatlarından istifadənin tənzimlənməsi və mühafizəsi",
+                    "name2": "Sərhədyanı ərazilərdə radiomonitorinqlərin təşkili",
+                    "name3": "Radiomonitorinqlər üzrə dövlətlərarası komissiyalar",
+                    "desc1": [
+                      "İKTA Azərbaycan Respublikasının radiotezlik ehtiyatlarından istifadənin tənzimlənməsində və mühafizəsinin həyata keçirilməsində iştirak edir. ",
+                      "Bütün növ radiovericilərin və digər radiotezlikli qurğuların yaratdığı radiomaneələrin qarşısının alınması qaydası Azərbaycan Respublikası Nazirlər Kabinetinin 2005-ci il 23 dekabr tarixli 238 nömrəli qərarı ilə təsdiq edilib."
+                    ],
+                    "desc2": [
+                      "Azərbaycan Respublikası ilə Rusiya Federasiyasının sərhədyanı ərazilərində TV, radio və mobil rabitə şəbəkələrində aparılmış radiomonitorinqlərin nəticələrinə əsasn hər iki ölkənin Rabitə Administrasiyaları arasında 2023-cü ilin 9-12 may tarixlərində Quba şəhərində koordinasiya iclası keçirilmişdir. Görüşdə sərhədyanı ərazilərdə TV və FM radio yayımlarının mövcud vəziyyəti, DAB+ rəqəmsal radio yayımına keçidlə əlaqdar koordinasiya zonasında 174-230 MHs radiotezlik zolağından GE06 Sazişinə uyğun birgə istifadənin razılaşdırılması, koordinasiya zonasında 700 MHs radiotezlik zolağında TV yayımlarının digər kanallara keçirilməsi, eləcə də mobil rabitə şəbəkələrinin cari vəziyyəti, 5G mobil rabitə şəbəkəsinin tətbiqi üçün radiotezlik zolaqlarından istifadənin müzakirəsi və müvafiq texniki razılaşmaların əldə olunması təmin edilmiş, müvafiq qaydada ikitərəfli protokol imzalanıb.",
+                      "Müzakirələrdə Azərbaycan Respublikasını Rəqəmsal İnkişaf və Nəqliyyat Nazirliyinin, Dövlət Radiotezliklər İdarəsinin, İnformasiya Kommunikasiya Texnologiyaları Agentliyinin, Radio-Televiziya Yayımı və Peyk Rabitəsi İstehsalat Birliyinin və mobil operatorların mütəxəssisləri təmsil ediblər."
+                    ],
+                    "desc3": "Azərbaycan Respublikasının Rəqəmsal İnkişaf və Nəqliyyat Nazirliyi və Gürcüstanın Milli Kommunikasiya Komissiyası arasında əldə olunmuş razılaşmaya əsasən, hər iki ölkənin mütəxəssislərinin iştirakı ilə 2023-cü ilin 2-5 İyun tarixlərində sərhədyanı bölgələrdə birgə radiomonitorinqlər keçirilib və radiomonitorinqlərin nəticələrinə əsasən 6-7 iyun tarixlərində Tbilisi şəhərində koordinasiya görüşü təşkil edilib. Məqsəd sərhədyanı ərazilərdə mobil rabitə şəbəkələrinin və televiziya-radio yayımlarının tənzimlənməsi, yeni texnologiyalara keçidlə əlaqədar radiotezlik resurslarından səmərəli istifadə və qarşılıqlı maneə təsirlərinin qarşısının alınmasıdır. Müzakirələrin sonunda bir çox məsələlərlə bağlı razılıq əldə olunmuş, o cümlədən Azərbaycan tərəfinin BTİ-R tərəfindən təsdiq olunmuş 224 Nömrəli Qətnamədə (ÜRK-19) müvafiq dəyişikliklərin edilməsi təklifini Gürcüstan tərəfi dəstəkləmişdir. Görüşün nəticələrinə dair rəsmi protokol tərtib edilmiş və hər iki tərəfin səlahiyyətli nümayəndələri tərəfindən imzalanmışdır.Radiomonitorinq və müzakirələrdə Rəqəmsal İnkişaf və Nəqliyyat Nazirliyi, İnformasiya Kommunikasiya Texnologiyaları Agentliyi, Dövlət Radiotezliklər İdarəsi və mobil rabitə operatorlarının mütəxəssisləri iştirak ediblər."
                   }
                 ]
               },
@@ -173,49 +433,158 @@
                   {
                     "id": 1,
                     "title": "Ümumi məlumat",
-                    "path": "/haqqimizda/fealiyyet/poct-xidmetleri/umumi-melumat"
+                    "name": "Poçt rabitəsi xidmətləri haqqında məlumat",
+                    "path": "/haqqimizda/fealiyyet/poct-xidmetleri/umumi-melumat",
+                    "img": "/images/poct1.png",
+                    "name1": "Poçt rabİtəsİ xİdmətlərİ haqqında məlumat",
+                    "name2": "Azərbaycanda poçt xidmətlərinin tənzimlənməsi",
+                    "desc1": [
+                      "Poçt rabitəsi xidmətləri poçt göndərişlərinin qəbulu, çeşidlənməsi, saxlanılması, daşınması, göndərilməsi və ünvan sahibinə çatdırılması fəaliyyətidir. Bu xidmətlər ümumi istifadədə olan və xüsusi təyinatlı poçt rabitəsi növlərinə bölünür. Ümumi istifadədə olan poçt rabitəsi xidmətlərinə universal, sürətli və kuryer xidmətləri aiddir.",
+                      "Poçt rabitəsi xidmətlərinin göstərilməsi proseslərinin tənzimlənməsi məqsədilə 2002-ci ildə  “Poçt rabitəsi xidmətlərinin göstərilməsi Qaydaları” təsdiq edilib. 2004-cü ildə qəbul olunan “Poçt haqqında” Azərbaycan Respublikasının Qanunu poçt rabitəsi sahəsinin inkişafını daha da sürətləndirib və milli poçt rabitəsi operatorunun şəbəkəsi vasitəsilə yeni xidmətlərin göstərilməsinə geniş imkanlar yaradıb. Qanun ölkədə poçt sahəsində fəaliyyətin hüquqi, iqtisadi, təşkilati əsaslarını müəyyənləşdirməklə bərabər, poçt rabitəsi xidmətləri göstərənlərlə istifadəçilər arasında münasibətləri tənzimləyir.",
+                      "Universal poçt rabitəsi və poçt-maliyyə xidmətləri milli poçt operatoru olaraq təyin olunmuş “Azərpoçt” Məhdud Məsuliyyətli Cəmiyyəti tərəfindən göstərilir.",
+                      "1997-ci il yanvar ayının 1-dən etibarən Azərbaycanda poçt rabitəsinin elektrik rabitəsindən ayrılaraq müstəqil qurum kimi fəaliyyətə başlaması ilə poçt rabitəsi özünün yeni inkişaf mərhələsinə qədəm qoyub. Milli operator 1999-cu ildən “Azərpoçt” Dövlət Müəssisəsi (DM) kimi, 31 avqust 2009-cu ildən isə “Azərpoçt” Məhdud Məsuliyyətli Cəmiyyəti (MMC) kimi fəaliyyətini davam etdirib.",
+                      "“Lisenziyalar və icazələr haqqında” Azərbaycan Respublikasının Qanununun 1 nömrəli əlavəsinin “Lisenziya tələb olunan fəaliyyət növlərinin (dövlət təhlükəsizliyindən irəli gələn hallar istisna olmaqla) siyahısı”nın 6-cı maddəsinə əsasən, “sürətli poçt xidməti” lisenziyalı fəaliyyətdir. Hazırda Azərbaycanda sürətli poçt xidməti göstərən 200-dən artıq poçt rabitəsi operatoru mövcuddur. Özəl poçt rabitəsi operatorları innovativ yanaşmaları və sürətli çatdırılma xidmətləri ilə sektora töhfə verir. Müştəri məmnuniyyətini artırmaq və xidmət keyfiyyətini yüksəltmək üçün müxtəlif texnoloji həllər tətbiq edir. Şirkətlərin bu sahədə artan rolu, poçt xidmətlərinin müasirləşməsinə və diversifikasiyasına imkan yaradır."
+                    ],
+                    "desc2": [
+                      "İKTA poçt rabitəsi xidmətləri sahəsində tənzimləməni və nəzarəti həyata keçirir.",
+                      "Azərbaycanda poçt rabitəsi xidmətləri sahəsi 2004-cü ildə qəbul edilmiş “Poçt haqqında” Qanun və 2016-cı ildə qəbul edilmiş “Poçt rabitəsi xidmətlərinin göstərilməsi Qaydaları” ilə tənzimlənir."
+                    ]
                   },
                   {
                     "id": 2,
                     "title": "Universal poçt rabitəsi xidmətlərinin tarifləri",
-                    "path": "/haqqimizda/fealiyyet/poct-xidmetleri/universal-poct-xidmeti-tarifleri"
+                    "path": "/haqqimizda/fealiyyet/poct-xidmetleri/universal-poct-xidmeti-tarifleri",
+                    "name1": "Universal poçt rabitəsi xidmətlərinin tarifləri",
+                    "desc1": "Universal poçt rabitəsi xidmətlərinin tarifləri Azərbaycan Respublikası İqtisadiyyat Nazirliyinin və Azərbaycan Respublikası Maliyyə Nazirliyinin rəyi nəzərə alınmaqla, Azərbaycan Respublikasının Rəqəmsal İnkişaf və Nəqliyyat Nazirliyi tərəfindən müəyyən edilir.",
+                    "name2": "İnternet telekommunikasiya xidməti göstərən operatorların və provayderlərin uçotunun aparılması"
                   },
                   {
                     "id": 3,
                     "title": "Poçt rabitəsi xidmətləri üzrə verilmiş lisenziyaların siyahısı",
-                    "path": "/haqqimizda/fealiyyet/poct-xidmetleri/poct-rabite-lisenziyalari"
+                    "path": "/haqqimizda/fealiyyet/poct-xidmetleri/poct-rabite-lisenziyalari",
+                    "desc1": [
+                      "Poçt rabitəsi operatorlarının sayı: 247",
+                      "Poçt rabitəsi operatorlarının sayı: 800"
+                    ],
+                    "tablehead": [
+                      "Uçot nömrəsi",
+                      "Müraciət edən Operator və ya Provayderin adı",
+                      "Fəaliyyət növü",
+                      "Göstərdiyi internet telekommunikasiya xidmətlərinin növü",
+                      "Uçota alınma tarixi",
+                      "Telefon <br/> nömrəsi",
+                      "Vebsayt",
+                      "E-poçt"
+                    ],
+                    "tabledata1": [
+                      "1",
+                      "“INTRA NETWORK SYSTEMS” MMC",
+                      "Host provayder",
+                      "Hostinq xidmətləri",
+                      "27.02.2018",
+                      "+994 12 480 49 86",
+                      "-",
+                      "xuraman.huseynova@turktelecom.az"
+                    ],
+                    "tabledata2": [
+                      "2",
+                      "“AZƏRBAYCAN RESPUBLİKASININ KOSMİK AGENTLİYİ (AZƏRKOSMOS)” PUBLİK HÜQUQİ ŞƏXSİ",
+                      "Operator, internet provayder, host provayder",
+                      "GPON, peyk üzərindən yüksək sürətli internet, portların icarəsi, internetin topdan satışı, mobil şəbəkələrdə nəqletmə - “Mobile Backhauling”, beynəlxalq tranzit, optik kabel üzərindən infrastruktur, hostinq, digər internet xidmətləri",
+                      "27.02.2018",
+                      "+994 12 480 49 86",
+                      "-",
+                      "office@intrans.baku.az"
+                    ],
+                    "tabledata3": [
+                      "3",
+                      "“INTRA NETWORK SYSTEMS” MMC",
+                      "Host provayder",
+                      "Hostinq xidmətləri",
+                      "27.02.2018",
+                      "+994 12 480 49 86",
+                      "-",
+                      "office@intrans.baku.az"
+                    ]
                   },
                   {
                     "id": 4,
                     "title": "Sürətli poçt xidmətinə lisenziya verilməsi üçün tələb olunan sənədlər",
-                    "path": "/haqqimizda/fealiyyet/poct-xidmetleri/suretli-poct-xidmeti-lisenziyalari"
+                    "path": "/haqqimizda/fealiyyet/poct-xidmetleri/suretli-poct-xidmeti-lisenziyalari",
+                    "name1": "Sürətli poçt xidmətinə lisenziya verilməsi üçün tələb olunan sənədlər",
+                    "desc1": " -  Sürətli poçt xidməti – Lisenziyalı poçt operatorları ilə <a href='https://example.com' class='text-blue-600 underline'>buradan</a> tanış ola bilərsiniz"
                   },
                   {
                     "id": 5,
                     "title": "Poçt operatorlarına qarşı tələblər",
-                    "path": "/haqqimizda/fealiyyet/poct-xidmetleri/poct-operatorlarina-qarsi-qoyulan-telebler"
+                    "path": "/haqqimizda/fealiyyet/poct-xidmetleri/poct-operatorlarina-qarsi-qoyulan-telebler",
+                    "name1": "Poçt operatorlarına qarşı tələblər",
+                    "desc1": "Poçt obyektlərinə qarşı tələblər “Poçt haqqında” Azərbaycan Respublikası Qanununun və “Poçt rabitəsi xidmətlərinin göstərilməsi Qaydaları”nın müvafiq maddələri ilə müəyyən olunur. Mövcud Qanunvericilikdə poçt obyektlərinə qarşı aşağıda qeyd olunmuş tələblər mövcuddur:",
+                    "desc2": ["Tələb 1", "Tələb 2", "Tələb 3"]
                   },
                   {
                     "id": 6,
                     "title": "Poçt fəaliyyəti barədə hesabatlar",
-                    "path": "/haqqimizda/fealiyyet/poct-xidmetleri/poct-fealiyyeti-haqqinda-hesabatlar"
+                    "path": "/haqqimizda/fealiyyet/poct-xidmetleri/poct-fealiyyeti-haqqinda-hesabatlar",
+                    "reponame1": "Hesabat iyul ayı",
+                    "reponame2": "Hesabat iyul ayı",
+                    "reponame3": "Hesabat iyul ayı",
+                    "repokb1": "758kB",
+                    "repokb2": "758kB",
+                    "repokb3": "758kB",
+                    "repodate1": "02.07.2024",
+                    "repodate2": "02.07.2024",
+                    "repodate3": "02.07.2024"
                   }
                 ]
               },
               {
                 "id": 4,
                 "title": "Mübahisələrin həlli",
-                "path": "/haqqimizda/fealiyyet/mubahiselerin-helli"
+                "path": "/haqqimizda/fealiyyet/mubahiselerin-helli",
+                "name1": "Mübahisələrin həlli",
+                "desc1": [
+                  "Operatorlar arasında arabağlantı, xüsusi çıxış və icarə olunan xətlər, kanallar məsələləri üzrə yaranan mübahisələrin həllində İKTA iştirak edir.",
+                  "Ərizəçilərin müraciətləri “Telekommunikasiya haqqında” və 'İnzibati icraat haqqında' Azərbaycan Respublikasının qanunlarına uyğun olaraq qəbul olunur və baxılır.",
+                  "Mübahisə ilə bağlı qəbul edilmiş qərar dərc olunur və onun mətni mübahisədə iştirak edən tərəflərə təqdim olunur. Qəbul edilmiş qərarla razılaşmayan tərəfin məhkəməyə müraciət etmək hüququ vardır."
+                ]
               },
               {
                 "id": 5,
                 "title": "Sağlam rəqabət",
-                "path": "/haqqimizda/fealiyyet/saglam-reqabet"
+                "path": "/haqqimizda/fealiyyet/saglam-reqabet",
+                "name1": "Sağlam rəqabət",
+                "name2": "Tənzimləmə və sağlam rəqabət",
+                "name3": "Tənzimləyici qurumun rolu",
+                "name4": "Tənzimləyici qurum rəqabət bazarlarını inkişaf etdirmək üçün aşağıdakıları təşviq etməlidir:",
+                "desc1": "Azərbaycanda telekommunikasiya fəaliyyəti telekommunikasiya xidmətləri bazarında inhisarçılığın yolverilməzliyi və sağlam rəqabət mühitinin təmin edilməsi prinsipləri əsasında həyata keçirilir. Telekommunikasiya sahəsində sağlam rəqabət mühitinin və antiinhisar fəaliyyətin tənzimlənməsi Azərbaycan Respublikasında telekommunikasiya fəaliyyətinin tənzimlənməsinin istiqamətlərindən biridir.",
+                "desc2": "İKTA-nın tənzimləyici qurum olaraq, vəzifələrindən biri də telekommunikaisya sahəsində inhisarçılıq fəaliyyətinin və haqsız rəqabətin qarşısının alınması, sağlam rəqabət mühitinin formalaşdırılması və istehlakçıların hüquqlarının qorunması sahəsində Rəqəmsal İnkişaf və Nəqliyyat Nazirliyinə təkliflər verməkdir.",
+                "desc3": [
+                  "telekommunikasiya xidmətlərinin səmərəliliyinin artırılması",
+                  "yaxşı xidmət keyfiyyəti",
+                  "müasir xidmətlər",
+                  "əlverişli qiymətlər",
+                  "bazarda hokmran mövqedə olan iştirakçılar tərəfindən qiymətlərin qaldırılması və rəqabət hallarının pozulmasına yol açan sui-istifadə hallarının qarşısını alınması",
+                  "istehlakçı hüquqlarının qorunması"
+                ]
               },
               {
                 "id": 6,
                 "title": "Xidmət keyfiyyəti",
-                "path": "/haqqimizda/fealiyyet/xidmet-keyfiyyeti"
+                "path": "/haqqimizda/fealiyyet/xidmet-keyfiyyeti",
+                "name1": "Xidmət keyfiyyəti nədir?",
+                "name2": "Xidmət keyfiyyətinin qiymətləndirilməsi və tənzimləyici qurumun rolu",
+                "desc1": [
+                  "İKT-dən geniş istifadə olunduğu bir rəqəmsal mühitdə xidmətlərin keyfiyyətinin təmin edilməsi olduqca mühümdür. ",
+                  "<strong>“Xidmət keyfiyyəti”</strong> telekommunikasiya xidməti istifadəçisinin bəyan edilmiş və nəzərdə tutulan ehtiyaclarını ödəmək qabiliyyətini müəyyən edən xüsusiyyətlərinin məcmusudur.",
+                  "<strong>Xidmət keyfiyyəti göstəricisi</strong> xidmət keyfiyyətinin müəyyən bir məqsəd və ya məqsədə doğru əhəmiyyətli faktorları izləmək üçün istifadə olunan ölçülə bilən dəyərdir."
+                ],
+                "desc2": [
+                  "İKTA telekommunikasiya sahəsində keyfiyyətə nəzarəti həyata keçirir.",
+                  "Azərbaycanda tənzimləyici qurumun yaradılması telekommunikasiya xidmətləri üzrə keyfiyyət göstəricilərinin və keyfiyyət səviyyəsinə dair minimal tələblərin müəyyən edilməsini ən prioritet məsələlərdən birinə çevirib.",
+                  "2023-cü ilin əvvəlindən başlayaraq, İKTA telekommunikasiya xidmətləri üzrə keyfiyyət göstəricilərinə dair xarici tənzimləyici qurumların əldə etdiyi təcrübənin öyrənilməsinə başlayıb, bu sahədə geniş təhlillər aparıb.",
+                  "Xidmət keyfiyyəti üzrə operatorların, internet provayderlərin fəaliyyətinin tənzimlənməsi, habelə telekommunikasiya xidmətlərinin keyfiyyətinin dəyişən şərtlər çərçivəsində beynəlxalq standartlara uyğunlaşdırılması məqsədilə İKTA “Telekommunikasiya xidmətlərinin keyfiyyət göstəriciləri haqqında Qayda”nın ilkin layihəsini hazırlayıb və razılaşdırmaq üçün aidiyyəti qurumlara təqdim edib."
+                ]
               },
               {
                 "id": 7,
@@ -227,22 +596,86 @@
           {
             "id": 5,
             "title": "Beynəlxalq fəaliyyət",
-            "path": "/haqqimizda/beynelxalq-faliyyet",
+            "path": "/haqqimizda/beynelxalq-fealiyyet",
             "subsections": [
               {
                 "id": 1,
                 "title": "Ümumi məlumat",
-                "path": "/haqqimizda/beynelxalq-faliyyet/umumi-melumat"
+                "path": "/haqqimizda/beynelxalq-fealiyyet/umumi-melumat",
+                "img" : "/images/beynelxalq.png",
+                "name1": "Ümumi məlumat",
+                "desc1": [
+                  "Fəaliyyətə başladığı dövrdən etibarən, İKTA telekommunikasiya sahəsinin tənzimlənməsində qabaqcıl və innovativ xarici təcrübələrin hərtərəfli öyrənilməsinə başlayıb. Agentlik bu sahədə fəaliyyət göstərən xarici tənzimləyicilərin hüquq və vəzifələrini, səlahiyyətlərini və məsuliyyətini müəyyən edən beynəlxalq sənədlərin, məcəllələrin, ən yeni normativ-hüquqi sənədlərin və çoxsaylı elmi mənbələr əsasında təhlillər aparıb, onların milli qanunvericiliyə uyğunlaşdırılması təşəbbüsləri imkanlarını araşdırıb.",
+                  "Agentlik beynəlxalq əməkdaşlıqda ilk addım kimi Beynəlxalq Telekommunikasiya İttifaqı (ITU), Avropa İttifaqı, Dünya Bankı və Avropa Yenidənqurma və İnkişaf Bankı, xarici ölkələrin tənzimləyici qurumları ilə işgüzar əlaqələrin qurulması və prioritet sahələr üzrə birgə layihələrin həyata keçirilməsi məqsədilə görüşlər və müzakirələr aparıb."
+                ],
+                "name2": "Beynəlxalq Telekommunikasiya ittifaqı",
+                "desc2": [
+                  "Azərbaycan Respublikasının beynəlxalq telekommunikasiya sahəsində əməkdaşlıq etdiyi əsas beynəlxalq təşkilat BMT-nin İnformasiya və Kommunikasiya Texnologiyaları (İKT) üzrə ixtisaslaşmış agentliyi olan Beynəlxalq Telekommunikasiya İttifaqıdır (BTİ).",
+                  "17 may 1865-ci il tarixində Beynəlxalq Teleqraf İttifaqı adı ilə təsis olunmuş BTİ-nin əsas vəzifəsi harada yaşamasından asılı olmayaraq bütün dünya üzrə insanlar arasında rabitə əlaqələrin yaradılmasına nail olmaqdır. BTİ öz fəaliyyəti ilə hər bir şəxsin rabitə əlaqəsi yaratmaq hüququnu müdafiə edir və dəstəkləyir. BTİ BMT-nin ixtisaslaşmış agentlikləri sistemində özünəməxsus xüsusiyyətə malikdir, belə ki, BTİ-nin həm ictimai, həm də özəl sektordan olan üzvləri mövcuddur. BTİ-yə 193 üzv-dövlətlə yanaşı, akademik institutlar, tənzimləyicilər və təxminən 700 özəl şirkət üzvdür. BTİ-nin Baş qərargahı İsveçrənin Cenevrə şəhərində yerləşir. BTİ dünya üzrə 12 regional və sahə ofislərinə malikdir.",
+                  "Hökumətlər (üzv-dövlətlər) və özəl sektor (sektor üzvləri, assosiasiyalar və akademiyalar) arasında beynəlxalq əməkdaşlıq prinsipi əsasında yaradılan BTİ İKT sahəsinin geniş əhatəli məsələlərinin müzakirə edildiyi və konsensus əsasında həll edildiyi qlobal forumdur.",
+                  "Azərbaycan Respublikası 10 aprel 1992-ci il tarixində BTİ-yə üzv qəbul olunmuşdur. Azərbaycan Respublikasının BTİ ilə sıx əməkdaşlıq münasibətləri mövcuddur. Azərbaycan Respublikasının müvafiq nümayəndə heyətləri il ərzində BTİ çərçivəsində keçirilən iclaslarda iştirak edir. Eyni zamanda, BTİ nümayəndələrinin müxtəlif illərdə Azərbaycan Respublikasına rəsmi səfərləri olmuşdur"
+                ],
+                "name3": "Poçt və Rabitə Administrasiyalarının Avropa Konfransı (CEPT)",
+                "desc3": [
+                  "Azərbaycan Respublikasının beynəlxalq telekommunikasiya sahəsində əməkdaşlıq etdiyi əsas beynəlxalq təşkilat BMT-nin İnformasiya və Kommunikasiya Texnologiyaları (İKT) üzrə ixtisaslaşmış agentliyi olan Beynəlxalq Telekommunikasiya İttifaqıdır (BTİ).",
+                  "17 may 1865-ci il tarixində Beynəlxalq Teleqraf İttifaqı adı ilə təsis olunmuş BTİ-nin əsas vəzifəsi harada yaşamasından asılı olmayaraq bütün dünya üzrə insanlar arasında rabitə əlaqələrin yaradılmasına nail olmaqdır. BTİ öz fəaliyyəti ilə hər bir şəxsin rabitə əlaqəsi yaratmaq hüququnu müdafiə edir və dəstəkləyir. BTİ BMT-nin ixtisaslaşmış agentlikləri sistemində özünəməxsus xüsusiyyətə malikdir, belə ki, BTİ-nin həm ictimai, həm də özəl sektordan olan üzvləri mövcuddur. BTİ-yə 193 üzv-dövlətlə yanaşı, akademik institutlar, tənzimləyicilər və təxminən 700 özəl şirkət üzvdür. BTİ-nin Baş qərargahı İsveçrənin Cenevrə şəhərində yerləşir. BTİ dünya üzrə 12 regional və sahə ofislərinə malikdir.",
+                  "Hökumətlər (üzv-dövlətlər) və özəl sektor (sektor üzvləri, assosiasiyalar və akademiyalar) arasında beynəlxalq əməkdaşlıq prinsipi əsasında yaradılan BTİ İKT sahəsinin geniş əhatəli məsələlərinin müzakirə edildiyi və konsensus əsasında həll edildiyi qlobal forumdur.",
+                  "Azərbaycan Respublikası 10 aprel 1992-ci il tarixində BTİ-yə üzv qəbul olunmuşdur. Azərbaycan Respublikasının BTİ ilə sıx əməkdaşlıq münasibətləri mövcuddur. Azərbaycan Respublikasının müvafiq nümayəndə heyətləri il ərzində BTİ çərçivəsində keçirilən iclaslarda iştirak edir. Eyni zamanda, BTİ nümayəndələrinin müxtəlif illərdə Azərbaycan Respublikasına rəsmi səfərləri olmuşdur"
+                ],
+                "name4": "Ümumdünya Poçt İttifaqı",
+                "desc4": [
+                  "BMT-nin ixtisaslaşmış agentliklərindən olmaqla dünyanın 192 ölkəsini bir təşkilatda birləşdirərək, ölkələrarası beynəlxalq poçt mübadiləsi məsələlərini tənzimləyən və inkişaf strategiyasını müəyyənləşdirməklə əlaqələndirici funksiyasını həyata keçirir.",
+                  "Azərbaycan 01 aprel 1993-cü il tarixindən Ümumdünya Poçt İttifaqının (ÜPİ) üzvüdür. Qurumun Administrativ Şurası təşkilatın əsas idarəedici orqanıdır, ÜPİ-nin fəaliyyət proqramının koordinasiyasını, ÜPİ Aktlarının hazırlanması və həyata keçirilməsinə, büdcə və maliyyə resurslarına nəzarəti həyata keçirir. ÜPİ-nin Konqresində dünyanın 5 coğrafi regionu üzrə cəmi 40 üzv seçilir. Azərbaycan ÜPİ-nin Buxarest (2004) Konqresində və Cenevrədə (2008) keçirilmiş Konqresdə Administrativ Şuraya üzv seçilmişdir."
+                ],
+                "name5": "Avropa İttifaqı",
+                "desc5": [
+                  "Azərbaycan Avropa İttifaqı (Aİ) ilə bərabərhüquqlu tərəfdaşlığa əsaslanan münasibətlərin inkişafında maraqlıdır. Azərbaycanın Avropa İttifaqı ilə münasibətlərinin hüquqi çərçivəsini təşkil edən Tərəfdaşlıq və Əməkdaşlıq Sazişi 1996-cı ildə imzalanıb, 1999-cu ildə qüvvəyə minib. 2004-cü ildə Azərbaycan Avropa Qonşuluq Siyasətinə daxil edilib. 2014-cü ildə tərəflər arasında Azərbaycanın Aİ proqramlarında və agentliklərində iştirakına dair Protokol imzalanıb.",
+                  "Azərbaycan 2009-cu ildən bəri Aİ ilə Şərq Tərəfdaşlığı (ŞT) proqramı çərçivəsində ikitərəfli və çoxtərəfli formatda əməkdaşlıq edir. “Şərq Tərəfdaşlığı” təşəbbüsü Avropa İttifaqı ilə Şərqi Avropanın altı tərəfdaş ölkəsi, arasında siyasi assosiasiya və iqtisadi inteqrasiyanı təşviq etmək məqsədi daşıyır."
+                ],
+                "name6": "Şərq Tərəfdaşlığı Elektron Rabitə Tənzimləyiciləri Şəbəkəsi (EaPeReg)",
+                "desc6": [
+                  "2012-ci ildə Avropa İttifaqının Şərq Tərəfdaşlığı ölkələrinin elektron rabitə tənzimləyiciləri üçün yaradılmış platformadır.",
+                  "EaPeReg regionda rəqabətqabiliyyətli və innovativ elektron rabitə sektorunun inkişafını təşviq etmək məqsədi ilə bu ölkələrin elektron rabitə tənzimləyiciləri arasında əməkdaşlığı və ən yaxşı təcrübə mübadiləsini asanlaşdırmaq üçün yaradılmışdır. Şəbəkə tənzimləyicilər üçün spektrin idarə edilməsi, genişzolaqlı rabitənin inkişafı və elektron rabitə üçün tənzimləyici çərçivələr kimi məsələlər üzrə məlumat və təcrübə mübadiləsi üçün platforma təqdim edir.",
+                  "EaPeReg həmçinin Şərq Tərəfdaşlığı ölkələrində Aİ qaydaları və standartlarına uyğun olaraq elektron rabitə tənzimləməsinin uyğunlaşdırılmasını təşviq etmək məqsədi daşıyır. Bu, Şərq Tərəfdaşlığı ölkələrinin Avropa Rəqəmsal Vahid Bazarına inteqrasiyasını asanlaşdırmaq və regional iqtisadi inkişafı təşviq etmək məqsədi daşıyır.",
+                  "EaPeReg çərçivəsində fəaliyyət göstərən Tənzimləyicilərin Müstəqilliyi və Genişzolaqlı İnternetin İnkişafı üzrə İşçi Qrup, Rouminq üzrə Ekspert İşçi Qrup və Tezliklər üzrə Ekspert İşçi Qrupun işində İKTA nümayəndələri də iştirak edirlər."
+                ],
+                "name7": "EU4Digital",
+                "desc7" : "Avropa İttifaqının EU4Digital təşəbbüsü iqtisadiyyatın inkişafına, daha çox yeni iş yerlərinin yaradılmasına, insanların həyat şəraitinin yaxşılaşdırılmasına və müəssisələrə dəstək məqsədilə Aİ-nin standart və təcrübələrinə uyğun olaraq rəqəmsal iqtisadiyyatın və cəmiyyətin əsas sahələrini inkişaf etdirmək üçün bir sıra tədbirlər təklif edərək Azərbaycanda rəqəmsal islahat proqramına dəstək verir.",
+                "name8" : "Dünya Bankı",
+                "desc8" : [
+                  "Azərbaycan ilə Dünya Bankı arasında əməkdaşlıq 2015-2020-ci illər üzrə Ölkə Əməkdaşlıq Strategiyası əsasında həyata keçirilir. Qeyd edilən strategiya Dünya Bankının Direktorlar Şurası tərəfindən 21 iyun 2015-ci ildə təsdiq edilib. Strategiya 2 əsas sektoru prioritet olaraq müəyyən etmişdir: dövlət sektorunun idarə edilməsi və xidmət təchizatı, iqtisadi rəqabətqabiliyyətlilik.",
+                  "<strong>Dünya Bankı: Tənzimləyicinin potensialının gücləndirilməsi üzrə layihə</strong>",
+                  "Dünya Bankının texniki dəstəyi ilə Rəqəmsal İnkişaf və Nəqliyyat Nazirliyinin “Azərbaycan 2030: sosial-iqtisadi inkişafa dair Milli Prioritetlər”nə nail olmaq üçün bütün iqtisadiyyatın rəqəmsallaşdırılması sahəsində həyata keçirdiyi layihə çərçivəsində, 2022-ci ilin dekabr ayından başlayaraq, İKTA və Dünya Bankının ekspertləri arasında qurumun tənzimləmə çərçivələrinin müəyyən edilməsi layihəsi üzrə silsilə görüşlər keçirilib, metodik tövsiyyələr hazırlanıb",
+                  "<strong>Dünya Bankının “B-Ready” layihəsi</strong>",
+                  "2021-ci ildən etibarən dərci dayandırılan Dünya Bankının 'Doing Business' hesabatı “Business Ready” hesabatı ilə əvəzlənib. Yeni layihə ölkələrin biznes və investisiya mühitinin qiymətləndirilməsinə daha şəffaf və balanslı yanaşmanı təmin edəcək. 2024-cü ilin yazında dərc olunacaq ilk buraxılışında 'B-Ready' hesabatı 60 iqtisadiyyatı əhatə edəcəkdir. Növbəti 3 il ərzində hesabata 180 ölkənin daxil edilməsi nəzərdə tutulur. 'B-Ready' hər hansı şirkətin fəaliyyətinin başlanma, davam etmə, bağlanma və yaxud yenidən təşkili mərhələlərini əhatə edən 10 mövzuya fokuslanacaq: biznesə giriş, biznesin yerləşməsi, kommunal xidmətlər, əmək münasibətləri, maliyyə xidmətləri, beynəlxalq ticarət, vergi, bazarda rəqabət, mübahisələrin həlli və müflisləşmə. “Kommunal xidmətlər” başlığı altında internətə qoşulma ayrı bir başlıq kimi təqdim edilir ki, bu başlıq altında ümumilikdə 65 indikator üzrə qiymətləndirmə aparılacaq. İKTA-nın nümayəndələri Dünya Bankının İqtisadi İnkişafın Qlobal İndikatorlar Qrupunun təşkilatçılığı ilə Şərqi Avropa və Mərkəzi Asiya ölkələri üçün “B-Ready” layihəsinin görüşlərində iştirak edib, layihə üzrə konseptual yanaşmaları və indikatorlar üzrə metodologiyanı öyrənib və tətbiqi istiqamətində işlərə başlayıb.",
+                  "<strong>Tənzimləyici qurumlar ilə əlaqələr</strong>",
+                  "2023-cü ilin birinci yarısında telekommmunikasiya sahəsinin tənzimlənməsi Avropa təcrübəsinin öyrənilməsi və müvafiq sahədə milli qanunvericiliyin uyğunlaşdırılması təşəbbüsləri də əsas beynəlxalq fəaliyyət istiqamətlərimizdən olub. Bu dövr ərzində İKTA-nın mütəxəssisləri Türkiyə, Polşa, İrlandiya, Fransa, Çexiya, ABŞ-da tənzimləmə və radiospektr idarəçiliyi üzrə təlimlərə qatılıblar."
+                ]
               },
               {
                 "id": 2,
                 "title": "Beynəlxalq hesabatlar",
-                "path": "/haqqimizda/beynelxalq-faliyyet/beynelxalq-hesabatlar"
+                "path": "/haqqimizda/beynelxalq-fealiyyet/beynelxalq-hesabatlar",
+                "reponame1": "Communications market report",
+                "reponame2": "The Role of Regulators in a More Competitive Postal Market",
+                "reponame3": "REGULATORY REFORM IN THE TELECOMMUNICATIONS INDUSTRY",
+                "reponame4": "Code of Conduct for Authority members and associate members",
+                "reponame5": "CISA 5G STRATEGY",
+                "repokb1": "758kB",
+                "repokb2": "758kB",
+                "repokb3": "758kB",
+                "repokb4": "758kB",
+                "repokb5": "758kB"
               },
               {
                 "id": 3,
                 "title": "Terminologiya",
-                "path": "/haqqimizda/beynelxalq-faliyyet/terminologiya"
+                "path": "/haqqimizda/beynelxalq-fealiyyet/terminologiya",
+                "termoname1": "İnformasiya terminlərinin izahlı lüğəti",
+                "termoname2": "Beynəlxalq Telekommunikasiya İttifaqının rəsmi veb səhifəsindəki terminlər və anlayışlar.",
+                "termoname3": "GSMA lüğəti",
+                "termoname4": "eufordigital.eu",
+                "termoname5": "Ümumdünya Poçt İttifaqının lüğəti"
               }
             ]
           },
@@ -254,7 +687,19 @@
           {
             "id": 7,
             "title": "İllik hesabatlar",
-            "path": "/haqqimizda/illik-hesabatlar"
+            "path": "/haqqimizda/illik-hesabatlar",
+            "reponame1": "Hesabat iyul ayı",
+            "reponame2": "Hesabat iyul ayı",
+            "reponame3": "Hesabat iyul ayı",
+            "reponame4": "Hesabat iyul ayı",
+            "repokb1": "758kB",
+            "repokb2": "758kB",
+            "repokb3": "758kB",
+            "repokb4": "758kB",
+            "repodate1": "02.07.2024",
+            "repodate2": "02.07.2024",
+            "repodate3": "02.07.2024",
+            "repodate4": "02.07.2024"
           }
         ]
       },
@@ -725,46 +1170,46 @@
     ],
     "services": [
       { "id": 1, "name": "Uçuto alma", "icon": "/svg/acc.svg" },
-        { "id": 2, "name": "Məlumat toplama sistemi", "icon": "/svg/info.svg" },
-        { "id": 3, "name": "E-şikayət", "icon": "/svg/e-complaint.svg" },
-        {
-          "id": 4,
-          "name": "Radioelektron vasitələrə verilən icazələr",
-          "icon": "/svg/radioelectro.svg"
-        },
-        {
-          "id": 5,
-          "name": "Radiotezliklərin ayrılması",
-          "icon": "/svg/radiofr.svg"
-        },
-        {
-          "id": 6,
-          "name": "Yeni internet qoşuntusu",
-          "icon": "/svg/internet.svg"
-        }
+      { "id": 2, "name": "Məlumat toplama sistemi", "icon": "/svg/info.svg" },
+      { "id": 3, "name": "E-şikayət", "icon": "/svg/e-complaint.svg" },
+      {
+        "id": 4,
+        "name": "Radioelektron vasitələrə verilən icazələr",
+        "icon": "/svg/radioelectro.svg"
+      },
+      {
+        "id": 5,
+        "name": "Radiotezliklərin ayrılması",
+        "icon": "/svg/radiofr.svg"
+      },
+      {
+        "id": 6,
+        "name": "Yeni internet qoşuntusu",
+        "icon": "/svg/internet.svg"
+      }
     ],
     "news": [
       {
-          "id": 1,
-          "img": "/images/img1.png",
-          "name": "İKTA-da İctimai Şura üzvləri ilə görüş keçirilib",
-          "desc": "Azərbaycanın telekommunikasiya və poçt rabitəsi üzrə tənzimləyici qurumu olan İnformasiya Kommunikasiya Texnologiyaları Agentliyində (İKTA)..",
-          "date": "2024-05-31"
-        },
-        {
-          "id": 2,
-          "img": "/images/img2.png",
-          "name": "İKTA-da İctimai Şura üzvləri ilə görüş keçirilib",
-          "desc": "Azərbaycanın telekommunikasiya və poçt rabitəsi üzrə tənzimləyici qurumu olan İnformasiya Kommunikasiya Texnologiyaları Agentliyində (İKTA)..",
-          "date": "2024-05-31"
-        },
-        {
-          "id": 3,
-          "img": "/images/img3.png",
-          "name": "İKTA-da İctimai Şura üzvləri ilə görüş keçirilib",
-          "desc": "Azərbaycanın telekommunikasiya və poçt rabitəsi üzrə tənzimləyici qurumu olan İnformasiya Kommunikasiya Texnologiyaları Agentliyində (İKTA)..",
-          "date": "2024-05-31"
-        }
+        "id": 1,
+        "img": "/images/img1.png",
+        "name": "İKTA-da İctimai Şura üzvləri ilə görüş keçirilib",
+        "desc": "Azərbaycanın telekommunikasiya və poçt rabitəsi üzrə tənzimləyici qurumu olan İnformasiya Kommunikasiya Texnologiyaları Agentliyində (İKTA)..",
+        "date": "2024-05-31"
+      },
+      {
+        "id": 2,
+        "img": "/images/img2.png",
+        "name": "İKTA-da İctimai Şura üzvləri ilə görüş keçirilib",
+        "desc": "Azərbaycanın telekommunikasiya və poçt rabitəsi üzrə tənzimləyici qurumu olan İnformasiya Kommunikasiya Texnologiyaları Agentliyində (İKTA)..",
+        "date": "2024-05-31"
+      },
+      {
+        "id": 3,
+        "img": "/images/img3.png",
+        "name": "İKTA-da İctimai Şura üzvləri ilə görüş keçirilib",
+        "desc": "Azərbaycanın telekommunikasiya və poçt rabitəsi üzrə tənzimləyici qurumu olan İnformasiya Kommunikasiya Texnologiyaları Agentliyində (İKTA)..",
+        "date": "2024-05-31"
+      }
     ]
   },
   "usefulLinks": [
