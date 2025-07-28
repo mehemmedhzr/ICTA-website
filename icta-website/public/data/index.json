@@ -162,7 +162,7 @@
                   {
                     "id": 4,
                     "title": "Nömrə resursu",
-                    "path": "/haqqimizda/fealiyyet/telekommunikasiya/nomre-resursu",
+                    "path": "/haqqimizda/fealiyyet/telekommunikasiya/nomre-resusu",
                     "name1": "Nömrə resursu",
                     "name2": "Nömrə resursundan istifadənin təşkili",
                     "name3": "Məxsusiləşdirmə kodu",
@@ -177,7 +177,7 @@
                   {
                     "id": 5,
                     "title": "Universal telekom xidmətləri",
-                    "path": "/haqqimizda/fealiyyet/telekommunikasiya/universal-telekom-xidmetleri",
+                    "path": "/haqqimizda/fealiyyet/telekommunikasiya/universal-telecom-xidmetleri",
                     "desc1": [
                       "<strong>Universal telekommunikasiya xidməti</strong> bütün istifadəçilərə müyəssər olan telekommunikasiya xidmətlərinin məcmusudur.",
                       "Universal telekommunikasiya xidməti Azərbaycanın bütün ərazisində müəyyən müddət ərzində və keyfiyyətlə, əlverişli qiymətlə hər hansı telekommunikasiya xidməti istifadəçisinə göstərilməsi operatorlar, provayderlər üçün icbari olan telekommunikasiya xidmətidir.",
@@ -596,13 +596,13 @@
           {
             "id": 5,
             "title": "Beynəlxalq fəaliyyət",
-            "path": "/haqqimizda/beynelxalq-fealiyyet",
+            "path": "/haqqimizda/beynelxalq-fealiyyetler",
             "subsections": [
               {
                 "id": 1,
                 "title": "Ümumi məlumat",
-                "path": "/haqqimizda/beynelxalq-fealiyyet/umumi-melumat",
-                "img" : "/images/beynelxalq.png",
+                "path": "/haqqimizda/beynelxalq-fealiyyetler/umumi-melumat",
+                "img": "/images/beynelxalq.png",
                 "name1": "Ümumi məlumat",
                 "desc1": [
                   "Fəaliyyətə başladığı dövrdən etibarən, İKTA telekommunikasiya sahəsinin tənzimlənməsində qabaqcıl və innovativ xarici təcrübələrin hərtərəfli öyrənilməsinə başlayıb. Agentlik bu sahədə fəaliyyət göstərən xarici tənzimləyicilərin hüquq və vəzifələrini, səlahiyyətlərini və məsuliyyətini müəyyən edən beynəlxalq sənədlərin, məcəllələrin, ən yeni normativ-hüquqi sənədlərin və çoxsaylı elmi mənbələr əsasında təhlillər aparıb, onların milli qanunvericiliyə uyğunlaşdırılması təşəbbüsləri imkanlarını araşdırıb.",
@@ -640,9 +640,9 @@
                   "EaPeReg çərçivəsində fəaliyyət göstərən Tənzimləyicilərin Müstəqilliyi və Genişzolaqlı İnternetin İnkişafı üzrə İşçi Qrup, Rouminq üzrə Ekspert İşçi Qrup və Tezliklər üzrə Ekspert İşçi Qrupun işində İKTA nümayəndələri də iştirak edirlər."
                 ],
                 "name7": "EU4Digital",
-                "desc7" : "Avropa İttifaqının EU4Digital təşəbbüsü iqtisadiyyatın inkişafına, daha çox yeni iş yerlərinin yaradılmasına, insanların həyat şəraitinin yaxşılaşdırılmasına və müəssisələrə dəstək məqsədilə Aİ-nin standart və təcrübələrinə uyğun olaraq rəqəmsal iqtisadiyyatın və cəmiyyətin əsas sahələrini inkişaf etdirmək üçün bir sıra tədbirlər təklif edərək Azərbaycanda rəqəmsal islahat proqramına dəstək verir.",
-                "name8" : "Dünya Bankı",
-                "desc8" : [
+                "desc7": "Avropa İttifaqının EU4Digital təşəbbüsü iqtisadiyyatın inkişafına, daha çox yeni iş yerlərinin yaradılmasına, insanların həyat şəraitinin yaxşılaşdırılmasına və müəssisələrə dəstək məqsədilə Aİ-nin standart və təcrübələrinə uyğun olaraq rəqəmsal iqtisadiyyatın və cəmiyyətin əsas sahələrini inkişaf etdirmək üçün bir sıra tədbirlər təklif edərək Azərbaycanda rəqəmsal islahat proqramına dəstək verir.",
+                "name8": "Dünya Bankı",
+                "desc8": [
                   "Azərbaycan ilə Dünya Bankı arasında əməkdaşlıq 2015-2020-ci illər üzrə Ölkə Əməkdaşlıq Strategiyası əsasında həyata keçirilir. Qeyd edilən strategiya Dünya Bankının Direktorlar Şurası tərəfindən 21 iyun 2015-ci ildə təsdiq edilib. Strategiya 2 əsas sektoru prioritet olaraq müəyyən etmişdir: dövlət sektorunun idarə edilməsi və xidmət təchizatı, iqtisadi rəqabətqabiliyyətlilik.",
                   "<strong>Dünya Bankı: Tənzimləyicinin potensialının gücləndirilməsi üzrə layihə</strong>",
                   "Dünya Bankının texniki dəstəyi ilə Rəqəmsal İnkişaf və Nəqliyyat Nazirliyinin “Azərbaycan 2030: sosial-iqtisadi inkişafa dair Milli Prioritetlər”nə nail olmaq üçün bütün iqtisadiyyatın rəqəmsallaşdırılması sahəsində həyata keçirdiyi layihə çərçivəsində, 2022-ci ilin dekabr ayından başlayaraq, İKTA və Dünya Bankının ekspertləri arasında qurumun tənzimləmə çərçivələrinin müəyyən edilməsi layihəsi üzrə silsilə görüşlər keçirilib, metodik tövsiyyələr hazırlanıb",
@@ -655,22 +655,22 @@
               {
                 "id": 2,
                 "title": "Beynəlxalq hesabatlar",
-                "path": "/haqqimizda/beynelxalq-fealiyyet/beynelxalq-hesabatlar",
+                "path": "/haqqimizda/beynelxalq-fealiyyetler/beynelxalq-hesabatlar",
                 "reponame1": "Communications market report",
-                "reponame2": "The Role of Regulators in a More Competitive Postal Market",
-                "reponame3": "REGULATORY REFORM IN THE TELECOMMUNICATIONS INDUSTRY",
-                "reponame4": "Code of Conduct for Authority members and associate members",
-                "reponame5": "CISA 5G STRATEGY",
-                "repokb1": "758kB",
-                "repokb2": "758kB",
-                "repokb3": "758kB",
-                "repokb4": "758kB",
-                "repokb5": "758kB"
+                    "reponame2": "The Role of Regulators in a More Competitive Postal Market",
+                    "reponame3": "REGULATORY REFORM IN THE TELECOMMUNICATIONS INDUSTRY",
+                    "reponame4" : "Code of Conduct for Authority members and associate members",
+                    "reponame5" : "CISA 5G STRATEGY",
+                    "repokb1": "758kB",
+                    "repokb2": "758kB",
+                    "repokb3": "758kB",
+                    "repokb4": "758kB",
+                    "repokb5": "758kB"
               },
               {
                 "id": 3,
                 "title": "Terminologiya",
-                "path": "/haqqimizda/beynelxalq-fealiyyet/terminologiya",
+                "path": "/haqqimizda/beynelxalq-fealiyyetler/terminologiya",
                 "termoname1": "İnformasiya terminlərinin izahlı lüğəti",
                 "termoname2": "Beynəlxalq Telekommunikasiya İttifaqının rəsmi veb səhifəsindəki terminlər və anlayışlar.",
                 "termoname3": "GSMA lüğəti",
@@ -731,12 +731,12 @@
           {
             "id": 5,
             "title": "Nazirlər Kabinetinin qərarları",
-            "path": "/huquqi-aktlar/nazirler-kabinetinin-qerarlari"
+            "path": "/huquqi-aktlar/nazirler-kabinetinin-qearlari"
           },
           {
             "id": 6,
             "title": "Rəqəmsal İnkişaf və Nəqliyyat Nazirliyinin qərarları",
-            "path": "/huquqi-aktlar/reqemsal-inkisaf-ve-neqliyyat-nazirliyinin-qerarlari"
+            "path": "/huquqi-aktlar/rin-qerarlari"
           }
         ]
       },
@@ -758,12 +758,12 @@
               {
                 "id": 2,
                 "title": "Poçt xidmətləri",
-                "path": "/istehlakci/ehali/pocot-xidmetleri"
+                "path": "/istehlakci/ehali/poct-xidmetleri"
               },
               {
                 "id": 3,
                 "title": "Xidmət provayderinə müraciət et",
-                "path": "/istehlakci/ehali/xidmet-provayderine-muraciet-et"
+                "path": "/istehlakci/ehali/xidmet-provayderlerine-muraciet"
               }
             ]
           },
@@ -819,24 +819,24 @@
               {
                 "id": 2,
                 "title": "İnternet provayderlər",
-                "path": "/xidmet-bazarları/bazar-istirakcilari/internet-provayderler"
+                "path": "/xidmet-bazarları/bazar-istirakcilari/internet-provayderleri"
               },
               {
                 "id": 3,
                 "title": "Backbone operatorlar",
-                "path": "/xidmet-bazarları/bazar-istirakcilari/backbone-operatorlar"
+                "path": "/xidmet-bazarları/bazar-istirakcilari/backbone-operatorlari"
               },
               {
                 "id": 4,
                 "title": "Poçt xidmətləri",
-                "path": "/xidmet-bazarları/bazar-istirakcilari/pocot-xidmetleri"
+                "path": "/xidmet-bazarları/bazar-istirakcilari/poct-xidmetleri"
               }
             ]
           },
           {
             "id": 3,
             "title": "Bazar araşdırması",
-            "path": "/xidmet-bazarları/bazar-aradirmasi"
+            "path": "/xidmet-bazarları/bazar-arasdirmasi"
           },
           {
             "id": 4,
@@ -851,7 +851,7 @@
               {
                 "id": 2,
                 "title": "Poçt xidmətləri",
-                "path": "/xidmet-bazarları/xidmet-keyfiyyeti/pocot-xidmetleri"
+                "path": "/xidmet-bazarları/xidmet-keyfiyyeti/poct-xidmetleri"
               },
               {
                 "id": 3,
@@ -1168,6 +1168,7 @@
         "img": "https://media.istockphoto.com/id/1401460590/photo/businessman-working-on-laptop-with-document-management-icon.jpg?s=612x612&w=0&k=20&c=o8Ci6F_YCWFlKE2Yr6A2wbDvrZRwSB3YssLakLkrFBo="
       }
     ],
+
     "services": [
       { "id": 1, "name": "Uçuto alma", "icon": "/svg/acc.svg" },
       { "id": 2, "name": "Məlumat toplama sistemi", "icon": "/svg/info.svg" },

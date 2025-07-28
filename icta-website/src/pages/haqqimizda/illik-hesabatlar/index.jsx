@@ -12,10 +12,7 @@ const IllikHesabatlar = () => {
     const result = getSectionData("Haqqımızda", "İllik hesabatlar");
     setData(result);
     if (result) {
-      setData({
-        ...result,
-        section: "Haqqımızda",
-      });
+      setData({ ...result, section: "Haqqımızda" });
     }
   }, [getSectionData]);
 
@@ -31,7 +28,6 @@ const IllikHesabatlar = () => {
   return (
     <div className="px-2">
       <h1 className="text-[32px] font-medium pt-2">{data.title}</h1>
-
       <div className="pb-8 border-b">
         <div className="text-sm py-2">
           <Link to="/" className="text-gray-500 hover:underline">
@@ -43,12 +39,10 @@ const IllikHesabatlar = () => {
           <span className="text-blue-700 font-medium">{data.title}</span>
         </div>
       </div>
-
-      
       {poct_resource.map((el, index) => (
         <div key={index} className="pt-5">
-          <div className="flex justify-between gap-3 items-center  bg-[rgb(243,246,250)] p-5">
-            <div className="">
+          <div className="flex justify-between gap-3 items-center bg-[rgb(243,246,250)] p-5">
+            <div>
               <h1 className="text-[20px] font-medium pt-2 mb-1">{el.name}</h1>
               <p className="text-[rgb(152,162,179)] mb-3">{el.kb}</p>
               <p className="text-[#525865] mb-3">{el.date}</p>

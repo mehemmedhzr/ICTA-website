@@ -28,8 +28,6 @@ const PoctFealiyyetiHaqqindaHesabatlar = () => {
   if (!data) {
     return <div>Loading...</div>;
   }
-
-  // Now create array AFTER data is ready
   const poct_resource = [
     { name: data.reponame1, kb: data.repokb1, date: data.repodate1 },
     { name: data.reponame2, kb: data.repokb2, date: data.repodate2 },

@@ -6,7 +6,7 @@ import { FaCheck } from "react-icons/fa";
 const PoctRabiteLisenziyalari = () => {
   const { getSectionData } = useContext(DataContext);
   const [data, setData] = useState(null);
-   const [searchTerm, setSearchTerm] = useState(""); // 🔍 axtarış üçün
+  const [searchTerm, setSearchTerm] = useState(""); // 🔍 axtarış üçün
 
   useEffect(() => {
     const result = getSectionData(
@@ -71,10 +71,12 @@ const PoctRabiteLisenziyalari = () => {
           className="px-4 py-3 w-full max-w-[295px] h-[50px] outline-none bg-[#f2f4f7] text-sm"
         />
       </div>
-      <div className="overflow-auto w-full">
+
+      {/* Scrollable container */}
+      <div className="overflow-x-auto w-full">
         <div
           className="
-            grid border border-gray-300 text-xs
+            grid border border-gray-300 text-xs w-[700px]
             [grid-template-columns:repeat(auto-fit,minmax(150px,1fr))]
             md:[grid-template-columns:repeat(var(--cols),minmax(120px,1fr))]
           "

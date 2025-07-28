@@ -60,10 +60,11 @@ const UcotaAlinmisOperatorProviderler = () => {
         />
       </div>
 
-      <div className="overflow-auto w-full">
+      {/* Scrollable container */}
+      <div className="overflow-x-auto w-full">
         <div
           className="
-            grid border border-gray-300 text-xs
+            grid border border-gray-300 text-xs w-[700px]
             [grid-template-columns:repeat(auto-fit,minmax(150px,1fr))]
             md:[grid-template-columns:repeat(var(--cols),minmax(120px,1fr))]
           "
