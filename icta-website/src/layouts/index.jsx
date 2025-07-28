@@ -19,7 +19,7 @@ const SectionLayout = ({ menuData }) => {
           </aside>
 
           {/* Sağ content sahəsi */}
-          <section className="flex-1 bg-white p-6 rounded-lg shadow-sm max-h-[calc(100vh-200px)] overflow-y-auto">
+          <section className="flex-1 bg-white p-6 rounded-lg shadow-sm">
             <Outlet />
           </section>
         </div>

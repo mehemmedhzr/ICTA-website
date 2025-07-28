@@ -84,6 +84,11 @@ import FotoQaleriya from "../pages/media/fotoqaleriya";
 import TeztezVerilenSuallar from "../pages/media/tez-tezverilen-suallar";
 import Xeberler from "../pages/media/xeberler";
 
+import BazarMelumatlariLayout from "../layouts/BazarMelumatlariLayout";
+import TelecomReqemlerde from "../pages/bazar-melumatlari/telekom-reqemlerde";
+import BazarSorgulari from "../pages/bazar-melumatlari/bazar-sorgulari";
+import GeniszolaqliInternet from "../pages/bazar-melumatlari/bazar-sorgulari/geniszolaqli-internet";
+
 // Lazy-loaded pages
 const Home = lazy(() => import("@/pages/home"));
 // const Haqqimizda = lazy(() => import("../pages/haqqimizda/index"));
@@ -287,6 +292,40 @@ export const rootRoutes = [
           },
         ],
       },
+
+
+      {
+        path: "/bazar-melumatlari",
+        element: <BazarMelumatlariLayout />,
+        children: [
+          {
+            path: "bazar-sorgulari",
+            element: <BazarSorgulari />, // burda Outlet olmalıdı
+            children: [
+              { path: "geniszolaqli-internet", element: <GeniszolaqliInternet /> },
+              { path: "mobil", element: <Mobil /> },
+              
+            ],
+          },
+
+          { path: "telekom-reqemlerde", element: <TelecomReqemlerde /> },
+          { path: "bazar-arasdirmasi", element: <BazarArasdirmasi /> },
+
+          {
+            path: "bazar-istirakcilari",
+            element: <BazarIstirakcilari />,
+            children: [
+              { path: "backbone-operatorlari", element: <BackOneOperatorlari /> },
+              { path: "internet-provayderleri", element: <InternetProviderleri /> },
+              { path: "poct-xidmetleri", element: <PoctXidmetleri2 /> },
+              { path: "mobil-operatorlar", element: <MobilOperatorlar /> },
+            ],
+          },
+        ],
+      },
+
+
+
 
       {
         path: "/media",
