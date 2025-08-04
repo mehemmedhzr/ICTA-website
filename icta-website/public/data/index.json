@@ -657,15 +657,15 @@
                 "title": "Beynəlxalq hesabatlar",
                 "path": "/haqqimizda/beynelxalq-fealiyyetler/beynelxalq-hesabatlar",
                 "reponame1": "Communications market report",
-                    "reponame2": "The Role of Regulators in a More Competitive Postal Market",
-                    "reponame3": "REGULATORY REFORM IN THE TELECOMMUNICATIONS INDUSTRY",
-                    "reponame4" : "Code of Conduct for Authority members and associate members",
-                    "reponame5" : "CISA 5G STRATEGY",
-                    "repokb1": "758kB",
-                    "repokb2": "758kB",
-                    "repokb3": "758kB",
-                    "repokb4": "758kB",
-                    "repokb5": "758kB"
+                "reponame2": "The Role of Regulators in a More Competitive Postal Market",
+                "reponame3": "REGULATORY REFORM IN THE TELECOMMUNICATIONS INDUSTRY",
+                "reponame4": "Code of Conduct for Authority members and associate members",
+                "reponame5": "CISA 5G STRATEGY",
+                "repokb1": "758kB",
+                "repokb2": "758kB",
+                "repokb3": "758kB",
+                "repokb4": "758kB",
+                "repokb5": "758kB"
               },
               {
                 "id": 3,
@@ -706,44 +706,116 @@
       {
         "id": 2,
         "title": "Hüquqi aktlar",
-        "path": "/huquqi-aktlar",
+        "path": "/huquqi-aktlar/konstitusiya",
         "subsections": [
           {
             "id": 1,
             "title": "Konstitusiya",
-            "path": "/huquqi-aktlar/konstitusiya"
+            "path": "/huquqi-aktlar/konstitusiya",
+            "img": "/images/konsitusiya.png",
+            "name": "Azərbaycan Respublikasının Konstitusiyası"
           },
           {
             "id": 2,
             "title": "Qanunlar",
-            "path": "/huquqi-aktlar/qanunlar"
+            "path": "/huquqi-aktlar/qanunlar",
+            "desc1": "Telekommunikasiya və poçt xidmətləri göstərən şirkətlər qanunvericiliklə başqa qayda nəzərdə tutulmayıbsa, göstərdikləri telekommunikasiya xidmətlərinin tariflərini və ödəmə qaydasını müstəqil müəyyən edirlər.",
+            "desc2": [
+              "Tarif Şurası",
+              "Rəqəmsal İnkişaf və Nəqliyyat Nazirliyi",
+              "İqtisadiyyat Nazirliyi",
+              "Maliyyə Nazirliyi"
+            ],
+            "desc3": "İKTA, tənzimləyici qurum olaraq, Azərbaycan Respublikası Prezidentinin müəyyən etdiyi hallar istisna olmaqla, telekommunikasiya və poçt xidmətləri sahələrinə aid olan məsələlərə dair tarif siyasətinin formalaşdırılması ilə bağlı, habelə bu sahədə dövlət tərəfindən tənzimlənən tariflər barədə Rəqəmsal İnkişaf və Nəqliyyat Nazirliyin təkliflər verir, müvafiq sahədə razılaşdırılmış beynəlxalq tarif siyasətinin həyata keçirilməsində iştirak edir.",
+            "desc4": [
+              "Mülki dövriyyənin müəyyən iştirakçılarına mənsub ola bilən və dövriyyədə olmasına xüsusi icazə əsasında yol verilən (mülki dövriyyəsi məhdudlaşdırılmış) əşyaların siyahısı haqqında Azərbaycan Respublikası Qanununun 14-cü maddəsində nəzərdə tutulmuş güc meyarı həddinin müəyyən edilməsi barədə",
+              "Mülki dövriyyənin müəyyən iştirakçılarına mənsub ola bilən və dövriyyədə olmasına xüsusi icazə əsasında yol verilən (mülki dövriyyəsi məhdudlaşdırılmış) əşyaların siyahısı haqqında Azərbaycan Respublikası Qanununun 14-cü maddəsində nəzərdə tutulmuş güc meyarı həddinin müəyyən edilməsi barədə"
+            ],
+            "desc6": ["№ 997-VIQ", "№ 997-VIQ"],
+            "desc7": ["02.10.2023", "02.10.2023"]
           },
           {
             "id": 3,
             "title": "Fərmanlar",
-            "path": "/huquqi-aktlar/fermanlar"
+            "path": "/huquqi-aktlar/fermanlar",
+            "desc1": "Telekommunikasiya və poçt xidmətləri göstərən şirkətlər qanunvericiliklə başqa qayda nəzərdə tutulmayıbsa, göstərdikləri telekommunikasiya xidmətlərinin tariflərini və ödəmə qaydasını müstəqil müəyyən edirlər.",
+            "desc2": [
+              "Tarif Şurası",
+              "Rəqəmsal İnkişaf və Nəqliyyat Nazirliyi",
+              "İqtisadiyyat Nazirliyi",
+              "Maliyyə Nazirliyi"
+            ],
+            "desc3": "İKTA, tənzimləyici qurum olaraq, Azərbaycan Respublikası Prezidentinin müəyyən etdiyi hallar istisna olmaqla, telekommunikasiya və poçt xidmətləri sahələrinə aid olan məsələlərə dair tarif siyasətinin formalaşdırılması ilə bağlı, habelə bu sahədə dövlət tərəfindən tənzimlənən tariflər barədə Rəqəmsal İnkişaf və Nəqliyyat Nazirliyin təkliflər verir, müvafiq sahədə razılaşdırılmış beynəlxalq tarif siyasətinin həyata keçirilməsində iştirak edir.",
+            "desc4": [
+              "Mülki dövriyyənin müəyyən iştirakçılarına mənsub ola bilən və dövriyyədə olmasına xüsusi icazə əsasında yol verilən (mülki dövriyyəsi məhdudlaşdırılmış) əşyaların siyahısı haqqında Azərbaycan Respublikası Qanununun 14-cü maddəsində nəzərdə tutulmuş güc meyarı həddinin müəyyən edilməsi barədə",
+              "Mülki dövriyyənin müəyyən iştirakçılarına mənsub ola bilən və dövriyyədə olmasına xüsusi icazə əsasında yol verilən (mülki dövriyyəsi məhdudlaşdırılmış) əşyaların siyahısı haqqında Azərbaycan Respublikası Qanununun 14-cü maddəsində nəzərdə tutulmuş güc meyarı həddinin müəyyən edilməsi barədə"
+            ],
+            "desc6": ["№ 997-VIQ", "№ 997-VIQ"],
+            "desc7": ["02.10.2023", "02.10.2023"]
           },
           {
             "id": 4,
             "title": "Sərəncamlar",
-            "path": "/huquqi-aktlar/serencamlar"
+            "path": "/huquqi-aktlar/serencamlar",
+            "desc1": "Telekommunikasiya və poçt xidmətləri göstərən şirkətlər qanunvericiliklə başqa qayda nəzərdə tutulmayıbsa, göstərdikləri telekommunikasiya xidmətlərinin tariflərini və ödəmə qaydasını müstəqil müəyyən edirlər.",
+            "desc2": [
+              "Tarif Şurası",
+              "Rəqəmsal İnkişaf və Nəqliyyat Nazirliyi",
+              "İqtisadiyyat Nazirliyi",
+              "Maliyyə Nazirliyi"
+            ],
+            "desc3": "İKTA, tənzimləyici qurum olaraq, Azərbaycan Respublikası Prezidentinin müəyyən etdiyi hallar istisna olmaqla, telekommunikasiya və poçt xidmətləri sahələrinə aid olan məsələlərə dair tarif siyasətinin formalaşdırılması ilə bağlı, habelə bu sahədə dövlət tərəfindən tənzimlənən tariflər barədə Rəqəmsal İnkişaf və Nəqliyyat Nazirliyin təkliflər verir, müvafiq sahədə razılaşdırılmış beynəlxalq tarif siyasətinin həyata keçirilməsində iştirak edir.",
+            "desc4": [
+              "Mülki dövriyyənin müəyyən iştirakçılarına mənsub ola bilən və dövriyyədə olmasına xüsusi icazə əsasında yol verilən (mülki dövriyyəsi məhdudlaşdırılmış) əşyaların siyahısı haqqında Azərbaycan Respublikası Qanununun 14-cü maddəsində nəzərdə tutulmuş güc meyarı həddinin müəyyən edilməsi barədə",
+              "Mülki dövriyyənin müəyyən iştirakçılarına mənsub ola bilən və dövriyyədə olmasına xüsusi icazə əsasında yol verilən (mülki dövriyyəsi məhdudlaşdırılmış) əşyaların siyahısı haqqında Azərbaycan Respublikası Qanununun 14-cü maddəsində nəzərdə tutulmuş güc meyarı həddinin müəyyən edilməsi barədə"
+            ],
+            "desc6": ["№ 997-VIQ", "№ 997-VIQ"],
+            "desc7": ["02.10.2023", "02.10.2023"]
           },
           {
             "id": 5,
             "title": "Nazirlər Kabinetinin qərarları",
-            "path": "/huquqi-aktlar/nazirler-kabinetinin-qearlari"
+            "path": "/huquqi-aktlar/nazirler-kabinetinin-qearlari",
+            "desc1": "Telekommunikasiya və poçt xidmətləri göstərən şirkətlər qanunvericiliklə başqa qayda nəzərdə tutulmayıbsa, göstərdikləri telekommunikasiya xidmətlərinin tariflərini və ödəmə qaydasını müstəqil müəyyən edirlər.",
+            "desc2": [
+              "Tarif Şurası",
+              "Rəqəmsal İnkişaf və Nəqliyyat Nazirliyi",
+              "İqtisadiyyat Nazirliyi",
+              "Maliyyə Nazirliyi"
+            ],
+            "desc3": "İKTA, tənzimləyici qurum olaraq, Azərbaycan Respublikası Prezidentinin müəyyən etdiyi hallar istisna olmaqla, telekommunikasiya və poçt xidmətləri sahələrinə aid olan məsələlərə dair tarif siyasətinin formalaşdırılması ilə bağlı, habelə bu sahədə dövlət tərəfindən tənzimlənən tariflər barədə Rəqəmsal İnkişaf və Nəqliyyat Nazirliyin təkliflər verir, müvafiq sahədə razılaşdırılmış beynəlxalq tarif siyasətinin həyata keçirilməsində iştirak edir.",
+            "desc4": [
+              "Mülki dövriyyənin müəyyən iştirakçılarına mənsub ola bilən və dövriyyədə olmasına xüsusi icazə əsasında yol verilən (mülki dövriyyəsi məhdudlaşdırılmış) əşyaların siyahısı haqqında Azərbaycan Respublikası Qanununun 14-cü maddəsində nəzərdə tutulmuş güc meyarı həddinin müəyyən edilməsi barədə",
+              "Mülki dövriyyənin müəyyən iştirakçılarına mənsub ola bilən və dövriyyədə olmasına xüsusi icazə əsasında yol verilən (mülki dövriyyəsi məhdudlaşdırılmış) əşyaların siyahısı haqqında Azərbaycan Respublikası Qanununun 14-cü maddəsində nəzərdə tutulmuş güc meyarı həddinin müəyyən edilməsi barədə"
+            ],
+            "desc6": ["№ 997-VIQ", "№ 997-VIQ"],
+            "desc7": ["02.10.2023", "02.10.2023"]
           },
           {
             "id": 6,
             "title": "Rəqəmsal İnkişaf və Nəqliyyat Nazirliyinin qərarları",
-            "path": "/huquqi-aktlar/rin-qerarlari"
+            "path": "/huquqi-aktlar/rin-qerarlari",
+            "desc1": "Telekommunikasiya və poçt xidmətləri göstərən şirkətlər qanunvericiliklə başqa qayda nəzərdə tutulmayıbsa, göstərdikləri telekommunikasiya xidmətlərinin tariflərini və ödəmə qaydasını müstəqil müəyyən edirlər.",
+            "desc2": [
+              "Tarif Şurası",
+              "Rəqəmsal İnkişaf və Nəqliyyat Nazirliyi",
+              "İqtisadiyyat Nazirliyi",
+              "Maliyyə Nazirliyi"
+            ],
+            "desc3": "İKTA, tənzimləyici qurum olaraq, Azərbaycan Respublikası Prezidentinin müəyyən etdiyi hallar istisna olmaqla, telekommunikasiya və poçt xidmətləri sahələrinə aid olan məsələlərə dair tarif siyasətinin formalaşdırılması ilə bağlı, habelə bu sahədə dövlət tərəfindən tənzimlənən tariflər barədə Rəqəmsal İnkişaf və Nəqliyyat Nazirliyin təkliflər verir, müvafiq sahədə razılaşdırılmış beynəlxalq tarif siyasətinin həyata keçirilməsində iştirak edir.",
+            "desc4": [
+              "Mülki dövriyyənin müəyyən iştirakçılarına mənsub ola bilən və dövriyyədə olmasına xüsusi icazə əsasında yol verilən (mülki dövriyyəsi məhdudlaşdırılmış) əşyaların siyahısı haqqında Azərbaycan Respublikası Qanununun 14-cü maddəsində nəzərdə tutulmuş güc meyarı həddinin müəyyən edilməsi barədə",
+              "Mülki dövriyyənin müəyyən iştirakçılarına mənsub ola bilən və dövriyyədə olmasına xüsusi icazə əsasında yol verilən (mülki dövriyyəsi məhdudlaşdırılmış) əşyaların siyahısı haqqında Azərbaycan Respublikası Qanununun 14-cü maddəsində nəzərdə tutulmuş güc meyarı həddinin müəyyən edilməsi barədə"
+            ],
+            "desc6": ["№ 997-VIQ", "№ 997-VIQ"],
+            "desc7": ["02.10.2023", "02.10.2023"]
           }
         ]
       },
       {
         "id": 3,
         "title": "İstehlakçı",
-        "path": "/istehlakci",
+        "path": "/istehlakci/ehali/mobil-operatorlar",
         "subsections": [
           {
             "id": 1,
@@ -763,7 +835,18 @@
               {
                 "id": 3,
                 "title": "Xidmət provayderinə müraciət et",
-                "path": "/istehlakci/ehali/xidmet-provayderlerine-muraciet"
+                "path": "/istehlakci/ehali/xidmet-provayderlerine-muraciet",
+                "name1": "Telekommunikasiya istehlakçıları xidmət göstərən provayderdən, operatordan necə şikayət verə bilər?",
+                "desc1" : [
+                  "Hər bir telekommunikasiya istehlakçısı hər hansı bir xidmətdən narazı qaldıqda, rəsmi olaraq provayderdən, operatordan şikayət edə bilər;",
+                  "Hər bir xidmət göstərən provayder, operator ən geci 15 iş günü, əlavə öyrənilmə və yoxlanılma tələb edildikdə ən geci 30 iş günü müddətində telekommunikasiya istehlakçısının şikayətinə baxmalıdır;",
+                  "Telekommunikasiya istehlakçısının şikayətini həll etmək xidmət göstərən provayderin, operatorun məsuliyyətidir;",
+                  "Telekommunikasiya istehlakçısının şikayəti həll olunmasa, istehlakçı şikayətlə İKTA-ya müraciət edə bilər;"
+                ],
+                "name2" : "Telekommunikasiya xidməti göstərən provayderə, operatora müraciət et:",
+                "icon" : "/svg/radioelectro.svg",
+                "desc2" : "Radioelektron vasitələrə icazələrin verilməsi"
+              
               }
             ]
           },

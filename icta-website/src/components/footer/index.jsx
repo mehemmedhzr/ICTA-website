@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import data from "../../../public/data/index.json"; 
+import data from "../../../public/data/index.json";
 import {
   FaFacebookF,
   FaLinkedinIn,
@@ -14,44 +14,44 @@ import Up_Button from "../button-up";
 const Footer = () => {
   return (
     <footer className="text-muted-foreground bg-white">
-       <div>
-       <Up_Button />
+      <div>
+        <Up_Button />
       </div>
       <div className="max-w-7xl mx-auto px-6">
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 text-sm border-b py-5">
+          {/* First section: items 0 to 3 */}
           <div>
             {data.navigation.sections.slice(0, 4).map((item) => (
               <div key={item.id}>
                 <Link
-                  to="#"
-                  className="font-medium text-foreground hover:text-primary transition block mb-1 py-2 "
+                  to={item.path || "#"}
+                  className="font-medium text-foreground hover:text-primary transition block mb-1 py-2"
                 >
                   <span className="hover:border-b-2 hover:border-blue-500 pb-1">
-
-                  {item.title}
+                    {item.title}
                   </span>
                 </Link>
               </div>
             ))}
           </div>
 
+          {/* Second section: items 4 to 7 */}
           <div>
             {data.navigation.sections.slice(4, 8).map((item) => (
               <div key={item.id}>
                 <Link
-                  to="#"
+                  to={item.path || "#"}
                   className="font-medium text-foreground hover:text-primary transition block mb-1 py-2"
                 >
-                   <span className="hover:border-b-2 hover:border-blue-500 pb-1">
-
-                  {item.title}
+                  <span className="hover:border-b-2 hover:border-blue-500 pb-1">
+                    {item.title}
                   </span>
                 </Link>
               </div>
             ))}
           </div>
 
-          <div className="py-2 flex flex-col gap-y-5">
+          <div className="py-2 flex flex-col gap-y-5 ">
             <div className="flex gap-3">
               <p>Ünvan:</p>
               <p className="font-medium text-black">
@@ -75,46 +75,15 @@ const Footer = () => {
 
         <div className="flex flex-wrap justify-between py-4 gap-5">
           <p className="text-xs">
-            © 2024 İnformasiya Kommunikasiya Texnologiyaları Agentliyi. Bütün
-            hüquqlar qorunur!
+            © 2024 İnformasiya Kommunikasiya Texnologiyaları Agentliyi. Bütün hüquqlar qorunur!
           </p>
           <div className="flex text-sm gap-3">
-            <a
-              href=""
-              className="hover:text-blue-500 transition-colors duration-300"
-            >
-              <FaYoutube />
-            </a>
-            <a
-              href=""
-              className="hover:text-blue-500 transition-colors duration-300"
-            >
-              <FaFacebookF />
-            </a>
-            <a
-              href=""
-              className="hover:text-blue-500 transition-colors duration-300"
-            >
-              <FaLinkedinIn />
-            </a>
-            <a
-              href=""
-              className="hover:text-blue-500 transition-colors duration-300"
-            >
-              <FaTiktok />
-            </a>
-            <a
-              href=""
-              className="hover:text-blue-500 transition-colors duration-300"
-            >
-              <BsTwitterX />
-            </a>
-            <a
-              href=""
-              className="hover:text-blue-500 transition-colors duration-300"
-            >
-              <FaInstagram />
-            </a>
+            <a href="#" className="hover:text-blue-500 transition-colors duration-300"><FaYoutube /></a>
+            <a href="#" className="hover:text-blue-500 transition-colors duration-300"><FaFacebookF /></a>
+            <a href="#" className="hover:text-blue-500 transition-colors duration-300"><FaLinkedinIn /></a>
+            <a href="#" className="hover:text-blue-500 transition-colors duration-300"><FaTiktok /></a>
+            <a href="#" className="hover:text-blue-500 transition-colors duration-300"><BsTwitterX /></a>
+            <a href="#" className="hover:text-blue-500 transition-colors duration-300"><FaInstagram /></a>
           </div>
         </div>
       </div>

@@ -40,7 +40,7 @@ const UseFul = () => {
 
 
   return (
-    <div className="useful py-5 bg-[#f3f6fa]">
+    <div className="useful py-5">
       <div className="text-center">
         <h1 className="font-medium text-[22px]">BEYNƏLXALQ TƏRƏFDAŞLIQLAR</h1>
       </div>

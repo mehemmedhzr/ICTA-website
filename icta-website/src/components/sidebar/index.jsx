@@ -72,21 +72,19 @@ const Sidebar = ({ menu }) => {
   };
 
   return (
-    <div className="w-80 px-1 min-h-screen overflow-auto">
-      <ul>
-        {menu.map((item) =>
-          item.subsections ? (
-            <li key={item.id} className="mb-2 bg-white py-4">
-              {renderMenuItems(item.subsections, 1)}
-            </li>
-          ) : null
-        )}
-      </ul>
-    </div>
+  <div className="hidden 2xl:block w-80 px-1 min-h-screen overflow-auto">
+  <ul>
+    {menu.map((item) =>
+      item.subsections ? (
+        <li key={item.id} className="mb-2 bg-white py-4">
+          {renderMenuItems(item.subsections, 1)}
+        </li>
+      ) : null
+    )}
+  </ul>
+</div>
+
   );
 };
 
 export default Sidebar;
-
-
-
