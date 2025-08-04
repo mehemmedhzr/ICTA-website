@@ -44,7 +44,6 @@ import VacancyDetails from "../pages/career/VacancyDetails";
 import SaglamReqabet from "../pages/haqqimizda/fealiyyet/saglam-reqabet";
 import XidmetKeyfiyyeti from "../pages/haqqimizda/fealiyyet/xidmet-keyfiyyeti";
 import InternetTenzimleyicileri from "../pages/haqqimizda/fealiyyet/internet-tenzimleyici";
-
 import BeynelxalqLayout from "../pages/haqqimizda/beynelxalq-fealiyyet";
 import BeynelxalqHesabatlar from "../pages/haqqimizda/beynelxalq-fealiyyet/beynelxalq-hesabatlar";
 import Terminologiya from "../pages/haqqimizda/beynelxalq-fealiyyet/terminologiya";
@@ -60,6 +59,7 @@ import IstehlakciLayout from "../layouts/IstehlakciLayout";
 import ESikayet from "../pages/istehlakci/e-sikayet";
 import IstehlakciMemnuniyyeti from "../pages/istehlakci/istehlakci-memnuniyyeti";
 import Elanlar from "../pages/istehlakci/elanlar";
+import Elanlar1 from "../pages/media/elanlar";
 import MobilOperatorlar from "../pages/istehlakci/ehali/mobil-operatorlar";
 import XidmetProviderlerineMuraciet from "../pages/istehlakci/ehali/xidmet-provayderlerine-muraciet";
 import XidmetUzreFormatlar from "../pages/istehlakci/muqavile-formasi/xidmet-uzre-formatlar";
@@ -83,11 +83,7 @@ import BizimHaqqimizdaMediaNeYazir from "../pages/media/bizim-haqqimizda-media-n
 import FotoQaleriya from "../pages/media/fotoqaleriya";
 import TeztezVerilenSuallar from "../pages/media/tez-tezverilen-suallar";
 import Xeberler from "../pages/media/xeberler";
-
-import BazarMelumatlariLayout from "../layouts/BazarMelumatlariLayout";
-import TelecomReqemlerde from "../pages/bazar-melumatlari/telekom-reqemlerde";
-import BazarSorgulari from "../pages/bazar-melumatlari/bazar-sorgulari";
-import GeniszolaqliInternet from "../pages/bazar-melumatlari/bazar-sorgulari/geniszolaqli-internet";
+import NewsDetail from "../pages/media/xeberler/NewsDetail";
 
 // Lazy-loaded pages
 const Home = lazy(() => import("@/pages/home"));
@@ -293,49 +289,16 @@ export const rootRoutes = [
         ],
       },
 
-
-      {
-        path: "/bazar-melumatlari",
-        element: <BazarMelumatlariLayout />,
-        children: [
-          {
-            path: "bazar-sorgulari",
-            element: <BazarSorgulari />, // burda Outlet olmalıdı
-            children: [
-              { path: "geniszolaqli-internet", element: <GeniszolaqliInternet /> },
-              { path: "mobil", element: <Mobil /> },
-              
-            ],
-          },
-
-          { path: "telekom-reqemlerde", element: <TelecomReqemlerde /> },
-          { path: "bazar-arasdirmasi", element: <BazarArasdirmasi /> },
-
-          {
-            path: "bazar-istirakcilari",
-            element: <BazarIstirakcilari />,
-            children: [
-              { path: "backbone-operatorlari", element: <BackOneOperatorlari /> },
-              { path: "internet-provayderleri", element: <InternetProviderleri /> },
-              { path: "poct-xidmetleri", element: <PoctXidmetleri2 /> },
-              { path: "mobil-operatorlar", element: <MobilOperatorlar /> },
-            ],
-          },
-        ],
-      },
-
-
-
-
       {
         path: "/media",
         element: <MediaLayout />,
         children: [
-          { path: "elanlar", element: <Elanlar /> },
+          { path: "elanlar", element: <Elanlar1 /> },
           { path: "bizim-haqqimizda-media-ne-yazir", element: <BizimHaqqimizdaMediaNeYazir /> },
           { path: "fotoqalereya", element: <FotoQaleriya /> },
           { path: "tez-tez-verilen-suallar", element: <TeztezVerilenSuallar /> },
           { path: "xeberler", element: <Xeberler /> },
+          { path: "xeberler/:id", element: <NewsDetail /> },
         ],
       },
 

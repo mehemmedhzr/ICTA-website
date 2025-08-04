@@ -36,7 +36,7 @@ const CareerComponent = () => {
           style={{ backgroundImage: `url(${careerData.image})` }}
         >
           <h1 className="text-[50px] font-semibold mb-2 text-white">
-            {careerData.section}
+            {careerData.title}
           </h1>
         </div>
       )}
