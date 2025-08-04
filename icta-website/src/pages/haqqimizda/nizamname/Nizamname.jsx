@@ -1,43 +1,39 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import { useDataContext } from "../../../context/DataContext";
 
 const Nizamname = () => {
   const [data, setData] = useState(null);
+   const { getSectionData } = useDataContext();
 
   useEffect(() => {
-    fetch("/data/index.json")
-      .then((res) => res.json())
-      .then((data) => {
-        const section = data.navigation?.sections.find(
-          (item) => item.title === "Haqqımızda"
-        );
-        const subsection = section?.subsections?.find(
-          (sub) => sub.title === "Nizamnamə"
-        );
-        if (subsection) {
-          setData({ ...subsection, sectionTitle: section?.title });
-        }
-      })
-      .catch((err) => console.error("Error loading JSON:", err));
-  }, []);
+      const result = getSectionData("Haqqımızda", "Nizamnamə");
+      setData(result);
+      if(result){
+        setData({
+          ...result,
+          section: "Haqqımızda"
+        })
+      }
+    }, [getSectionData]);
 
   if (!data) return <div>Loading...</div>;
 
   return (
-    <div className="px-6">
-      <h1 className="text-[32px] font-medium pt-3">{data.title}</h1>
+    <div className="px-2"> 
+      <h1 className="text-[32px] font-medium pt-3">NİZAMNAMƏ</h1>
 
       <div className="text-sm text-gray-500 border-b pb-8 pt-2">
         <Link to="/" className="hover:underline">
           Əsas
         </Link>
         <span className="mx-2">›</span>
-        <span>{data.sectionTitle}</span>
+        <span>{data.section}</span>
         <span className="mx-2">›</span>
         <span className="text-blue-700 font-medium">{data.title}</span>
       </div>
 
-      <div className="pt-10">
+      <div className="pt-8">
         <h2 className="text-[24px] font-medium pb-6">{data.name}</h2>
         {data.img && (
           <img src={data.img} alt={data.title} className="max-w-full" />

@@ -6,10 +6,10 @@ import Up_Button from "./components/button-up";
 
 const App = () => {
   return (
-    <div className="flex flex-col min-h-screen bg-[white] overflow-x-hidden">
+    <div className="flex flex-col min-h-screen  bg-red-900 overflow-x-hidden">
       <Header />
       
-      <main className="flex min-h-[50vh]  justify-center ">
+      <main className="min-h-[50vh] ">
         <Outlet />
       </main>
 

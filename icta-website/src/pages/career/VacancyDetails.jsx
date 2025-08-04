@@ -49,7 +49,7 @@ const VacancyDetails = () => {
   if (!vakansiya) return <p className="text-center mt-10">Yüklənir...</p>;
 
   return (
-    <div className="max-w-[950px] mx-auto mt-10 mb-10 p-5">
+    <div className="max-w-[950px] mx-auto  mb-10 p-5">
       <div>
         <div className="text-sm py-2">
           <Link to="/" className="text-gray-500 hover:underline">
@@ -58,7 +58,7 @@ const VacancyDetails = () => {
           <span className="mx-2 text-gray-500">›</span>
           <span className="text-gray-500">{vakansiya.section}</span>
           <span className="mx-2 text-gray-500">›</span>
-          <span className="text-blue-700 font-medium">Vakansiya haqqında</span>
+          <span className="text-[#498efb] font-medium">Vakansiya haqqında</span>
         </div>
         <h2 className="text-2xl font-semibold text-[#498efb] mb-4">
           {vakansiya.title}
@@ -113,7 +113,7 @@ const VacancyDetails = () => {
                 value={vakansiya.skills}
               />
               <VacancyInfo
-                icon="/svg/money.svg"
+                icon="/svg/case.svg"
                 label="Əmək haqqı"
                 value={vakansiya.salary}
               />
