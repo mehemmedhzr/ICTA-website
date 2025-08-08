@@ -1,115 +1,291 @@
-import { lazy, Suspense } from "react";
-// import { ErrorBoundary } from "react-error-boundary";
-// import LoadingScreen from "@/components/LoadingScreen";
-// import ErrorFallback from "@/components/ErrorFallback";
+import { Suspense, lazy } from "react";
+import { Navigate } from "react-router-dom";
+
 import App from "@/App";
-import Haqqimizda from "../layouts/HaqqimizdaLayout";
-import IktaStartegiya from "../pages/haqqimizda/ikta-starategiya/index";
-import HaqqimizdaLayout from "../layouts/HaqqimizdaLayout";
-import HuquqiAktlarLayout from "../layouts/HuquqiAktlarLayout";
-import IktaHaqqimizda from "../pages/haqqimizda/ikta-haqqinda/IktaHaqqinda";
-import Nizamname from "../pages/haqqimizda/nizamname/Nizamname";
-import Struktur from "../pages/haqqimizda/struktur/Struktur";
-import FealiyyetLayout from "../pages/haqqimizda/fealiyyet/FealiyyetLayout";
-import Telekomunikasiya from "../pages/haqqimizda/fealiyyet/telekomunikasiya";
-import Arabaglanti from "../pages/haqqimizda/fealiyyet/telekomunikasiya/ara-baglantı";
+//haqqimizda
+const HaqqimizdaLayout = lazy(() => import("../layouts/HaqqimizdaLayout"));
+const IktaStartegiya = lazy(() =>
+  import("../pages/haqqimizda/ikta-starategiya")
+);
+const HuquqiAktlarLayout = lazy(() => import("../layouts/HuquqiAktlarLayout"));
+const IktaHaqqimizda = lazy(() =>
+  import("../pages/haqqimizda/ikta-haqqinda/IktaHaqqinda")
+);
+const Nizamname = lazy(() => import("../pages/haqqimizda/nizamname/Nizamname"));
+const Struktur = lazy(() => import("../pages/haqqimizda/struktur/Struktur"));
+const FealiyyetLayout = lazy(() =>
+  import("../pages/haqqimizda/fealiyyet/FealiyyetLayout")
+);
+const Telekomunikasiya = lazy(() =>
+  import("../pages/haqqimizda/fealiyyet/telekomunikasiya")
+);
+const Arabaglanti = lazy(() =>
+  import("../pages/haqqimizda/fealiyyet/telekomunikasiya/ara-baglantı")
+);
+const UcotaAlinmisOperatorProviderler = lazy(() =>
+  import(
+    "../pages/haqqimizda/fealiyyet/telekomunikasiya/ucota-alinmis-operator-providerler"
+  )
+);
+const OperatorVeProviderlerinUcotu = lazy(() =>
+  import(
+    "../pages/haqqimizda/fealiyyet/telekomunikasiya/operator-provayder-ucotu"
+  )
+);
+const NomreResusu = lazy(() =>
+  import("../pages/haqqimizda/fealiyyet/telekomunikasiya/nomre-resusu")
+);
+const Internet = lazy(() =>
+  import("../pages/haqqimizda/fealiyyet/telekomunikasiya/internet")
+);
+const Lisenziya = lazy(() =>
+  import("../pages/haqqimizda/fealiyyet/telekomunikasiya/lisenziya")
+);
+const Mobil = lazy(() =>
+  import("../pages/haqqimizda/fealiyyet/telekomunikasiya/mobil")
+);
+const Telefon = lazy(() =>
+  import("../pages/haqqimizda/fealiyyet/telekomunikasiya/telefon")
+);
+const Sertifikatlasdirma = lazy(() =>
+  import("../pages/haqqimizda/fealiyyet/telekomunikasiya/serifikatlasdirma")
+);
+const Sorgu = lazy(() =>
+  import("../pages/haqqimizda/fealiyyet/telekomunikasiya/sorgu")
+);
+const Tarifler = lazy(() =>
+  import("../pages/haqqimizda/fealiyyet/telekomunikasiya/tarifler")
+);
+const UniversalTelecomXidmetleri = lazy(() =>
+  import(
+    "../pages/haqqimizda/fealiyyet/telekomunikasiya/universal-telecom-xidmetleri"
+  )
+);
+const SpekterIdareciliyi = lazy(() =>
+  import("../pages/haqqimizda/fealiyyet/spektr-idareciliyi")
+);
+const RadioSpektrResuslari = lazy(() =>
+  import(
+    "../pages/haqqimizda/fealiyyet/spektr-idareciliyi/radiospektr-resuslari"
+  )
+);
+const RadioSpektrResuslarininTenzimlenmesi = lazy(() =>
+  import(
+    "../pages/haqqimizda/fealiyyet/spektr-idareciliyi/radiospektr-resuslarinin-tenzimlenmesi"
+  )
+);
+const RadioTezlikEhtiyyatlarininMuhafizesi = lazy(() =>
+  import(
+    "../pages/haqqimizda/fealiyyet/spektr-idareciliyi/radiotezlik-ehtiyatlarinin-muhafizesi"
+  )
+);
+const PoctXidmetleri = lazy(() =>
+  import("../pages/haqqimizda/fealiyyet/poct-xidmetleri")
+);
+const PoctFealiyyetiHaqqindaHesabatlar = lazy(() =>
+  import(
+    "../pages/haqqimizda/fealiyyet/poct-xidmetleri/poct-fealiyyeti-haqqinda-hesabatlar"
+  )
+);
+const PoctOperatorlarinaQarsiQoyulanTelebler = lazy(() =>
+  import(
+    "../pages/haqqimizda/fealiyyet/poct-xidmetleri/poct-operatorlarina-qarsi-telebler"
+  )
+);
+const PoctRabiteLisenziyalari = lazy(() =>
+  import(
+    "../pages/haqqimizda/fealiyyet/poct-xidmetleri/poct-rabite-lisenziyalari"
+  )
+);
+const SuretliPoctXidmetiLisenziyalari = lazy(() =>
+  import(
+    "../pages/haqqimizda/fealiyyet/poct-xidmetleri/suretli-poct-xidmeti-lisenziyalari"
+  )
+);
+const UmumiMelumat = lazy(() =>
+  import("../pages/haqqimizda/fealiyyet/poct-xidmetleri/umumi-melumat")
+);
+const UniversalPoctXidmetiTarifleri = lazy(() =>
+  import(
+    "../pages/haqqimizda/fealiyyet/poct-xidmetleri/universal-poct-xidmeti-tarifleri"
+  )
+);
+const MubahiselerinHelli = lazy(() =>
+  import("../pages/haqqimizda/fealiyyet/mubahiselerin-helli")
+);
+const SaglamReqabet = lazy(() =>
+  import("../pages/haqqimizda/fealiyyet/saglam-reqabet")
+);
+const XidmetKeyfiyyeti = lazy(() =>
+  import("../pages/haqqimizda/fealiyyet/xidmet-keyfiyyeti")
+);
+const InternetTenzimleyicileri = lazy(() =>
+  import("../pages/haqqimizda/fealiyyet/internet-tenzimleyici")
+);
+const BeynelxalqLayout = lazy(() =>
+  import("../pages/haqqimizda/beynelxalq-fealiyyet")
+);
+const BeynelxalqHesabatlar = lazy(() =>
+  import("../pages/haqqimizda/beynelxalq-fealiyyet/beynelxalq-hesabatlar")
+);
+const Terminologiya = lazy(() =>
+  import("../pages/haqqimizda/beynelxalq-fealiyyet/terminologiya")
+);
+const IllikHesabatlar = lazy(() =>
+  import("../pages/haqqimizda/illik-hesabatlar")
+);
 
-import UcotaAlinmisOperatorProviderler from "../pages/haqqimizda/fealiyyet/telekomunikasiya/ucota-alinmis-operator-providerler";
-import OperatorVeProviderlerinUcotu from "../pages/haqqimizda/fealiyyet/telekomunikasiya/operator-provayder-ucotu";
-import NomreResusu from "../pages/haqqimizda/fealiyyet/telekomunikasiya/nomre-resusu";
-import Internet from "../pages/haqqimizda/fealiyyet/telekomunikasiya/internet";
-import Lisenziya from "../pages/haqqimizda/fealiyyet/telekomunikasiya/lisenziya";
-import Mobil from "../pages/haqqimizda/fealiyyet/telekomunikasiya/mobil";
-import Telefon from "../pages/haqqimizda/fealiyyet/telekomunikasiya/telefon";
-import Sertifikatlasdirma from "../pages/haqqimizda/fealiyyet/telekomunikasiya/serifikatlasdirma";
-import Sorgu from "../pages/haqqimizda/fealiyyet/telekomunikasiya/sorgu";
-import Tarifler from "../pages/haqqimizda/fealiyyet/telekomunikasiya/tarifler";
-import UniversalTelecomXidmetleri from "../pages/haqqimizda/fealiyyet/telekomunikasiya/universal-telecom-xidmetleri";
+//huquqi aktlar
 
-import SpekterIdareciliyi from "../pages/haqqimizda/fealiyyet/spektr-idareciliyi";
-import RadioSpektrResuslari from "../pages/haqqimizda/fealiyyet/spektr-idareciliyi/radiospektr-resuslari";
-import RadioSpektrResuslarininTenzimlenmesi from "../pages/haqqimizda/fealiyyet/spektr-idareciliyi/radiospektr-resuslarinin-tenzimlenmesi";
-import RadioTezlikEhtiyyatlarininMuhafizesi from "../pages/haqqimizda/fealiyyet/spektr-idareciliyi/radiotezlik-ehtiyatlarinin-muhafizesi";
+const Fermanlar = lazy(() => import("../pages/huquqi-aktlar/fermanlar"));
+const Konstusiya = lazy(() => import("../pages/huquqi-aktlar/konstusiya"));
+const NazirlerKabinetininQerarlari = lazy(() =>
+  import("../pages/huquqi-aktlar/nazirler-kabinetinin-qerarlari")
+);
+const Qanunlar = lazy(() => import("../pages/huquqi-aktlar/qanunlar"));
+const RinQerarlari = lazy(() => import("../pages/huquqi-aktlar/rin-qerarlari"));
+const Serencamlar = lazy(() => import("../pages/huquqi-aktlar/serencamlar"));
 
-import PoctXidmetleri from "../pages/haqqimizda/fealiyyet/poct-xidmetleri";
-import PoctFealiyyetiHaqqindaHesabatlar from "../pages/haqqimizda/fealiyyet/poct-xidmetleri/poct-fealiyyeti-haqqinda-hesabatlar";
-import PoctOperatorlarinaQarsiQoyulanTelebler from "../pages/haqqimizda/fealiyyet/poct-xidmetleri/poct-operatorlarina-qarsi-telebler";
-import PoctRabiteLisenziyalari from "../pages/haqqimizda/fealiyyet/poct-xidmetleri/poct-rabite-lisenziyalari";
-import SuretliPoctXidmetiLisenziyalari from "../pages/haqqimizda/fealiyyet/poct-xidmetleri/suretli-poct-xidmeti-lisenziyalari";
-import UmumiMelumat from "../pages/haqqimizda/fealiyyet/poct-xidmetleri/umumi-melumat";
-import UniversalPoctXidmetiTarifleri from "../pages/haqqimizda/fealiyyet/poct-xidmetleri/universal-poct-xidmeti-tarifleri";
-import MubahiselerinHelli from "../pages/haqqimizda/fealiyyet/mubahiselerin-helli";
-import CareerComponent from "../pages/career/CareerComponent";
-import VacancyDetails from "../pages/career/VacancyDetails";
-import SaglamReqabet from "../pages/haqqimizda/fealiyyet/saglam-reqabet";
-import XidmetKeyfiyyeti from "../pages/haqqimizda/fealiyyet/xidmet-keyfiyyeti";
-import InternetTenzimleyicileri from "../pages/haqqimizda/fealiyyet/internet-tenzimleyici";
-import BeynelxalqLayout from "../pages/haqqimizda/beynelxalq-fealiyyet";
-import BeynelxalqHesabatlar from "../pages/haqqimizda/beynelxalq-fealiyyet/beynelxalq-hesabatlar";
-import Terminologiya from "../pages/haqqimizda/beynelxalq-fealiyyet/terminologiya";
-import IllikHesabatlar from "../pages/haqqimizda/illik-hesabatlar";
+//istehlakci
+const IstehlakciLayout = lazy(() => import("../layouts/IstehlakciLayout"));
+const ESikayet = lazy(() => import("../pages/istehlakci/e-sikayet"));
+const IstehlakciMemnuniyyeti = lazy(() =>
+  import("../pages/istehlakci/istehlakci-memnuniyyeti")
+);
+const Elanlar = lazy(() => import("../pages/istehlakci/elanlar"));
+const MobilOperatorlar = lazy(() =>
+  import("../pages/istehlakci/ehali/mobil-operatorlar")
+);
+const XidmetProviderlerineMuraciet = lazy(() =>
+  import("../pages/istehlakci/ehali/xidmet-provayderlerine-muraciet")
+);
+const XidmetUzreFormatlar = lazy(() =>
+  import("../pages/istehlakci/muqavile-formasi/xidmet-uzre-formatlar")
+);
+const EhaliLayout = lazy(() => import("../pages/istehlakci/ehali/Ehali"));
+const PoctXidmetleri2 = lazy(() =>
+  import("../pages/istehlakci/ehali/poct-xidmetleri")
+);
+const MuqavileFormasi = lazy(() =>
+  import(
+    "../pages/istehlakci/muqavile-formasi/xidmet-uzre-formatlar/MuqavileFormasi"
+  )
+);
 
-import Fermanlar from "../pages/huquqi-aktlar/fermanlar";
-import Konstusiya from "../pages/huquqi-aktlar/konstusiya";
-import NazirlerKabinetininQerarlari from "../pages/huquqi-aktlar/nazirler-kabinetinin-qerarlari";
-import Qanunlar from "../pages/huquqi-aktlar/qanunlar";
-import RinQerarlari from "../pages/huquqi-aktlar/rin-qerarlari";
-import Serencamlar from "../pages/huquqi-aktlar/serencamlar";
-import IstehlakciLayout from "../layouts/IstehlakciLayout";
-import ESikayet from "../pages/istehlakci/e-sikayet";
-import IstehlakciMemnuniyyeti from "../pages/istehlakci/istehlakci-memnuniyyeti";
-import Elanlar from "../pages/istehlakci/elanlar";
-import Elanlar1 from "../pages/media/elanlar";
-import MobilOperatorlar from "../pages/istehlakci/ehali/mobil-operatorlar";
-import XidmetProviderlerineMuraciet from "../pages/istehlakci/ehali/xidmet-provayderlerine-muraciet";
-import XidmetUzreFormatlar from "../pages/istehlakci/muqavile-formasi/xidmet-uzre-formatlar";
-import EhaliLayout from "../pages/istehlakci/ehali/Ehali";
-import PoctXidmetleri2 from "../pages/istehlakci/ehali/poct-xidmetleri";
-import MuqavileFormasi from "../pages/istehlakci/muqavile-formasi/xidmet-uzre-formatlar/MuqavileFormasi";
-import XidmetBazarlariLayout from "../layouts/XidmetBazarlariLayout";
-import BazarStrukturu from "../pages/xidmet-bazarlari/bazar-strukturu";
-import BazarArasdirmasi from "../pages/xidmet-bazarlari/bazar-arasdirmasi";
-import BazarIstirakcilari from "../pages/xidmet-bazarlari/bazar-istirakcilari/BazarIstirakcilari";
-import BackOneOperatorlari from "../pages/xidmet-bazarlari/bazar-istirakcilari/backbone-operatorlar";
-import InternetProviderleri from "../pages/xidmet-bazarlari/bazar-istirakcilari/internet-provayderleri";
-import Komunikasiya from "../pages/xidmet-bazarlari/xidmet-keyfiyyeti/komunikasiya";
-import SpeedTest from "../pages/xidmet-bazarlari/xidmet-keyfiyyeti/speed-test";
-import DriveTest from "../pages/xidmet-bazarlari/xidmet-keyfiyyeti/drive-test";
-import Suvyerler from "../pages/xidmet-bazarlari/xidmet-keyfiyyeti/surveyler";
-import XidmetKeyfiyyeti1 from "../pages/xidmet-bazarlari/xidmet-keyfiyyeti/XidmetKeyfiyyeti";
+//xidmet bazarlari
 
-import MediaLayout from "../layouts/MediaLayout";
-import BizimHaqqimizdaMediaNeYazir from "../pages/media/bizim-haqqimizda-media-neyazir";
-import FotoQaleriya from "../pages/media/fotoqaleriya";
-import TeztezVerilenSuallar from "../pages/media/tez-tezverilen-suallar";
-import Xeberler from "../pages/media/xeberler";
-import NewsDetail from "../pages/media/xeberler/NewsDetail";
+const XidmetBazarlariLayout = lazy(() =>
+  import("../layouts/XidmetBazarlariLayout")
+);
+const BazarStrukturu = lazy(() =>
+  import("../pages/xidmet-bazarlari/bazar-strukturu")
+);
+const BazarArasdirmasi = lazy(() =>
+  import("../pages/xidmet-bazarlari/bazar-arasdirmasi")
+);
+const BazarIstirakcilari = lazy(() =>
+  import("../pages/xidmet-bazarlari/bazar-istirakcilari/BazarIstirakcilari")
+);
+const BackOneOperatorlari = lazy(() =>
+  import("../pages/xidmet-bazarlari/bazar-istirakcilari/backbone-operatorlar")
+);
+const InternetProviderleri = lazy(() =>
+  import("../pages/xidmet-bazarlari/bazar-istirakcilari/internet-provayderleri")
+);
+const Komunikasiya = lazy(() =>
+  import("../pages/xidmet-bazarlari/xidmet-keyfiyyeti/komunikasiya")
+);
+const SpeedTest = lazy(() =>
+  import("../pages/xidmet-bazarlari/xidmet-keyfiyyeti/speed-test")
+);
+const DriveTest = lazy(() =>
+  import("../pages/xidmet-bazarlari/xidmet-keyfiyyeti/drive-test")
+);
+const Suvyerler = lazy(() =>
+  import("../pages/xidmet-bazarlari/xidmet-keyfiyyeti/surveyler")
+);
+const XidmetKeyfiyyeti1 = lazy(() =>
+  import("../pages/xidmet-bazarlari/xidmet-keyfiyyeti/XidmetKeyfiyyeti")
+);
 
-// Lazy-loaded pages
-const Home = lazy(() => import("@/pages/home"));
-// const Haqqimizda = lazy(() => import("../pages/haqqimizda/index"));
-// const Nizamname = lazy(() => import("@/pages/haqqimizda/Nizamname"));
-// const Struktur = lazy(() => import("@/pages/haqqimizda/Struktur"));
-// const Fealiyyet = lazy(() => import("@/pages/haqqimizda/Fealiyyet"));
-// const BeynelxalqFealiyyet = lazy(() => import("@/pages/haqqimizda/BeynelxalqFealiyyet"));
-// const Strategiya = lazy(() => import("@/pages/haqqimizda/Strategiya"));
-// const IllikHesabat = lazy(() => import("@/pages/haqqimizda/IllikHesabat"));
-// const Konstitusiya = lazy(() => import("@/pages/huquqi-aktlar/Konstitusiya"));
-// const Qanunlar = lazy(() => import("@/pages/huquqi-aktlar/Qanunlar"));
-// const Karyera = lazy(() => import("@/pages/Karyera"));
-// const Elaqe = lazy(() => import("@/pages/Elaqe"));
+//media
+
+const MediaLayout = lazy(() => import("../layouts/MediaLayout"));
+const BizimHaqqimizdaMediaNeYazir = lazy(() =>
+  import("../pages/media/bizim-haqqimizda-media-neyazir")
+);
+const FotoQaleriya = lazy(() => import("../pages/media/fotoqaleriya"));
+const Xeberler = lazy(() => import("../pages/media/xeberler"));
+const Elanlar1 = lazy(() => import("../pages/media/elanlar"));
+
+//bazar melumatlari
+const BazarMelumatlariLayout = lazy(() =>
+  import("../layouts/BazarMelumatlariLayout")
+);
+const BazarSorgulari = lazy(() =>
+  import("../pages/bazar-melumatlari/bazar-sorgulari")
+);
+const GeniszolaqliInternet1 = lazy(() =>
+  import("../pages/bazar-melumatlari/bazar-sorgulari/geniszolaqli-internet")
+);
+const GeniszolaqliInternet2 = lazy(() =>
+  import("../pages/bazar-melumatlari/hesabatlar/geniszolaqli-internet")
+);
+const GeniszolaqliInternet3 = lazy(() =>
+  import(
+    "../pages/bazar-melumatlari/keyfiyyet-gostericileri/geniszolaqli-internet"
+  )
+);
+const Hesabatlar = lazy(() => import("../pages/bazar-melumatlari/hesabatlar"));
+const PoctRabitesi = lazy(() =>
+  import("../pages/bazar-melumatlari/hesabatlar/poct-rabitesi")
+);
+const TelecomReqemlerde = lazy(() =>
+  import("../pages/bazar-melumatlari/telekom-reqemlerde")
+);
+const Mobil3 = lazy(() =>
+  import("../pages/bazar-melumatlari/bazar-sorgulari/mobil")
+);
+const Mobil4 = lazy(() =>
+  import("../pages/bazar-melumatlari/hesabatlar/mobil")
+);
+const Mobil5 = lazy(() =>
+  import("../pages/bazar-melumatlari/keyfiyyet-gostericileri/mobil")
+);
+const KeyfiyyetGostericileri = lazy(() =>
+  import("../pages/bazar-melumatlari/keyfiyyet-gostericileri")
+);
+
+//elektron xidmetler
+
+const ElektronLayout = lazy(() => import("../layouts/ElektronLayout"));
+const MelumatToplamaSistemi = lazy(() =>
+  import("../pages/elektron-xidmetler/melumat-toplama-sistemi")
+);
+const RadioelektronVasitelereIcazelerinAlinmasi = lazy(() =>
+  import(
+    "../pages/elektron-xidmetler/radioelektron-vasitelere-icazelerin-verilmesi"
+  )
+);
+const RadioTezliklerinAyrilmasi = lazy(() =>
+  import("../pages/elektron-xidmetler/radiotezliklerin-ayrilmasi")
+);
+const ESikayet1 = lazy(() => import("../pages/elektron-xidmetler/e-sikayet"));
+const UcotaAlinma = lazy(() =>
+  import("../pages/elektron-xidmetler/ucota-alinma")
+);
+
+//kariyera
+
+const CareerComponent = lazy(() => import("../pages/career/CareerComponent"));
+const VacancyDetails = lazy(() => import("../pages/career/VacancyDetails"));
+
+import Notfound from "../pages/not-found";
+import { lazyWithDelay } from "../utils/lazyWithDelay";
+
+const Home = lazyWithDelay(() => import("@/pages/home"), 6000);
 
 export const rootRoutes = [
-  // {
-  //   element: (
-  //     // <Suspense fallback={<LoadingScreen />}>
-  //     //   <ErrorBoundary FallbackComponent={ErrorFallback}>
-  //     //     <App />
-  //     //   </ErrorBoundary>
-  //     // </Suspense>
-  //     <App/>
-  //   ),
-
   {
     element: <App />,
     children: [
@@ -147,10 +323,16 @@ export const rootRoutes = [
                   { path: "lisenziya", element: <Lisenziya /> },
                   { path: "mobil", element: <Mobil /> },
                   { path: "telefon-meftilli", element: <Telefon /> },
-                  { path: "sertifikatlastirma", element: <Sertifikatlasdirma /> },
+                  {
+                    path: "sertifikatlastirma",
+                    element: <Sertifikatlasdirma />,
+                  },
                   { path: "sorgu", element: <Sorgu /> },
                   { path: "tarifler", element: <Tarifler /> },
-                  { path: "universal-telecom-xidmetleri", element: <UniversalTelecomXidmetleri /> },
+                  {
+                    path: "universal-telecom-xidmetleri",
+                    element: <UniversalTelecomXidmetleri />,
+                  },
                 ],
               },
               { path: "mubahiselerin-helli", element: <MubahiselerinHelli /> },
@@ -165,7 +347,10 @@ export const rootRoutes = [
                 path: "spektr-idareciliyi",
                 element: <SpekterIdareciliyi />,
                 children: [
-                  { path: "radiospektr-resuslari", element: <RadioSpektrResuslari /> },
+                  {
+                    path: "radiospektr-resuslari",
+                    element: <RadioSpektrResuslari />,
+                  },
                   {
                     path: "radiospektr-resuslarinin-tenzimlenmesi",
                     element: <RadioSpektrResuslarininTenzimlenmesi />,
@@ -193,7 +378,10 @@ export const rootRoutes = [
                     path: "universal-poct-xidmeti-tarifleri",
                     element: <UniversalPoctXidmetiTarifleri />,
                   },
-                  { path: "poct-rabite-lisenziyalari", element: <PoctRabiteLisenziyalari /> },
+                  {
+                    path: "poct-rabite-lisenziyalari",
+                    element: <PoctRabiteLisenziyalari />,
+                  },
                   {
                     path: "suretli-poct-xidmeti-lisenziyalari",
                     element: <SuretliPoctXidmetiLisenziyalari />,
@@ -208,7 +396,10 @@ export const rootRoutes = [
             path: "beynelxalq-fealiyyetler",
             element: <BeynelxalqLayout />,
             children: [
-              { path: "beynelxalq-hesabatlar", element: <BeynelxalqHesabatlar /> },
+              {
+                path: "beynelxalq-hesabatlar",
+                element: <BeynelxalqHesabatlar />,
+              },
               { path: "terminologiya", element: <Terminologiya /> },
               { path: "umumi-melumat", element: <UmumiMelumat /> },
             ],
@@ -222,7 +413,10 @@ export const rootRoutes = [
         children: [
           { path: "fermanlar", element: <Fermanlar /> },
           { path: "konstitusiya", element: <Konstusiya /> },
-          { path: "nazirler-kabinetinin-qearlari", element: <NazirlerKabinetininQerarlari /> },
+          {
+            path: "nazirler-kabinetinin-qearlari",
+            element: <NazirlerKabinetininQerarlari />,
+          },
           { path: "qanunlar", element: <Qanunlar /> },
           { path: "rin-qerarlari", element: <RinQerarlari /> },
           { path: "serencamlar", element: <Serencamlar /> },
@@ -247,12 +441,20 @@ export const rootRoutes = [
           },
           { path: "e-sikayet", element: <ESikayet /> },
           { path: "elanlar", element: <Elanlar /> },
-          { path: "istehlakci-memnuniyyeti", element: <IstehlakciMemnuniyyeti /> },
+          {
+            path: "istehlakci-memnuniyyeti",
+            element: <IstehlakciMemnuniyyeti />,
+          },
           { path: "qanunlar", element: <Qanunlar /> },
           {
             path: "muqavile-formasi",
             element: <MuqavileFormasi />,
-            children: [{ path: "xidmetler-uzre-formatlar", element: <XidmetUzreFormatlar /> }],
+            children: [
+              {
+                path: "xidmetler-uzre-formatlar",
+                element: <XidmetUzreFormatlar />,
+              },
+            ],
           },
         ],
       },
@@ -280,8 +482,14 @@ export const rootRoutes = [
             path: "bazar-istirakcilari",
             element: <BazarIstirakcilari />,
             children: [
-              { path: "backbone-operatorlari", element: <BackOneOperatorlari /> },
-              { path: "internet-provayderleri", element: <InternetProviderleri /> },
+              {
+                path: "backbone-operatorlari",
+                element: <BackOneOperatorlari />,
+              },
+              {
+                path: "internet-provayderleri",
+                element: <InternetProviderleri />,
+              },
               { path: "poct-xidmetleri", element: <PoctXidmetleri2 /> },
               { path: "mobil-operatorlar", element: <MobilOperatorlar /> },
             ],
@@ -290,26 +498,104 @@ export const rootRoutes = [
       },
 
       {
-        path: "/media",
-        element: <MediaLayout />,
+        path: "/bazar-melumatlari/",
+        element: <BazarMelumatlariLayout />,
         children: [
-          { path: "elanlar", element: <Elanlar1 /> },
-          { path: "bizim-haqqimizda-media-ne-yazir", element: <BizimHaqqimizdaMediaNeYazir /> },
-          { path: "fotoqalereya", element: <FotoQaleriya /> },
-          { path: "tez-tez-verilen-suallar", element: <TeztezVerilenSuallar /> },
-          { path: "xeberler", element: <Xeberler /> },
-          { path: "xeberler/:id", element: <NewsDetail /> },
+          {
+            path: "bazar-sorğuları",
+            element: <BazarSorgulari />, // burda Outlet olmalıdı
+            children: [
+              {
+                path: "geniszolaqli-internet",
+                element: <GeniszolaqliInternet1 />,
+              },
+              { path: "mobil", element: <Mobil3 /> },
+            ],
+          },
+
+          {
+            path: "hesabatalar",
+            element: <Hesabatlar />, // burda Outlet olmalıdı
+            children: [
+              {
+                path: "geniszolaqli-internet",
+                element: <GeniszolaqliInternet2 />,
+              },
+              { path: "mobil", element: <Mobil4 /> },
+              { path: "poct-rabitesi", element: <PoctRabitesi /> },
+            ],
+          },
+
+          {
+            path: "keyfiyyet-gostericileri",
+            element: <KeyfiyyetGostericileri />, // burda Outlet olmalıdı
+            children: [
+              {
+                path: "geniszolaqli-internet",
+                element: <GeniszolaqliInternet3 />,
+              },
+              { path: "mobil", element: <Mobil5 /> },
+            ],
+          },
+
+          { path: "telekom-reqemlerde", element: <TelecomReqemlerde /> },
         ],
       },
 
       {
+        path: "/media",
+        element: <MediaLayout />,
+        children: [
+          { path: "elanlar", element: <Elanlar1 /> },
+          {
+            path: "bizim-haqqimizda-media-ne-yazir",
+            element: <BizimHaqqimizdaMediaNeYazir />,
+          },
+          { path: "fotoqalereya", element: <FotoQaleriya /> },
+
+          { path: "xeberler", element: <Xeberler /> },
+        ],
+      },
+      {
+        path: "/elaqe",
+        element: <CareerComponent />,
+      },
+      {
         path: "/karyera",
-        element: <CareerComponent />, // Career əsas səhifə
+        element: <CareerComponent />,
       },
 
       {
         path: "/karyera/vakansiyalar/:id",
-        element: <VacancyDetails />, // Vakansiya detalları ayrıca səhifə kimi
+        element: <VacancyDetails />,
+      },
+
+      {
+        path: "/elektron-xidmetler",
+        element: <ElektronLayout />,
+        children: [
+          { index: true, element: <Navigate to="e-sikayet" replace /> }, // /elektron-xidmetler açıldıqda yönləndir
+
+          { path: "e-sikayet", element: <ESikayet1 /> },
+          {
+            path: "melumat-toplama-sistemi",
+            element: <MelumatToplamaSistemi />,
+          },
+          {
+            path: "radioelektron-vasitelere-icazelerin-verilmesi",
+            element: <RadioelektronVasitelereIcazelerinAlinmasi />,
+          },
+          {
+            path: "radiotezliklerin-ayrilmasi",
+            element: <RadioTezliklerinAyrilmasi />,
+          },
+          { path: "ucota-alinma", element: <UcotaAlinma /> },
+        ],
+      },
+
+      {
+        path: "*",
+        element: <Notfound />,
       },
     ],
   },

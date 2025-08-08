@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { ChevronRight } from "lucide-react";
+import { ChevronRight,ArrowUpRight } from "lucide-react";
 
 const Sidebar = ({ menu }) => {
   const location = useLocation();
@@ -15,11 +15,7 @@ const Sidebar = ({ menu }) => {
       <ul className={level === 1 ? "ml-4 mt-1 font-medium" : "mt-1 pr-4"}>
         {items.map((item) => {
           const isOpen =
-            level === 1
-              ? openSubItem === item.id
-              : level === 2
-              ? openThirdItem === item.id
-              : false;
+            level === 1 ? openSubItem === item.id : level === 2 ? openThirdItem === item.id : false;
 
           const toggle =
             level === 1
@@ -38,17 +34,13 @@ const Sidebar = ({ menu }) => {
                   location.pathname === item.path
                     ? "bg-[#2D8CFF] text-white"
                     : "bg-[rgb(243,246,250)] text-[rgb(152,162,179)]"
-                }`}
-              >
+                }`}>
                 <Link
                   to={item.path}
                   className={`block text-sm w-full ${
-                    location.pathname === item.path
-                      ? "text-white"
-                      : "text-[rgb(152,162,179)]"
+                    location.pathname === item.path ? "text-white" : "text-[rgb(152,162,179)]"
                   }`}
-                  onClick={(e) => item.subsections && e.preventDefault()}
-                >
+                  onClick={(e) => item.subsections && e.preventDefault()}>
                   {item.title}
                 </Link>
 
@@ -72,7 +64,7 @@ const Sidebar = ({ menu }) => {
   };
 
   return (
-    <div className="w-80 px-1 min-h-screen overflow-auto">
+    <div className="hidden 2xl:block w-80 px-1 min-h-screen overflow-auto">
       <ul>
         {menu.map((item) =>
           item.subsections ? (
@@ -82,11 +74,21 @@ const Sidebar = ({ menu }) => {
           ) : null
         )}
       </ul>
+      {location.pathname === "/elektron-xidmetler" && (
+       <div className="cursor-pointer flex justify-between mt-4 w-70  px-4 py-2 bg-blue-600 text-white  hover:bg-blue-700 transition">
+         <Link
+          to="https://digital.login.gov.az/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="">
+          Xidmətə keç
+        </Link>
+        <ArrowUpRight />
+       </div>
+        
+      )}
     </div>
   );
 };
 
 export default Sidebar;
-
-
-
