@@ -59,6 +59,7 @@ import IstehlakciLayout from "../layouts/IstehlakciLayout";
 import ESikayet from "../pages/istehlakci/e-sikayet";
 import IstehlakciMemnuniyyeti from "../pages/istehlakci/istehlakci-memnuniyyeti";
 import Elanlar from "../pages/istehlakci/elanlar";
+import Elanlar1 from "../pages/media/elanlar";
 import MobilOperatorlar from "../pages/istehlakci/ehali/mobil-operatorlar";
 import XidmetProviderlerineMuraciet from "../pages/istehlakci/ehali/xidmet-provayderlerine-muraciet";
 import XidmetUzreFormatlar from "../pages/istehlakci/muqavile-formasi/xidmet-uzre-formatlar";
@@ -91,7 +92,7 @@ export const rootRoutes = [
   {
     element: <App />,
     children: [
-      { index: true, element: <Home /> }, // Ana səhifə
+      { index: true, element: <Home /> },
 
       {
         path: "/haqqimizda",
@@ -303,7 +304,7 @@ export const rootRoutes = [
         path: "/media",
         element: <MediaLayout />,
         children: [
-          { path: "elanlar", element: <Elanlar /> },
+          { path: "elanlar", element: <Elanlar1 /> },
           {
             path: "bizim-haqqimizda-media-ne-yazir",
             element: <BizimHaqqimizdaMediaNeYazir />,

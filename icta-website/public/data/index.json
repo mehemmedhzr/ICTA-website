@@ -248,18 +248,8 @@
                       "Mülki dövriyyənin müəyyən iştirakçılarına mənsub ola bilən və dövriyyədə olmasına xüsusi icazə əsasında yol verilən (mülki dövriyyəsi məhdudlaşdırılmış) əşyaların siyahısı haqqında Azərbaycan Respublikası Qanununun 14-cü maddəsində nəzərdə tutulmuş güc meyarı həddinin müəyyən edilməsi barədə",
                       "Mülki dövriyyənin müəyyən iştirakçılarına mənsub ola bilən və dövriyyədə olmasına xüsusi icazə əsasında yol verilən (mülki dövriyyəsi məhdudlaşdırılmış) əşyaların siyahısı haqqında Azərbaycan Respublikası Qanununun 14-cü maddəsində nəzərdə tutulmuş güc meyarı həddinin müəyyən edilməsi barədə"
                     ],
-                    "desc6": [
-                      "№ 997-VIQ",
-                      "№ 997-VIQ",
-                      "№ 997-VIQ",
-                      "№ 997-VIQ"
-                    ],
-                    "desc7": [
-                      "02.10.2023",
-                      "02.10.2023",
-                      "02.10.2023",
-                      "02.10.2023"
-                    ]
+                    "desc6": ["№ 997-VIQ", "№ 997-VIQ", "№ 997-VIQ", "№ 997-VIQ"],
+                    "desc7": ["02.10.2023", "02.10.2023", "02.10.2023", "02.10.2023"]
                   },
                   {
                     "id": 9,
@@ -1026,33 +1016,117 @@
       {
         "id": 6,
         "title": "Media",
-        "path": "/media",
+        "path": "/media/xeberler",
         "subsections": [
           {
             "id": 1,
             "title": "Xəbərlər",
-            "path": "/media/xeberler"
+            "path": "/media/xeberler",
+            "news": [
+              {
+                "id": 1,
+                "image": "/images/img1.png",
+                "date": "17 Avqust 2024",
+                "time": "12:47",
+                "title": "İKTA-da İctimai Şura üzvləri ilə görüş keçirilib",
+                "desc": "Azərbaycanın telekommunikasiya və poçt rabitəsi üzrə tənzimləyici qurumu olan İnformasiya Kommunikasiya Texnologiyaları Agentliyində (İKTA) Azərbaycanın telekommunikasiya və poçt rabitəsi üzrə tənzimləyici qurumu olan İnformasiya Kommunikasiya Texnologiyaları Agentliyində (İKTA)Azərbaycanın telekommunikasiya və poçt rabitəsi üzrə tənzimləyici qurumu olan İnformasiya Kommunikasiya Texnologiyaları Agentliyində (İKTA)",
+                "excerpt": "İKTA internet xidmətlərinin biznes mühiti üçün əlverişliliyinin təhlilini aparıb"
+              },
+              {
+                "id": 2,
+                "image": "/images/img2.png",
+                "date": "18 Avqust 2024",
+                "time": "14:20",
+                "desc": "Azərbaycanın telekommunikasiya və poçt rabitəsi üzrə tənzimləyici qurumu olan İnformasiya Kommunikasiya Texnologiyaları Agentliyində (İKTA) Azərbaycanın telekommunikasiya və poçt rabitəsi üzrə tənzimləyici qurumu olan İnformasiya Kommunikasiya Texnologiyaları Agentliyində (İKTA)Azərbaycanın telekommunikasiya və poçt rabitəsi üzrə tənzimləyici qurumu olan İnformasiya Kommunikasiya Texnologiyaları Agentliyində (İKTA)",
+                "title": "Texnologiya forumunda yerli startaplar iştirak etdi",
+                "excerpt": "Forumda 30-dan çox yerli və xarici startap öz məhsullarını təqdim etdi"
+              },
+              {
+                "id": 3,
+                "image": "/images/img3.png",
+                "date": "19 Avqust 2024",
+                "time": "10:00",
+                "desc": "Azərbaycanın telekommunikasiya və poçt rabitəsi üzrə tənzimləyici qurumu olan İnformasiya Kommunikasiya Texnologiyaları Agentliyində (İKTA) Azərbaycanın telekommunikasiya və poçt rabitəsi üzrə tənzimləyici qurumu olan İnformasiya Kommunikasiya Texnologiyaları Agentliyində (İKTA)Azərbaycanın telekommunikasiya və poçt rabitəsi üzrə tənzimləyici qurumu olan İnformasiya Kommunikasiya Texnologiyaları Agentliyində (İKTA)",
+                "title": "Rəqəmsal transformasiya üzrə yeni layihə təqdim olundu",
+                "excerpt": "Layihənin əsas məqsədi rəqəmsallaşmanı sürətləndirməkdir"
+              },
+              {
+                "id": 4,
+                "image": "/images/img1.png",
+                "date": "20 Avqust 2024",
+                "time": "16:30",
+                "desc": "Azərbaycanın telekommunikasiya və poçt rabitəsi üzrə tənzimləyici qurumu olan İnformasiya Kommunikasiya Texnologiyaları Agentliyində (İKTA) Azərbaycanın telekommunikasiya və poçt rabitəsi üzrə tənzimləyici qurumu olan İnformasiya Kommunikasiya Texnologiyaları Agentliyində (İKTA)Azərbaycanın telekommunikasiya və poçt rabitəsi üzrə tənzimləyici qurumu olan İnformasiya Kommunikasiya Texnologiyaları Agentliyində (İKTA)",
+                "title": "Yeni mobil tətbiq istifadəyə verildi",
+                "excerpt": "Tətbiq vətəndaşlara bir sıra xidmətlərə onlayn çıxış imkanı yaradır"
+              },
+              {
+                "id": 5,
+                "image": "/images/img3.png",
+                "date": "21 Avqust 2024",
+                "time": "09:15",
+                "desc": "Azərbaycanın telekommunikasiya və poçt rabitəsi üzrə tənzimləyici qurumu olan İnformasiya Kommunikasiya Texnologiyaları Agentliyində (İKTA) Azərbaycanın telekommunikasiya və poçt rabitəsi üzrə tənzimləyici qurumu olan İnformasiya Kommunikasiya Texnologiyaları Agentliyində (İKTA)Azərbaycanın telekommunikasiya və poçt rabitəsi üzrə tənzimləyici qurumu olan İnformasiya Kommunikasiya Texnologiyaları Agentliyində (İKTA)",
+                "title": "Kibertəhlükəsizlik üzrə maarifləndirmə tədbiri keçirilib",
+                "excerpt": "Tədbirdə məktəblilər və tələbələr üçün təqdimatlar təşkil olunub"
+              },
+              {
+                "id": 6,
+                "image": "/images/img1.png",
+                "date": "22 Avqust 2024",
+                "time": "11:05",
+                "desc": "Azərbaycanın telekommunikasiya və poçt rabitəsi üzrə tənzimləyici qurumu olan İnformasiya Kommunikasiya Texnologiyaları Agentliyində (İKTA) Azərbaycanın telekommunikasiya və poçt rabitəsi üzrə tənzimləyici qurumu olan İnformasiya Kommunikasiya Texnologiyaları Agentliyində (İKTA)Azərbaycanın telekommunikasiya və poçt rabitəsi üzrə tənzimləyici qurumu olan İnformasiya Kommunikasiya Texnologiyaları Agentliyində (İKTA)",
+                "title": "Elektron hökumət portalında yeni funksiyalar işə salınıb",
+                "excerpt": "İstifadəçilər artıq sənədləri birbaşa portaldan əldə edə biləcəklər"
+              }
+            ]
           },
           {
             "id": 2,
-            "title": "Bizim haqqımızda media nə yazır",
+            "title": "Bizim Haqqımızda nə yazır",
             "path": "/media/bizim-haqqimizda-media-ne-yazir"
           },
           {
             "id": 3,
             "title": "Fotoqalereya",
-            "path": "/media/fotoqalereya"
+            "path": "/media/fotoqalereya",
+            "news": [
+              {
+                "id": 1,
+                "image": "/images/img1.png",
+                "date": "17 Avqust 2024"
+              },
+              {
+                "id": 2,
+                "image": "/images/img2.png",
+                "date": "18 Avqust 2024"
+              },
+              {
+                "id": 3,
+                "image": "/images/img3.png",
+                "date": "19 Avqust 2024"
+              },
+              {
+                "id": 4,
+                "image": "/images/img1.png",
+                "date": "20 Avqust 2024"
+              },
+              {
+                "id": 5,
+                "image": "/images/img3.png",
+                "date": "21 Avqust 2024"
+              },
+              {
+                "id": 6,
+                "image": "/images/img1.png",
+                "date": "22 Avqust 2024"
+              }
+            ]
           },
           {
             "id": 4,
             "title": "Elanlar",
             "path": "/media/elanlar"
-          },
-          {
-            "id": 5,
-            "title": "Tez-tez verilən suallar",
-            "path": "/media/tez-tez-verilen-suallar"
           }
+          
         ]
       },
       {
@@ -1296,6 +1370,38 @@
       }
     ]
   },
+  "accordion": [
+    {
+      "id": 1,
+      "title": "Mülki dövriyyənin müəyyən iştirakçılarına mənsub ola bilən və dövriyyədə olmasına xüsusi icazə əsasında yol verilən (mülki dövriyyəsi məhdudlaşdırılmış) əşyaların siyahısı haqqında Azərbaycan Respublikası Qanununun 14-cü maddəsində nəzərdə tutulmuş güc meyarı həddinin müəyyən edilməsi barədə",
+      "muqavileNomresi": "MQ-001",
+      "tarix": "2023-01-15"
+    },
+    {
+      "id": 2,
+      "title": "Mülki dövriyyənin müəyyən iştirakçılarına mənsub ola bilən və dövriyyədə olmasına xüsusi icazə əsasında yol verilən (mülki dövriyyəsi məhdudlaşdırılmış) əşyaların siyahısı haqqında Azərbaycan Respublikası Qanununun 14-cü maddəsində nəzərdə tutulmuş güc meyarı həddinin müəyyən edilməsi barədə",
+      "muqavileNomresi": "MQ-002",
+      "tarix": "2023-03-12"
+    },
+    {
+      "id": 3,
+      "title": "Mülki dövriyyənin müəyyən iştirakçılarına mənsub ola bilən və dövriyyədə olmasına xüsusi icazə əsasında yol verilən (mülki dövriyyəsi məhdudlaşdırılmış) əşyaların siyahısı haqqında Azərbaycan Respublikası Qanununun 14-cü maddəsində nəzərdə tutulmuş güc meyarı həddinin müəyyən edilməsi barədə",
+      "muqavileNomresi": "MQ-003",
+      "tarix": "2023-05-28"
+    },
+    {
+      "id": 4,
+      "title": "Mülki dövriyyənin müəyyən iştirakçılarına mənsub ola bilən və dövriyyədə olmasına xüsusi icazə əsasında yol verilən (mülki dövriyyəsi məhdudlaşdırılmış) əşyaların siyahısı haqqında Azərbaycan Respublikası Qanununun 14-cü maddəsində nəzərdə tutulmuş güc meyarı həddinin müəyyən edilməsi barədə",
+      "muqavileNomresi": "MQ-004",
+      "tarix": "2023-07-10"
+    },
+    {
+      "id": 5,
+     "title": "Mülki dövriyyənin müəyyən iştirakçılarına mənsub ola bilən və dövriyyədə olmasına xüsusi icazə əsasında yol verilən (mülki dövriyyəsi məhdudlaşdırılmış) əşyaların siyahısı haqqında Azərbaycan Respublikası Qanununun 14-cü maddəsində nəzərdə tutulmuş güc meyarı həddinin müəyyən edilməsi barədə",
+      "muqavileNomresi": "MQ-005",
+      "tarix": "2023-09-01"
+    }
+  ],
   "usefulLinks": [
     {
       "id": 1,

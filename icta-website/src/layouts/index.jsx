@@ -13,13 +13,12 @@ const SectionLayout = ({ menuData }) => {
     imageSrc = "/images/huquq.png";
   } else if (mainPath === "/istehlakci") {
     imageSrc = "/images/istehlakci.png";
-  }else if (mainPath === "/media") {
+  } else if (mainPath === "/media") {
     imageSrc = "/images/media.png";
   }
 
   return (
     <div>
-
       {imageSrc && (
         <div className="w-full">
           <img
@@ -30,20 +29,19 @@ const SectionLayout = ({ menuData }) => {
         </div>
       )}
 
-    <div className="min-h-screen bg-[#f3f6fa]">
+      <div className="min-h-screen bg-[#f3f6fa]">
+        <div className="flex justify-center py-10">
+          <div className="w-full max-w-[1200px] flex flex-col xl:flex-row gap-6">
+            <div className="w-[300px] shrink-0 hidden xl:block">
+              <Sidebar menu={menuData} />
+            </div>
 
-      <div className="flex justify-center py-10">
-        <div className="w-full max-w-[1200px] flex flex-col xl:flex-row gap-6">
-          <div className="w-[300px] shrink-0 hidden xl:block">
-            <Sidebar menu={menuData} />
-          </div>
-
-          <div className="flex-1 w-full min-h-[300px] max-w-[900px] bg-white xl:p-6 p-3 rounded-lg shadow-sm">
-            <Outlet />
+            <div className="flex-1 bg-white p-6 rounded-lg shadow-sm">
+              <Outlet />
+            </div>
           </div>
         </div>
       </div>
-    </div>
     </div>
   );
 };

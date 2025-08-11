@@ -11,7 +11,7 @@ const textVariants = {
       duration: 3,           // hər sətirin ümumi müddəti
       ease: "easeInOut",
       repeat: Infinity,      // sonsuz təkrar
-      repeatDelay: 1,        // tam dövr bitəndən sonra 2 saniyə dayanma
+      repeatDelay: 1,       
     },
   }),
 };
